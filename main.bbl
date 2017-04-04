@@ -74,51 +74,46 @@
 
   \entry{Reference1}{article}{}
     \name{author}{3}{}{%
-      {{hash=HCJ}{%
-         family={Hawthorn},
-         family_i={H\bibinitperiod},
-         given={C.\bibnamedelima J.},
-         given_i={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      {{hash=CM}{%
+         family={Chau},
+         family_i={C\bibinitperiod},
+         given={Melissa},
+         given_i={M\bibinitperiod},
       }}%
-      {{hash=WKP}{%
-         family={Weber},
-         family_i={W\bibinitperiod},
-         given={K.\bibnamedelima P.},
-         given_i={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+      {{hash=GN}{%
+         family={Govindaraj},
+         family_i={G\bibinitperiod},
+         given={Navina},
+         given_i={N\bibinitperiod},
       }}%
-      {{hash=SRE}{%
-         family={Scholten},
-         family_i={S\bibinitperiod},
-         given={R.\bibnamedelima E.},
-         given_i={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      {{hash=RR}{%
+         family={Reith},
+         family_i={R\bibinitperiod},
+         given={Ryan},
+         given_i={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HCJWKPSRE1}
-    \strng{fullhash}{HCJWKPSRE1}
+    \strng{namehash}{CMGNRR1}
+    \strng{fullhash}{CMGNRR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2001}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
+    \field{labelyear}{2017}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
     \field{abstract}{%
-    We have developed an enhanced Littrow configuration extended cavity diode
-  laser (ECDL) that can be tuned without changing the direction of the output
-  beam. The output of a conventional Littrow ECDL is reflected from a plane
-  mirror fixed parallel to the tuning diffraction grating. Using a free-space
-  Michelson wavemeter to measure the laser wavelength, we can tune the laser
-  over a range greater than 10 nm without any alteration of alignment.%
+    Smartphone OS Market Share, 2016 Q3.%
     }
-    \field{number}{12}
-    \field{pages}{4477\bibrangedash 4479}
-    \field{title}{Littrow Configuration Tunable External Cavity Diode Laser
-  with Fixed Direction Output Beam}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 1}
+    \field{title}{Smartphone OS Market Share, 2016 Q3.}
     \verb{url}
-    \verb http://link.aip.org/link/?RSI/72/4477/1
+    \verb http://www.idc.com/promo/smartphone-market-share/os
     \endverb
     \field{volume}{72}
-    \field{journaltitle}{Review of Scientific Instruments}
-    \field{month}{12}
-    \field{year}{2001}
+    \field{journaltitle}{International Data Corporation Smartphone OS Market
+  Share, 2016 Q3}
+    \field{month}{04}
+    \field{year}{2017}
   \endentry
 
   \entry{Reference2}{article}{}

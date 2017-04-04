@@ -42,7 +42,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
 \usepackage{palatino} % Use the Palatino font by default
-
+\usepackage{tabularx}
 \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 
 \addbibresource{example.bib} % The filename of the bibliography
@@ -121,13 +121,17 @@ headsepline, % Uncomment to get a line under the header
 \end{flushright}
 \end{minipage}\\[3cm]
 
+
+
 \vfill
 
 \large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
-\textit{in the}\\[0.4cm]
-\groupname\\\deptname\\[2cm] % Research group name and department name
-
+\textit{in}\\[0.4cm]
+\groupname\\\deptname\\[1cm] % Research group name and department name
+\includegraphics[width = 60mm]{logo.jpg} \\
 \vfill
+
+
 
 {\large \today}\\[4cm] % Date
 %\includegraphics{Logo} % University/department logo - uncomment to place it
@@ -178,7 +182,21 @@ headsepline, % Uncomment to get a line under the header
 
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+
+The global mobile market has experienced a tremendous increase in the number of smart computing device users per household. The mobile device base is strongly divided between different mobile platforms, most importantly Android, iOS and Windows Phone. Applications developed for one platform with traditional development methods only work on that platform, and supporting multiple platforms requires developing the application separately for each of the platforms.
+
+\paragraph{}
+This trend affects small business industry whose user spread across different mobile operating systems. Such companies strive to decrease the development time and with a satisfying solution that is delivered on time. To decrease the time-to-market and thus the cost of the final product, companies seek to develop applications independent of the target mobile operating system by using a cross-platform approach. This approach can eliminate the increased effort that normally comes with developing a separate application for each mobile operating system, providing a more efficient solution.
+
+\paragraph{}
+The aim of this thesis describes How to develop a cost effective multi-target mobile solution strategy for “Customer Feedback Management System for Restaurants”.
+The application targets the leading mobile operating systems iOS Android and Windows. While sharing the business logic through a portable class library.
+The Xamarin and Microsoft Azure toolchain provides the mechanics for compiling the C\#  codebase to run on across different Operating platform.
+\paragraph{}
+During the research phase focus on finding the suitable data analysis method to analyses the user feedback data. In addition, finding suitable visualization techniques to visualize analyzed feedback data.
+
+
+
 \end{abstract}
 
 %----------------------------------------------------------------------------------------
@@ -187,7 +205,24 @@ The Thesis Abstract is written here (and usually kept to just this page). The pa
 
 \begin{acknowledgements}
 \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
-The acknowledgments and the people to thank go here, don't forget to include your project advisor\ldots
+
+\paragraph{}
+I would first like to thank my thesis supervisor {\supname} of the Department of Computer Science and Electrical Engineeringat Kiel University of Applied Sciences.
+The door to Prof.LUSSEM office was always open whenever I ran into a trouble spot or had a question about my research or writing.
+He consistently allowed this paper to be my own work, but steered me in the right the direction whenever he thought I needed it.
+
+\paragraph{}
+I would also like to acknowledge Dr. Stephan Schneider  of the Department of Computer Science and Electrical Engineeringat Kiel University of Applied Sciences
+as the second supervisor of this thesis, and I am gratefully indebted to his for his very valuable comments on this thesis.
+
+\paragraph{}
+Finally, I must express my very profound gratitude to my parents and to my brother for providing me with unfailing support and continuous encouragement throughout my years of study and through the process of researching and writing this thesis. This accomplishment would not have been possible without them.\\
+
+\noindent Thank you.\\
+\noindent Author\\
+\noindent {\authorname}\\
+
+
 \end{acknowledgements}
 
 %----------------------------------------------------------------------------------------
@@ -257,12 +292,18 @@ $\omega$ & angular frequency & \si{\radian} \\
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-\include{Chapters/Chapter1}
-\include{Chapters/Chapter2}
-\include{Chapters/Chapter3}
-\include{Chapters/Chapter4}
-\include{Chapters/Chapter5}
-\include{Chapters/Chapter6}
+\include{Chapters/Chapter1-Introduction}
+\include{Chapters/Chapter2-Methodology}
+\include{Chapters/Chapter3-MobileApplicationDevelopment}
+\include{Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin}
+\include{Chapters/Chapter5-IntroductiontoMicrosoftAzure}
+\include{Chapters/Chapter6} %Polit project
+\include{Chapters/Chapter7} %Design
+\include{Chapters/Chapter8}% about feedback system
+\include{Chapters/Chapter9}% 
+\include{Chapters/Chapter10-Conclusion}
+
+
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES

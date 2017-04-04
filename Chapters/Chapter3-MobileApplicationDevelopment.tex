@@ -1,0 +1,386 @@
+% Chapter 3
+
+\chapter{Mobile Application Development} % Main chapter title
+
+\label{Chapter3} % For referencing the chapter elsewhere, use \ref{Chapter1}
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content
+% \newcommand{\keyword}[1]{\textbf{#1}}
+% \newcommand{\tabhead}[1]{\textbf{#1}}
+% \newcommand{\code}[1]{\texttt{#1}}
+% \newcommand{\file}[1]{\texttt{\bfseries#1}}
+% \newcommand{\option}[1]{\texttt{\itshape#1}}
+
+
+%----------------------------------------------------------------------------------------
+
+\section{Mobile Platforms}
+
+According to a market share study by IDC \parencite{Reference1}, the smartphone market is
+currently clearly dominated by Android, which held over 86.8 percent of the
+market during the second quarter of 2016. Meanwhile, iOS saw its market share for 2016Q3 grow by 12.7 percent QoQ with 45.5 million shipments.
+The iPhone 6S followed by its newest model, the iPhone 7 were the best-selling models this quarter.
+Windows Phone experienced a QoQ decline of 35.2 percent  with a total of 974.4 thousand units shipped this quarter.
+With Microsoft’s focus on business users, the decline in the consumer market is expected to continue.
+
+The market shares of the top three mobile platforms and the remaining market during the second
+quarter of each year between 2015 and 2016 are shown in (e.g. Table~\ref{tab:SmartphoneOSMarketShares}).
+
+%--------------------TABLE--------------------------------------------------------------------
+\begin{table}
+\caption{Smartphone Operating System market shares from years 2015 to 2016.}
+\label{tab:SmartphoneOSMarketShares}
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+%\tabhead{Groups} & \tabhead{Treatment X} & \tabhead{Treatment Y} \\
+\tabhead{Period} & \tabhead{Android} & \tabhead{iOS} & \tabhead{Windows Phone} & \tabhead{Others}\\
+\midrule
+2015Q4 & 79.6\% &18.7\% & 1.2\% &0.5\%\\
+2016Q1 &83.5\%&15.4\%&0.8\%&0.4\% \\
+2016Q2 &87.6\%&11.7\%&0.4\%&0.3\% \\
+2016Q3 &86.8\%&12.5\%&0.3\%&0.4\%  \\
+\bottomrule\\
+\end{tabular}
+\end{table}
+
+%-----------------------------Android-----------------------------------------------------------
+\subsection{Android}
+
+%----- https://en.wikipedia.org/wiki/Android_(operating_system)
+
+\paragraph{}
+Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, along with the founding of the Open Handset Alliance – a consortium of hardware, software, and telecommunication companies devoted to advancing open standards for mobile devices.
+Beginning with the first commercial Android device in September 2008, the operating system has gone through multiple major releases, with the current version being 7.0 "Nougat", released in August 2016.
+Android applications ("apps") can be downloaded from the Google Play store, which features over 2.7 million apps as of February 2017.
+Android's source code is released by Google under an open source license, although most Android devices ultimately ship with a combination of free and open source and proprietary software, including proprietary software required for accessing Google services.
+Android is popular with technology companies that require a ready-made, low-cost and customizable operating system for high-tech devices.
+
+\paragraph{}
+%Android is designed as a stack of various components, which  is divided into five layers. Figure 31 illustrates the different layers of the system.
+Android is built on a modied Linux 2.6 series kernel that provides core system services such as security, memory management, process management, network stack and driver model. The kernel and low level tools are contained in the
+bottom layer, colored red in the illustration. The basic libraries included in Android are programmed in C and C++, and are accessed through the
+Android application framework.
+
+
+
+%amit Kumar Saha. What is Android. Linux for you, (January):48{50,
+
+\paragraph{}
+
+The Android runtime contains a set of Java core libraries and the Dalvik
+virtual machine (VM). The Dalvik VM executes les in Dalvik Executable
+(.dex) format, usually transformed from Java byte code to Dalvik byte code.[16 TBD] %16 Brahler. Analysis of the android architecture. PhD thesis, Karlsruher Institut fur Technologie, 2010. URL http://www.it.iitb.ac.in/frg/wiki/images/2/20/2010_braehler-stefan_android_architecture.pdf.
+
+\paragraph{}
+Every Android application runs in its own process with its own sandboxed instance of Dalvik VM.
+%Dalvik has been optimized so that a device can run multiple VMs at the same time eciently.[43] The kernel also provides an
+abstraction of the underlying hardware for the rest of the software stack.[23 TBD]
+%Nisarg Gandhewar and Rahila Sheikh. Google Android: An emerging software platform for mobile devices. International Journal on Computer Science and Engineering (IJCSE), (12):12{17, 2010. ISSN 0975-2297. URL http://www.enggjournals.com/ijcse/doc/003-IJCSESP24.pdf.
+
+\paragraph{}
+The application framework layer gives the developers access to the same framework Application Programming Interfaces (API) used by the core applications.
+[43] The frameworks are written in Java and provide abstractions the Android libraries and the features of the Dalvik VM.[16]
+
+
+\paragraph{}
+Applications for Android are developed through the Android Software
+Development Kit (SDK), usually with the Java programming language. The
+SDK provides the API libraries and developer tools for building, testing and
+debugging for Android. Development can be done in any of the current major
+operating systems and an integrated development environment (IDE) of
+choice, although Google recommends using Android Studio. Another common
+option is to use Eclipse IDE with Android Developer Tools (ADT) plugin,
+provided by Google, which integrates the Android SDK into Eclipse. The
+ADT allows the developer to test the application with an Android emulator
+or a connected device, and provides a graphical editor for building the user
+interface (UI) of the application.[5]
+
+\paragraph{}
+The main distribution channel for Android applications is the Google Play
+Store, formerly known as Android Market, where developers can publish their
+applications after registration.
+
+% image of android achiecture
+
+%-----------------------------iOS-----------------------------------------------------------
+\subsection{iOS}
+
+% image of ios achiecture
+\paragraph{}
+iOSis a mobile operating system created and developed by Apple Inc. exclusively for its hardware.
+It is the operating system that presently powers many of the company's mobile devices, including the iPhone, iPad, and iPod Touch. It is the second most popular mobile operating system globally after Android. iPad tablets are also the second most popular, by sales, against Android since 2013.[9]
+
+\paragraph{}
+Originally unveiled in 2007 for the iPhone, iOS has been extended to support other Apple devices such as the iPod Touch (September 2007) and the iPad (January 2010).
+As of January 2017, Apple's App Store contains more than 2.2 million iOS applications, 1 million of which are native for iPads.
+These mobile apps have collectively been downloaded more than 130 billion times.
+
+%That master thesis pdf
+\paragraph{}
+The iOS, there are four abstraction layers: the Core OS, Core Services, Media, and Cocoa Touch layers.
+
+
+\paragraph{}
+%The layers provide different levels of abstraction between the applications and the underlying hardware.
+The various core frameworks are written in the Objective-C programming language.
+The Core OS layer contains the low-level features most of the other technologies are built upon.
+Applications rarely use these technologies directly, but rather use them through the other frameworks.
+However, the layer contains frameworks for features such as security, Bluetooth support and communicating with external hardware, that can be used by applications if needed.
+The layer also contains the kernel environment, drivers and low-level UNIX interfaces of the operating system.
+Access to the kernel and drivers is restricted to a limited set of system frameworks
+and applications.[9]
+
+\paragraph{}
+The various system services used by applications are contained in the
+Core Services layer. This includes technologies to support features like location,
+iCloud storage, peer-to-peer services and networking. The Media layer
+above it contains the graphics, audio and video technologies needed to implement
+multimedia features in applications. Finally in the top layer resides
+the Cocoa Touch framework, providing the key frameworks for building iOS
+applications. This includes high-level programming interfaces for making
+animations, networking and modifying the appearance of the application.
+Cocoa Touch also handles touch-based inputs and multitasking.[8]
+
+
+
+\paragraph{}
+Building iOS applications requires using Apple's Xcode IDE on a Mac
+computer running OS X 10.8 or later and iOS SDK. Xcode provides the
+standard tools to code, debug and design the interface for the applications.
+Generally iOS applications are written in Objective-C language.[8]
+
+\paragraph{}
+Applications for iOS are distributed to consumers exclusively through
+Apple's App Store. Developers enroll in Apple Developer Program and pay
+yearly fee to be able to publish applications in the App Store, and applications
+go through an approval process by Apple before appearing in the
+store.[8] The approval process causes longer development times, but lowers
+
+\paragraph{}
+the number of low-quality applications in the store.[17] The approval process
+can pose a challenge for applications developed with various cross-platform
+methods. For example, in 2010 Apple maintained that apps must be "originally
+written in Objective-C, C, C++ or JavaScript" to be accepted into
+the store. The restrictions have been eased since then, but applications still
+sometimes get rejected for being too slow or not feeling native enough. Apple
+App Store can also reject apps that download executable code or interpret
+code not contained within the application archive.[32]
+
+
+%-----------------------------Windows-----------------------------------------------------------
+\subsection{Windows}
+%Wiki windows
+
+\paragraph{}
+Windows 10 is a personal computer operating system developed and released by Microsoft as part of the Windows NT family of operating systems. It was officially unveiled in September 2014 following a brief demo at Build 2014. The first version of the operating system entered a public beta testing process in October, leading up to its consumer release on July 29, 2015.[9]
+
+\paragraph{}
+Windows 10 introduces what Microsoft described as "universal apps" expanding on Metro-style apps,
+%these apps can be designed to run across multiple Microsoft product families with nearly identical code‍—‌including PCs, tablets, smartphones, embedded systems, Xbox One, Surface Hub and Mixed Reality.
+%The Windows user interface was revised to handle transitions between a mouse-oriented interface and a touchscreen-optimized interface based on available input devices‍—‌particularly on 2-in-1 PCs  both interfaces include an updated Start menu which incorporates elements of Windows 7's traditional Start menu with the tiles of Windows 8.
+The first release of Windows 10 also introduces a virtual desktop system, a window and desktop management feature called Task View, the Microsoft Edge web browser, support for fingerprint and face recognition login, new security features for enterprise environments, and DirectX 12 and WDDM 2.0 to improve the operating system's graphics capabilities for games.
+
+\paragraph{}
+Universal Windows Platform (UWP) apps[1] (formerly Windows Store apps and Metro-style apps)[2] are apps that can be used across all compatible Microsoft Windows devices, including personal computers (PCs), tablets, smartphones, Xbox One, Microsoft HoloLens, and Internet of Things. UWP apps are primarily purchased and downloaded via the Windows Store.[3]
+
+\paragraph{}
+
+
+%-----------------------------Tizen-----------------------------------------------------------
+\subsection{Tizen}
+
+
+\paragraph{}
+Tizen is an open and flexible operating system built from the ground up to address the needs of all stakeholders of the mobile and connected device ecosystem, including device manufacturers, mobile operators, application developers and independent software vendors (ISVs). Tizen is developed by a community of developers, under open source governance, and is open to all members who wish to participate.
+
+\paragraph{}
+The Tizen operating system comes in multiple profiles to serve different industry requirements. The current Tizen profiles are Tizen IVI (in-vehicle infotainment), Tizen Mobile, Tizen TV, and Tizen Wearable. In addition to that, as of Tizen 3.0, all profiles are built on top of a common, shared infrastructure called Tizen Common.
+
+\paragraph{}
+With Tizen, a device manufacturer can begin with one of these profiles and modify it to serve their own needs, or use the Tizen Common base to develop a new profile to meet the memory, processing and power requirements of any device and quickly bring it to market.
+
+\paragraph{}
+Mobile operators can work with device partners to customize the operating system and user experience to meet the needs of specific customer segments or demographics.
+
+\paragraph{}
+For application developers and ISVs, Tizen offers the power of native application development with the flexibility of unparalleled HTML5 support. Tizen also offers the potential for application developers to extend their reach to new “smart devices” running Tizen, including wearables, consumer electronics (TVs, gaming consoles, DVRs, etc.), cars and appliances.
+
+\paragraph{}
+The Tizen project resides within the Linux Foundation and is governed by a Technical Steering Group. The Technical Steering Group is the primary decision-making body for the open source project, with a focus on platform development and delivery, along with the formation of working groups to support device verticals.
+
+\paragraph{}
+The Tizen Association has been formed to guide the industry role of Tizen, including gathering of requirements, identification and facilitation of service models, and overall industry marketing and education.
+
+
+\paragraph{}
+Tizen provides application development tools based on the JavaScript libraries jQuery and jQuery Mobile.
+Since version 2.0, a C++ native application framework is also available, based on an Open Services Platform from the Bada platform.
+
+\paragraph{}
+Samsung Releases New Preview of Visual Studio Tools for Tizen
+
+%-----------------------------------------Mobile Applications-----------------------------------------------
+
+\section{ Mobile Applications}
+
+
+Mobile applications are consist of software/set of program that runs on a mobile device and perform certain tasks for the user.Mobile application is a new and fast developing Segment of the global Information and Communication Technology.
+\paragraph{}
+Mobile Screens are small, But Mobile apps are big, and life as we know it is on its head again.
+In a world that's increasingly social and open, mobile apps play a vital role, and Today we have changed the focus from what's on the Web, to the apps on our mobile device. Mobile apps are very imperative. But where do we  start?  There are many factors that play a part in your mobile strategy, such as your team’s development skills, required device functionality, the importance of security, offline capability, interoperability, etc., that must be taken into account. Finally it’s not just a question of what mobile application  will do, but how we will reach there. get it there.
+
+\paragraph{}
+Mobile applications come in two distinct formats: native apps and web apps. Due to differences in their underlying technology, each approach has inherent advantages and drawbacks.
+
+
+\subsection{Native Applications}
+
+A native mobile app is built specifically for a particular device and its operating system. Unlike a web app that is accessed over the internet, a native app is downloaded from a web app store and installed on the device. Native apps are written in Java, Objective C, or some other programming language. This is changing with HTML5, but functionality is inconsistent and incomplete.
+
+
+\paragraph{}
+% Ref Mobile Web Apps vs. Mobile Native Apps: How to Make the Right Choice
+
+Native apps have a major advantage over web applications the ability to leverage device-specific hardware and software. This means that native apps can take advantage of the latest technology available on mobile devices and can integrate with on-board apps such as the calendar, contacts, and email. However, this is a double-edged sword: while mobile technology is wildly popular, it is also constantly changing and highly fragmented. This makes the task of keeping up with the pace of emerging technology onerous and costly, especially on multiple platforms.
+
+
+
+\subsection{Mobile Web Apps}
+
+A mobile web app is a web application formatted for smartphones and tablets, and accessed through the mobile device’s web browser. Like a traditional web application, a mobile web app is built with three core technologies: HTML (defines static text and images), CSS (defines style and presentation), and JavaScript (defines interactions and animations).
+
+
+
+\paragraph{}
+
+Since web apps are browser-based, they’re intended to be platform and device independent, able to run on any web-enabled smartphone or tablet. A mobile web app is normally downloaded from a central web server each time it is run, although apps built using HTML5 (described below) can also run on the mobile device for offline use.
+
+\paragraph{}
+However, significant limitations, especially for enterprise mobile, are offline storage and security. While you can implement a semblance of offline capability by caching files on the device, it just isn't a very good solution. Although the underlying database might be encrypted, it’s not as well segmented as a native keychain encryption that protects each app with a developer certificate. Also, if a web app with authentication is launched from the desktop, it will require users to enter their credentials every time the app it is sent to the background. This is a lousy experience for the user. In general, implementing even trivial security measures on a native platform can be complex tasks for a mobile Web developer. Therefore, if security is of the utmost importance, it can be the deciding factor on which mobile technology you choose.
+
+% "Native, HTML5, or Hybrid: Understanding Your Mobile Application Development Options"
+
+
+\subsection{Hybrid Mobile Applications}
+
+Hybrid development combines the best (or worst) of both the native and HTML5 worlds. We define hybrid as a web app, primarily built using HTML5 and JavaScript, that is then wrapped inside a thin native container that provides access to native platform features. PhoneGap is an example of the most popular container for creating hybrid mobile apps.
+
+\paragraph{}
+For the most part, hybrid apps provide the best of both worlds. Existing web developers that have become gurus at optimizing JavaScript, pushing CSS to create beautiful layouts, and writing compliant HTML code that works on any platform can now create sophisticated mobile applications that don’t sacrifice the cool native capabilities. In certain circumstances, native developers can write plugins for tasks like image processing, but in cases like this, the devil is in the details.
+
+\paragraph{}
+
+On iOS, the embedded web browser or the UIWebView is not identical to the Safari browser. While the differences are minor, they can cause debugging headaches. That’s why it pays off to invest in popular frameworks that have addressed all of the limitations.
+
+\paragraph{}
+You know that native apps are installed on the device, while HTML5 apps reside on a Web server, so you might be wondering if hybrid apps store their files on the device or on a server? Yes. In fact there are two ways to implement a hybrid app.
+
+
+\paragraph{}
+
+\begin{itemize}
+\item Local - You can package HTML and JavaScript code inside the mobile application binary, in a manner similar to the structure of a native application. In this scenario you use REST APIs to move data back and forth between the device and the cloud.
+\item Server - Alternatively you can implement the full web application from the server (with optional caching for better performance), simply using the container as a thin shell over the UIWebview.
+\end{itemize}
+
+%Netflix has a really cool app that uses the same code base for running the UI on all devices: tablets, %phones, smart TVs, DVD players, refrigerators, and cars. While most people have no idea, nor care, %how the app is implemented, you’ll be interested to know they can change the interface on the fly %or conduct A/B testing to determine the optimal user interactions. The guts of decoding and %streaming videos are delegated to the native layer for best performance, so it’s a fast, seemingly % native app, that really does provide the best of both worlds.
+
+\subsection{Conclusion}
+
+Mobile development is a constantly moving target. Every six months, there’s a new mobile operating system, with unique features only accessible with native APIs. The containers bring those to hybrid apps soon thereafter, with the web making tremendous leaps every few years. Based on current technology, one of the scenarios examined in this article is bound to suit your needs. Let's sum those up in the following table:
+
+
+%--------------------TABLE--------------------------------------------------------------------
+\begin{table}
+\caption{The Mobile App Comparison Chart:  Native vs. Mobile Web vs.Hybrid }
+\label{tab:Features Supported Across Platform}
+\centering
+\begin{tabular}{l l l l}
+\toprule
+
+\tabhead{} & \tabhead{Native} & \tabhead{HTML5} & \tabhead{Hybrid}\\
+\midrule
+
+\multicolumn{1}{c}{{\bf App Features}} \\
+
+\hline
+Graphics	& 	Native APIs	& 	HTML, Canvas, SVG	& 	HTML, Canvas, SVG	\\
+Performance	& 	Fast	& 	Slow	& 	Slow	\\
+Native look and feel	& 	Native	& 	Emulated	& 	Emulated	\\
+Distribution	& 	Appstore	& 	Web	& 	Appstore	\\
+\hline
+
+\multicolumn{1}{c}{{\bf Device Access}} \\
+
+\hline
+Camera	& 	Yes	& 	No	& 	Yes	\\
+Notifications	& 	Yes	& 	No	& 	Yes	\\
+Contacts, calendar	& 	Yes	& 	No	& 	Yes	\\
+Offline storage	& 	Secure file storage	& Shared SQL	& 	Secure file, shared SQL	\\
+Geolocation	& 	Yes	& 	Yes	& 	Yes	\\
+\hline
+
+\multicolumn{1}{c}{{\bf Gestures}} \\
+\hline
+Swipe	& 	Yes	& 	Yes	& 	Yes	\\
+Pinch, spread	& 	Yes	& 	No	& 	Yes	\\
+\hline
+
+\multicolumn{1}{c}{{\bf Connectivity}} \\
+\hline
+Connectivity	& 	Online and offline	& 	online	& 	Online and offline	\\
+\hline
+
+\multicolumn{1}{c}{{\bf Development skills}} \\
+\hline
+language & 	Objective C, Java	& 	HTML5, CSS, Javascript	& 	HTML5, CSS, Javascript\\
+\hline
+
+\bottomrule\\
+\end{tabular}
+\end{table}
+
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\section{Cross-Platform Development Tools}
+
+
+\subsection{PhoneGap}
+Welcome to this \LaTeX{} Thesis Template, a beautiful and easy to use template for writing a thesis using the \LaTeX{} typesetting system.
+
+If you are writing a thesis (or will be in the future) and its subject is technical or mathematical (though it doesn't have to be), then creating it in \LaTeX{} is highly recommended as a way to make sure you can just get down to the essential writing without having to worry over formatting or wasting time arguing with your word processor.
+
+\LaTeX{} is easily able to professionally typeset documents that run to hundreds or thousands of pages long. With simple mark-up commands, it automatically sets out the table of contents, margins, page headers and footers and keeps the formatting consistent and beautiful. One of its main strengths is the way it can easily typeset mathematics, even \emph{heavy} mathematics. Even if those equations are the most horribly twisted and most difficult mathematical problems that can only be solved on a super-computer, you can at least count on \LaTeX{} to make them look stunning.
+
+%----------------------------------------------------------------------------------------
+
+\subsection{Titanium}
+
+\LaTeX{} is not a \textsc{wysiwyg} (What You See is What You Get) program, unlike word processors such as Microsoft Word or Apple's Pages. Instead, a document written for \LaTeX{} is actually a simple, plain text file that contains \emph{no formatting}. You tell \LaTeX{} how you want the formatting in the finished document by writing in simple commands amongst the text, for example, if I want to use \emph{italic text for emphasis}, I write the \verb|\emph{text}| command and put the text I want in italics in between the curly braces. This means that \LaTeX{} is a \enquote{mark-up} language, very much like HTML.
+%----------------------------------------------------------------------------------------
+\subsection{Qt}
+
+\LaTeX{} is not a \textsc{wysiwyg} (What You See is What You Get) program, unlike word processors such as Microsoft Word or Apple's Pages. Instead, a document written for \LaTeX{} is actually a simple, plain text file that contains \emph{no formatting}. You tell \LaTeX{} how you want the formatting in the finished document by writing in simple commands amongst the text, for example, if I want to use \emph{italic text for emphasis}, I write the \verb|\emph{text}| command and put the text I want in italics in between the curly braces. This means that \LaTeX{} is a \enquote{mark-up} language, very much like HTML.
+%----------------------------------------------------------------------------------------
+
+\subsection{Xamarin}
+
+If you are familiar with \LaTeX{}, then you should explore the directory structure of the template and then proceed to place your own information into the \emph{THESIS INFORMATION} block of the \file{main.tex} file. You can then modify the rest of this file to your unique specifications based on your degree/university. Section \ref{FillingFile} on page \pageref{FillingFile} will help you do this. Make sure you also read section \ref{ThesisConventions} about thesis conventions to get the most out of this template.
+
+If you are new to \LaTeX{} it is recommended that you carry on reading through the rest of the information in this document.
+
+Before you begin using this template you should ensure that its style complies with the thesis style guidelines imposed by your institution. In most cases this template style and layout will be suitable. If it is not, it may only require a small change to bring the template in line with your institution's recommendations. These modifications will need to be done on the \file{MastersDoctoralThesis.cls} file.
+
+\subsection{About this Template}
+
+This \LaTeX{} Thesis Template is originally based and created around a \LaTeX{} style file created by Steve R.\ Gunn from the University of Southampton (UK), department of Electronics and Computer Science. You can find his original thesis style file at his site, here:
+\url{http://www.ecs.soton.ac.uk/~srg/softwaretools/document/templates/}
+
+Steve's \file{ecsthesis.cls} was then taken by Sunil Patel who modified it by creating a skeleton framework and folder structure to place the thesis files in. The resulting template can be found on Sunil's site here:
+\url{http://www.sunilpatel.co.uk/thesis-template}
+
+Sunil's template was made available through \url{http://www.LaTeXTemplates.com} where it was modified many times based on user requests and questions. Version 2.0 and onwards of this template represents a major modification to Sunil's template and is, in fact, hardly recognisable. The work to make version 2.0 possible was carried out by \href{mailto:vel@latextemplates.com}{Vel} and Johannes Böttcher.

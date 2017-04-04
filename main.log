@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.30)  31 MAR 2017 01:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.30)  3 APR 2017 01:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1240,6 +1240,16 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen181
+\TX@old@table=\dimen182
+\TX@old@col=\dimen183
+\TX@target=\dimen184
+\TX@delta=\dimen185
+\TX@cols=\count149
+\TX@ftn=\toks21
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
 
@@ -1275,7 +1285,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count149
+\lrq@indent=\count150
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1290,49 +1300,49 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
-\integerpart=\count150
-\decimalpart=\count151
+\integerpart=\count151
+\decimalpart=\count152
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count152
-\c@listtotal=\count153
-\c@listcount=\count154
-\c@liststart=\count155
-\c@liststop=\count156
-\c@citecount=\count157
-\c@citetotal=\count158
-\c@multicitecount=\count159
-\c@multicitetotal=\count160
-\c@instcount=\count161
-\c@maxnames=\count162
-\c@minnames=\count163
-\c@maxitems=\count164
-\c@minitems=\count165
-\c@citecounter=\count166
-\c@savedcitecounter=\count167
-\c@uniquelist=\count168
-\c@uniquename=\count169
-\c@refsection=\count170
-\c@refsegment=\count171
-\c@maxextratitle=\count172
-\c@maxextratitleyear=\count173
-\c@maxextrayear=\count174
-\c@maxextraalpha=\count175
-\c@abbrvpenalty=\count176
-\c@highnamepenalty=\count177
-\c@lownamepenalty=\count178
-\c@maxparens=\count179
-\c@parenlevel=\count180
-\blx@tempcnta=\count181
-\blx@tempcntb=\count182
-\blx@tempcntc=\count183
-\blx@maxsection=\count184
-\blx@maxsegment@0=\count185
-\blx@notetype=\count186
-\blx@parenlevel@text=\count187
-\blx@parenlevel@foot=\count188
-\blx@sectionciteorder@0=\count189
+\c@tabx@nest=\count153
+\c@listtotal=\count154
+\c@listcount=\count155
+\c@liststart=\count156
+\c@liststop=\count157
+\c@citecount=\count158
+\c@citetotal=\count159
+\c@multicitecount=\count160
+\c@multicitetotal=\count161
+\c@instcount=\count162
+\c@maxnames=\count163
+\c@minnames=\count164
+\c@maxitems=\count165
+\c@minitems=\count166
+\c@citecounter=\count167
+\c@savedcitecounter=\count168
+\c@uniquelist=\count169
+\c@uniquename=\count170
+\c@refsection=\count171
+\c@refsegment=\count172
+\c@maxextratitle=\count173
+\c@maxextratitleyear=\count174
+\c@maxextrayear=\count175
+\c@maxextraalpha=\count176
+\c@abbrvpenalty=\count177
+\c@highnamepenalty=\count178
+\c@lownamepenalty=\count179
+\c@maxparens=\count180
+\c@parenlevel=\count181
+\blx@tempcnta=\count182
+\blx@tempcntb=\count183
+\blx@tempcntc=\count184
+\blx@maxsection=\count185
+\blx@maxsegment@0=\count186
+\blx@notetype=\count187
+\blx@parenlevel@text=\count188
+\blx@parenlevel@foot=\count189
+\blx@sectionciteorder@0=\count190
 \labelnumberwidth=\skip60
 \labelalphawidth=\skip61
 \biblabelsep=\skip62
@@ -1343,9 +1353,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip67
 \blx@bcfin=\read2
 \blx@bcfout=\write4
-\c@mincomprange=\count190
-\c@maxcomprange=\count191
-\c@mincompwidth=\count192
+\c@mincomprange=\count191
+\c@maxcomprange=\count192
+\c@mincompwidth=\count193
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1354,72 +1364,72 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count193
-\c@savedafterword=\count194
-\c@annotator=\count195
-\c@savedannotator=\count196
-\c@author=\count197
-\c@savedauthor=\count198
-\c@bookauthor=\count199
-\c@savedbookauthor=\count266
-\c@commentator=\count267
-\c@savedcommentator=\count268
-\c@editor=\count269
-\c@savededitor=\count270
-\c@editora=\count271
-\c@savededitora=\count272
-\c@editorb=\count273
-\c@savededitorb=\count274
-\c@editorc=\count275
-\c@savededitorc=\count276
-\c@foreword=\count277
-\c@savedforeword=\count278
-\c@holder=\count279
-\c@savedholder=\count280
-\c@introduction=\count281
-\c@savedintroduction=\count282
-\c@namea=\count283
-\c@savednamea=\count284
-\c@nameb=\count285
-\c@savednameb=\count286
-\c@namec=\count287
-\c@savednamec=\count288
-\c@translator=\count289
-\c@savedtranslator=\count290
-\c@shortauthor=\count291
-\c@savedshortauthor=\count292
-\c@shorteditor=\count293
-\c@savedshorteditor=\count294
-\c@labelname=\count295
-\c@savedlabelname=\count296
-\c@institution=\count297
-\c@savedinstitution=\count298
-\c@lista=\count299
-\c@savedlista=\count300
-\c@listb=\count301
-\c@savedlistb=\count302
-\c@listc=\count303
-\c@savedlistc=\count304
-\c@listd=\count305
-\c@savedlistd=\count306
-\c@liste=\count307
-\c@savedliste=\count308
-\c@listf=\count309
-\c@savedlistf=\count310
-\c@location=\count311
-\c@savedlocation=\count312
-\c@organization=\count313
-\c@savedorganization=\count314
-\c@origlocation=\count315
-\c@savedoriglocation=\count316
-\c@origpublisher=\count317
-\c@savedorigpublisher=\count318
-\c@publisher=\count319
-\c@savedpublisher=\count320
-\c@language=\count321
-\c@savedlanguage=\count322
-\c@pageref=\count323
-\c@savedpageref=\count324
+\c@afterword=\count194
+\c@savedafterword=\count195
+\c@annotator=\count196
+\c@savedannotator=\count197
+\c@author=\count198
+\c@savedauthor=\count199
+\c@bookauthor=\count266
+\c@savedbookauthor=\count267
+\c@commentator=\count268
+\c@savedcommentator=\count269
+\c@editor=\count270
+\c@savededitor=\count271
+\c@editora=\count272
+\c@savededitora=\count273
+\c@editorb=\count274
+\c@savededitorb=\count275
+\c@editorc=\count276
+\c@savededitorc=\count277
+\c@foreword=\count278
+\c@savedforeword=\count279
+\c@holder=\count280
+\c@savedholder=\count281
+\c@introduction=\count282
+\c@savedintroduction=\count283
+\c@namea=\count284
+\c@savednamea=\count285
+\c@nameb=\count286
+\c@savednameb=\count287
+\c@namec=\count288
+\c@savednamec=\count289
+\c@translator=\count290
+\c@savedtranslator=\count291
+\c@shortauthor=\count292
+\c@savedshortauthor=\count293
+\c@shorteditor=\count294
+\c@savedshorteditor=\count295
+\c@labelname=\count296
+\c@savedlabelname=\count297
+\c@institution=\count298
+\c@savedinstitution=\count299
+\c@lista=\count300
+\c@savedlista=\count301
+\c@listb=\count302
+\c@savedlistb=\count303
+\c@listc=\count304
+\c@savedlistc=\count305
+\c@listd=\count306
+\c@savedlistd=\count307
+\c@liste=\count308
+\c@savedliste=\count309
+\c@listf=\count310
+\c@savedlistf=\count311
+\c@location=\count312
+\c@savedlocation=\count313
+\c@organization=\count314
+\c@savedorganization=\count315
+\c@origlocation=\count316
+\c@savedoriglocation=\count317
+\c@origpublisher=\count318
+\c@savedorigpublisher=\count319
+\c@publisher=\count320
+\c@savedpublisher=\count321
+\c@language=\count322
+\c@savedlanguage=\count323
+\c@pageref=\count324
+\c@savedpageref=\count325
 \shorthandwidth=\skip68
 \shortjournalwidth=\skip69
 \shortserieswidth=\skip70
@@ -1447,13 +1457,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count325
-\c@textcitetotal=\count326
-\c@textcitemaxnames=\count327
-\c@biburlnumpenalty=\count328
-\c@biburlucpenalty=\count329
-\c@biburllcpenalty=\count330
-\c@smartand=\count331
+\c@textcitecount=\count326
+\c@textcitetotal=\count327
+\c@textcitemaxnames=\count328
+\c@biburlnumpenalty=\count329
+\c@biburlucpenalty=\count330
+\c@biburllcpenalty=\count331
+\c@smartand=\count332
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1471,8 +1481,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count332
-\c@bbx:relatedtotal=\count333
+\c@bbx:relatedcount=\count333
+\c@bbx:relatedtotal=\count334
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1495,13 +1505,13 @@ File: biblatex.cfg
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
-\csq@reset=\count334
-\csq@gtype=\count335
-\csq@glevel=\count336
-\csq@qlevel=\count337
-\csq@maxlvl=\count338
-\csq@tshold=\count339
-\csq@ltx@everypar=\toks21
+\csq@reset=\count335
+\csq@gtype=\count336
+\csq@glevel=\count337
+\csq@qlevel=\count338
+\csq@maxlvl=\count339
+\csq@tshold=\count340
+\csq@ltx@everypar=\toks22
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
@@ -1623,16 +1633,16 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen181
-\Hy@linkcounter=\count340
-\Hy@pagecounter=\count341
+\@linkdim=\dimen186
+\Hy@linkcounter=\count341
+\Hy@pagecounter=\count342
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count342
+\Hy@SavedSpaceFactor=\count343
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1644,12 +1654,12 @@ Package hyperref Info: Plain pages OFF on input line 4461.
 Package hyperref Info: Backreferencing OFF on input line 4466.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4691.
-\c@Hy@tempcnt=\count343
+\c@Hy@tempcnt=\count344
 LaTeX Info: Redefining \url on input line 5044.
-\XeTeXLinkMargin=\dimen182
-\Fld@menulength=\count344
-\Field@Width=\dimen183
-\Fld@charsize=\dimen184
+\XeTeXLinkMargin=\dimen187
+\Fld@menulength=\count345
+\Field@Width=\dimen188
+\Fld@charsize=\dimen189
 Package hyperref Info: Hyper figures OFF on input line 6298.
 Package hyperref Info: Link nesting OFF on input line 6303.
 Package hyperref Info: Hyper index ON on input line 6306.
@@ -1659,9 +1669,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
 LaTeX Info: Redefining \pageref on input line 6372.
-\Hy@abspage=\count345
-\c@Item=\count346
-\c@Hfootnote=\count347
+\Hy@abspage=\count346
+\c@Item=\count347
+\c@Hfootnote=\count348
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
@@ -1672,8 +1682,8 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
-\Fld@listcount=\count348
-\c@bookmark@seq@number=\count349
+\Fld@listcount=\count349
+\c@bookmark@seq@number=\count350
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1702,87 +1712,13 @@ File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux
-
-LaTeX Warning: Label `FillingFile' multiply defined.
-
-
-LaTeX Warning: Label `ThesisConventions' multiply defined.
-
-
-LaTeX Warning: Label `tab:treatments' multiply defined.
-
-
-LaTeX Warning: Label `fig:Electron' multiply defined.
-
-
-LaTeX Warning: Label `eqn:Einstein' multiply defined.
-
-) (./Chapters/Chapter3.aux
-
-LaTeX Warning: Label `FillingFile' multiply defined.
-
-
-LaTeX Warning: Label `ThesisConventions' multiply defined.
-
-
-LaTeX Warning: Label `tab:treatments' multiply defined.
-
-
-LaTeX Warning: Label `fig:Electron' multiply defined.
-
-
-LaTeX Warning: Label `eqn:Einstein' multiply defined.
-
-) (./Chapters/Chapter4.aux
-
-LaTeX Warning: Label `FillingFile' multiply defined.
-
-
-LaTeX Warning: Label `ThesisConventions' multiply defined.
-
-
-LaTeX Warning: Label `tab:treatments' multiply defined.
-
-
-LaTeX Warning: Label `fig:Electron' multiply defined.
-
-
-LaTeX Warning: Label `eqn:Einstein' multiply defined.
-
-) (./Chapters/Chapter5.aux
-
-LaTeX Warning: Label `FillingFile' multiply defined.
-
-
-LaTeX Warning: Label `ThesisConventions' multiply defined.
-
-
-LaTeX Warning: Label `tab:treatments' multiply defined.
-
-
-LaTeX Warning: Label `fig:Electron' multiply defined.
-
-
-LaTeX Warning: Label `eqn:Einstein' multiply defined.
-
-) (./Chapters/Chapter6.aux
-
-LaTeX Warning: Label `FillingFile' multiply defined.
-
-
-LaTeX Warning: Label `ThesisConventions' multiply defined.
-
-
-LaTeX Warning: Label `tab:treatments' multiply defined.
-
-
-LaTeX Warning: Label `fig:Electron' multiply defined.
-
-
-LaTeX Warning: Label `eqn:Einstein' multiply defined.
-
-) (./Appendices/AppendixA.aux))
+(./main.aux (./Chapters/Chapter1-Introduction.aux)
+(./Chapters/Chapter2-Methodology.aux)
+(./Chapters/Chapter3-MobileApplicationDevelopment.aux)
+(./Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.aux)
+(./Chapters/Chapter5-IntroductiontoMicrosoftAzure.aux) (./Chapters/Chapter6.aux
+) (./Chapters/Chapter7.aux) (./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux)
+(./Chapters/Chapter10-Conclusion.aux) (./Appendices/AppendixA.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -1889,17 +1825,17 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 ) (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen185
+\scratchcounter=\count351
+\scratchdimen=\dimen190
 \scratchbox=\box53
-\nofMPsegments=\count351
-\nofMParguments=\count352
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen186
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
-\everyMPtoPDFconversion=\toks23
+\nofMPsegments=\count352
+\nofMParguments=\count353
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen191
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
+\everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1997,7 +1933,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count356
+\c@section@level=\count357
 )
 LaTeX Info: Redefining \ref on input line 90.
 LaTeX Info: Redefining \pageref on input line 90.
@@ -2007,38 +1943,44 @@ LaTeX Info: Redefining \nameref on input line 90.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-\c__siunitx_mathsf_int=\count357
+\c__siunitx_mathsf_int=\count358
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 90.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 90.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 90.
-\c__siunitx_mathtt_int=\count358
+\c__siunitx_mathtt_int=\count359
 
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 108.
+<Figures/logo.jpg, id=415, 203.76125pt x 109.40875pt>
+File: Figures/logo.jpg Graphic file (type jpg)
+ <use Figures/logo.jpg>
+Package pdftex.def Info: Figures/logo.jpg used on input line 131.
+(pdftex.def)             Requested size: 170.71652pt x 91.66898pt.
+
 [1
 
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figur
+es/logo.jpg>] [2
 
 ]
 --------------------
  Declaration of Authorship
 --------------------
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 148.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 152.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 152.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
@@ -2051,6 +1993,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 --------------------
  Abstract
 --------------------
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 189.
 1: section
 [7] [8
 
@@ -2058,39 +2002,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 --------------------
  Acknowledgements
 --------------------
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--224
+
+ []
+
 1: section
 [9] [10
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 197.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 232.
  (./main.toc
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 19.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 25.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 19.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 25.
 
 1: section
-[11] [12] [13])
+[11] [12])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [14] (./main.lof)
+ [13] [14
+
+] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 1: section
-[15
+[15] [16
 
-] [16
+] (./main.lot
+Overfull \hbox (1.14964pt too wide) in paragraph at lines 9--9
+ [][] [][][]\T1/ppl/m/n/10.95 The Mo-bile App Com-par-i-son Chart: Na-tive vs. 
+Mo-bile Web vs.Hybrid 
+ []
 
-] (./main.lot)
+)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -2119,20 +2077,14 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
 
 ]
 1: section
-\openout2 = `Chapters/Chapter1.aux'.
+\openout2 = `Chapters/Chapter1-Introduction.aux'.
 
-(./Chapters/Chapter1.tex
+(./Chapters/Chapter1-Introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 27.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -2183,7 +2135,7 @@ Overfull \hbox (21.97092pt too wide) in paragraph at lines 225--225
 studied.}[] 
  []
 
-[7] <Figures/Electron.pdf, id=978, 398.3386pt x 284.52756pt>
+[7] <Figures/Electron.pdf, id=723, 398.3386pt x 284.52756pt>
 File: Figures/Electron.pdf Graphic file (type pdf)
 
 <use Figures/Electron.pdf>
@@ -2203,10 +2155,16 @@ hree (3) lev-els. A []\T1/pcr/m/n/10.95 chapter{}
  []
 
 [9 <./Figures/Electron.pdf>]) [10]
-\openout2 = `Chapters/Chapter2.aux'.
+\openout2 = `Chapters/Chapter2-Methodology.aux'.
 
- (./Chapters/Chapter2.tex
+ (./Chapters/Chapter2-Methodology.tex
 Chapter 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 27.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
 1: section
 [11
 
@@ -2218,174 +2176,57 @@ Overfull \hbox (22.73018pt too wide) in paragraph at lines 44--47
 pcr/m/n/10.95 http : / / www . ams . org / tex / amslatex .
  []
 
-[12]
-Overfull \hbox (0.51039pt too wide) in paragraph at lines 78--79
+) [12]
+\openout2 = `Chapters/Chapter3-MobileApplicationDevelopment.aux'.
+
+ (./Chapters/Chapter3-MobileApplicationDevelopment.tex
+Chapter 3.
+1: section
+[13
+
+
+
+] [14] [15] [16] [17]
+Overfull \hbox (0.61272pt too wide) in paragraph at lines 269--270
+\T1/ppl/m/n/10.95 worlds. We de-fine hy-brid as a web app, pri-mar-ily built us
+-ing HTML5 and JavaScript,
+ []
+
+[18]
+Overfull \hbox (63.07822pt too wide) in paragraph at lines 301--344
+ [][] 
+ []
+
+[19] [20])
+Overfull \hbox (0.51039pt too wide) in paragraph at lines 386--297
 []\T1/ppl/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
 m/n/10.95 http : / / www . LaTeXTemplates .
  []
 
-[13]
-Overfull \hbox (4.4566pt too wide) in paragraph at lines 142--143
-\T1/ppl/m/n/10.95 for this. If you don't want these to be linked, sim-ply re-mo
-ve the []\T1/pcr/m/n/10.95 \href{url}{name}
- []
+[21]
+\openout2 = `Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamari
+n.aux'.
 
-[14] [15]
-Overfull \hbox (24.70317pt too wide) in paragraph at lines 180--181
-\T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/pcr/
-m/sl/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/pcr/m/n/10.95 documentc
-lass
- []
-
-[16]
-Overfull \hbox (21.97092pt too wide) in paragraph at lines 225--225
-[]\T1/pcr/m/n/10 \caption{The effects of treatments X and Y on the four groups 
-studied.}[] 
- []
-
-[17]
-File: Figures/Electron.pdf Graphic file (type pdf)
- <use Figures/Electron.pdf>
-Package pdftex.def Info: Figures/Electron.pdf used on input line 262.
-(pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
- [18]
-Overfull \hbox (19.1404pt too wide) in paragraph at lines 308--309
-\T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at
- all the []\T1/pcr/m/n/10.95 \chapter{}\T1/ppl/m/n/10.95 , []\T1/pcr/m/n/10.95 
-\section{}
- []
-
-
-Overfull \hbox (8.65474pt too wide) in paragraph at lines 310--311
-[]\T1/ppl/m/n/10.95 The Ta-ble of Con-tents should only list the sec-tions to t
-hree (3) lev-els. A []\T1/pcr/m/n/10.95 chapter{}
- []
-
-[19]) [20]
-\openout2 = `Chapters/Chapter3.aux'.
-
- (./Chapters/Chapter3.tex
-Chapter 3.
-1: section
-[21
+ (./Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.tex [22
 
 
 
 ]
-Overfull \hbox (22.73018pt too wide) in paragraph at lines 44--47
-\T1/ppl/m/n/10.95 Guide for L[]T[]X^^Q. It can be found on-line here: [][]$\T1/
-pcr/m/n/10.95 http : / / www . ams . org / tex / amslatex .
- []
-
-[22]
-Overfull \hbox (0.51039pt too wide) in paragraph at lines 78--79
+Chapter 4.
+1: section
+[23] [24] [25])
+Overfull \hbox (0.51039pt too wide) in paragraph at lines 113--298
 []\T1/ppl/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
 m/n/10.95 http : / / www . LaTeXTemplates .
- []
-
-[23]
-Overfull \hbox (4.4566pt too wide) in paragraph at lines 142--143
-\T1/ppl/m/n/10.95 for this. If you don't want these to be linked, sim-ply re-mo
-ve the []\T1/pcr/m/n/10.95 \href{url}{name}
- []
-
-[24] [25]
-Overfull \hbox (24.70317pt too wide) in paragraph at lines 180--181
-\T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/pcr/
-m/sl/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/pcr/m/n/10.95 documentc
-lass
  []
 
 [26]
-Overfull \hbox (21.97092pt too wide) in paragraph at lines 225--225
-[]\T1/pcr/m/n/10 \caption{The effects of treatments X and Y on the four groups 
-studied.}[] 
- []
+\openout2 = `Chapters/Chapter5-IntroductiontoMicrosoftAzure.aux'.
 
-[27]
-File: Figures/Electron.pdf Graphic file (type pdf)
- <use Figures/Electron.pdf>
-Package pdftex.def Info: Figures/Electron.pdf used on input line 262.
-(pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
- [28]
-Overfull \hbox (19.1404pt too wide) in paragraph at lines 308--309
-\T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at
- all the []\T1/pcr/m/n/10.95 \chapter{}\T1/ppl/m/n/10.95 , []\T1/pcr/m/n/10.95 
-\section{}
- []
-
-
-Overfull \hbox (8.65474pt too wide) in paragraph at lines 310--311
-[]\T1/ppl/m/n/10.95 The Ta-ble of Con-tents should only list the sec-tions to t
-hree (3) lev-els. A []\T1/pcr/m/n/10.95 chapter{}
- []
-
-[29]) [30]
-\openout2 = `Chapters/Chapter4.aux'.
-
- (./Chapters/Chapter4.tex
-Chapter 4.
-1: section
-[31
-
-
-
-]
-Overfull \hbox (22.73018pt too wide) in paragraph at lines 44--47
-\T1/ppl/m/n/10.95 Guide for L[]T[]X^^Q. It can be found on-line here: [][]$\T1/
-pcr/m/n/10.95 http : / / www . ams . org / tex / amslatex .
- []
-
-[32]
-Overfull \hbox (0.51039pt too wide) in paragraph at lines 78--79
-[]\T1/ppl/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
-m/n/10.95 http : / / www . LaTeXTemplates .
- []
-
-[33]
-Overfull \hbox (4.4566pt too wide) in paragraph at lines 142--143
-\T1/ppl/m/n/10.95 for this. If you don't want these to be linked, sim-ply re-mo
-ve the []\T1/pcr/m/n/10.95 \href{url}{name}
- []
-
-[34] [35]
-Overfull \hbox (24.70317pt too wide) in paragraph at lines 180--181
-\T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/pcr/
-m/sl/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/pcr/m/n/10.95 documentc
-lass
- []
-
-[36]
-Overfull \hbox (21.97092pt too wide) in paragraph at lines 225--225
-[]\T1/pcr/m/n/10 \caption{The effects of treatments X and Y on the four groups 
-studied.}[] 
- []
-
-[37]
-File: Figures/Electron.pdf Graphic file (type pdf)
- <use Figures/Electron.pdf>
-Package pdftex.def Info: Figures/Electron.pdf used on input line 262.
-(pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
- [38]
-Overfull \hbox (19.1404pt too wide) in paragraph at lines 308--309
-\T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at
- all the []\T1/pcr/m/n/10.95 \chapter{}\T1/ppl/m/n/10.95 , []\T1/pcr/m/n/10.95 
-\section{}
- []
-
-
-Overfull \hbox (8.65474pt too wide) in paragraph at lines 310--311
-[]\T1/ppl/m/n/10.95 The Ta-ble of Con-tents should only list the sec-tions to t
-hree (3) lev-els. A []\T1/pcr/m/n/10.95 chapter{}
- []
-
-[39]) [40]
-\openout2 = `Chapters/Chapter5.aux'.
-
- (./Chapters/Chapter5.tex
+ (./Chapters/Chapter5-IntroductiontoMicrosoftAzure.tex
 Chapter 5.
 1: section
-[41
+[27
 
 
 
@@ -2395,56 +2236,41 @@ Overfull \hbox (22.73018pt too wide) in paragraph at lines 43--46
 pcr/m/n/10.95 http : / / www . ams . org / tex / amslatex .
  []
 
-[42]
-Overfull \hbox (0.51039pt too wide) in paragraph at lines 77--78
+[28])
+Overfull \hbox (0.51039pt too wide) in paragraph at lines 77--299
 []\T1/ppl/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
 m/n/10.95 http : / / www . LaTeXTemplates .
  []
 
-[43]
-Overfull \hbox (4.4566pt too wide) in paragraph at lines 141--142
-\T1/ppl/m/n/10.95 for this. If you don't want these to be linked, sim-ply re-mo
-ve the []\T1/pcr/m/n/10.95 \href{url}{name}
- []
-
-[44] [45]
-Overfull \hbox (24.70317pt too wide) in paragraph at lines 179--180
-\T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/pcr/
-m/sl/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/pcr/m/n/10.95 documentc
-lass
- []
-
-[46]
-Overfull \hbox (21.97092pt too wide) in paragraph at lines 224--224
-[]\T1/pcr/m/n/10 \caption{The effects of treatments X and Y on the four groups 
-studied.}[] 
- []
-
-[47]
-File: Figures/Electron.pdf Graphic file (type pdf)
- <use Figures/Electron.pdf>
-Package pdftex.def Info: Figures/Electron.pdf used on input line 261.
-(pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
- [48]
-Overfull \hbox (19.1404pt too wide) in paragraph at lines 307--308
-\T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at
- all the []\T1/pcr/m/n/10.95 \chapter{}\T1/ppl/m/n/10.95 , []\T1/pcr/m/n/10.95 
-\section{}
- []
-
-
-Overfull \hbox (8.65474pt too wide) in paragraph at lines 309--310
-[]\T1/ppl/m/n/10.95 The Ta-ble of Con-tents should only list the sec-tions to t
-hree (3) lev-els. A []\T1/pcr/m/n/10.95 chapter{}
- []
-
-[49]) [50]
+[29]
 \openout2 = `Chapters/Chapter6.aux'.
 
- (./Chapters/Chapter6.tex
+ (./Chapters/Chapter6.tex [30
+
+
+
+]
 Chapter 6.
+)
 1: section
-[51
+[31] [32]
+\openout2 = `Chapters/Chapter7.aux'.
+
+ (./Chapters/Chapter7.tex
+Chapter 7.
+)
+1: section
+[33
+
+
+
+] [34]
+\openout2 = `Chapters/Chapter8.aux'.
+
+ (./Chapters/Chapter8.tex
+Chapter 8.
+1: section
+[35
 
 
 
@@ -2454,92 +2280,71 @@ Overfull \hbox (22.73018pt too wide) in paragraph at lines 44--47
 pcr/m/n/10.95 http : / / www . ams . org / tex / amslatex .
  []
 
-[52]
-Overfull \hbox (0.51039pt too wide) in paragraph at lines 78--79
-[]\T1/ppl/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
-m/n/10.95 http : / / www . LaTeXTemplates .
- []
+) [36]
+\openout2 = `Chapters/Chapter9.aux'.
 
-[53]
-Overfull \hbox (4.4566pt too wide) in paragraph at lines 142--143
-\T1/ppl/m/n/10.95 for this. If you don't want these to be linked, sim-ply re-mo
-ve the []\T1/pcr/m/n/10.95 \href{url}{name}
- []
-
-[54] [55]
-Overfull \hbox (24.70317pt too wide) in paragraph at lines 180--181
-\T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/pcr/
-m/sl/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/pcr/m/n/10.95 documentc
-lass
- []
-
-[56]
-Overfull \hbox (21.97092pt too wide) in paragraph at lines 225--225
-[]\T1/pcr/m/n/10 \caption{The effects of treatments X and Y on the four groups 
-studied.}[] 
- []
-
-[57]
-File: Figures/Electron.pdf Graphic file (type pdf)
- <use Figures/Electron.pdf>
-Package pdftex.def Info: Figures/Electron.pdf used on input line 262.
-(pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
- [58]
-Overfull \hbox (19.1404pt too wide) in paragraph at lines 308--309
-\T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at
- all the []\T1/pcr/m/n/10.95 \chapter{}\T1/ppl/m/n/10.95 , []\T1/pcr/m/n/10.95 
-\section{}
- []
-
-
-Overfull \hbox (8.65474pt too wide) in paragraph at lines 310--311
-[]\T1/ppl/m/n/10.95 The Ta-ble of Con-tents should only list the sec-tions to t
-hree (3) lev-els. A []\T1/pcr/m/n/10.95 chapter{}
- []
-
-[59]) [60]
-\openout2 = `Appendices/AppendixA.aux'.
-
- (./Appendices/AppendixA.tex
-Appendix A.
+ (./Chapters/Chapter9.tex
+Chapter 9.
 )
 1: section
-[61
+[37
 
 
 
-] [62
+] [38]
+\openout2 = `Chapters/Chapter10-Conclusion.aux'.
+
+ (./Chapters/Chapter10-Conclusion.tex
+Chapter 10.
+)
+1: section
+[39
+
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
+\openout2 = `Appendices/AppendixA.aux'.
+
+ (./Appendices/AppendixA.tex [40
+
+
+
+]
+Appendix A.
+)
+1: section
+[41] [42
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 329.
 
 1: section
-[63]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
- (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
-(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
-(./Chapters/Chapter6.aux) (./Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+[43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
+ (./main.aux (./Chapters/Chapter1-Introduction.aux)
+(./Chapters/Chapter2-Methodology.aux)
+(./Chapters/Chapter3-MobileApplicationDevelopment.aux)
+(./Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.aux)
+(./Chapters/Chapter5-IntroductiontoMicrosoftAzure.aux) (./Chapters/Chapter6.aux
+) (./Chapters/Chapter7.aux) (./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux)
+(./Chapters/Chapter10-Conclusion.aux) (./Appendices/AppendixA.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 329.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 329.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9C33EB76D3F3F472F373635FEBA8C49C;24692.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: BAB0D55054E8A66497C563BC38BC3A09;17334.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32399 strings out of 493014
- 651900 string characters out of 6133351
- 843078 words of memory out of 5000000
- 35284 multiletter control sequences out of 15000+600000
+ 32393 strings out of 493014
+ 653918 string characters out of 6133351
+ 848843 words of memory out of 5000000
+ 35289 multiletter control sequences out of 15000+600000
  62240 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,82p,10377b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,20n,82p,10377b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -2553,10 +2358,10 @@ e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
 palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri
 8a.pfb>
-Output written on main.pdf (89 pages, 376739 bytes).
+Output written on main.pdf (69 pages, 324474 bytes).
 PDF statistics:
- 1564 PDF objects out of 1728 (max. 8388607)
- 1437 compressed objects within 15 object streams
- 277 named destinations out of 1000 (max. 500000)
- 1206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1164 PDF objects out of 1200 (max. 8388607)
+ 1060 compressed objects within 11 object streams
+ 233 named destinations out of 1000 (max. 500000)
+ 819 words of extra memory for PDF output out of 10000 (max. 10000000)
 
