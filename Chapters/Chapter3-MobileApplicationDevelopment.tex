@@ -1,4 +1,4 @@
-% Chapter 3
+% Chapter 3 % Not completed on going still
 
 \chapter{Mobile Application Development} % Main chapter title
 
@@ -192,7 +192,7 @@ Universal Windows Platform (UWP) apps[1] (formerly Windows Store apps and Metro-
 %-----------------------------Tizen-----------------------------------------------------------
 \subsection{Tizen}
 
-
+%https://www.tizen.org/about
 \paragraph{}
 Tizen is an open and flexible operating system built from the ground up to address the needs of all stakeholders of the mobile and connected device ecosystem, including device manufacturers, mobile operators, application developers and independent software vendors (ISVs). Tizen is developed by a community of developers, under open source governance, and is open to all members who wish to participate.
 
@@ -241,11 +241,45 @@ Mobile applications come in two distinct formats: native apps and web apps. Due 
 A native mobile app is built specifically for a particular device and its operating system. Unlike a web app that is accessed over the internet, a native app is downloaded from a web app store and installed on the device. Native apps are written in Java, Objective C, or some other programming language. This is changing with HTML5, but functionality is inconsistent and incomplete.
 
 
+
 \paragraph{}
 % Ref Mobile Web Apps vs. Mobile Native Apps: How to Make the Right Choice
 
 Native apps have a major advantage over web applications the ability to leverage device-specific hardware and software. This means that native apps can take advantage of the latest technology available on mobile devices and can integrate with on-board apps such as the calendar, contacts, and email. However, this is a double-edged sword: while mobile technology is wildly popular, it is also constantly changing and highly fragmented. This makes the task of keeping up with the pace of emerging technology onerous and costly, especially on multiple platforms.
 
+
+
+%--------------------TABLE--------------------------------------------------------------------
+\begin{table}
+\caption{Native App Development across different platform  }
+\label{tab:Features Supported Across Platform}
+\centering
+\begin{tabular}{@{}lllll@{}}
+\toprule
+
+\tabhead{} & \tabhead{Android} & \tabhead{iOS} & \tabhead{Windows 10} & \tabhead{Tizen}\\
+\midrule
+
+
+\hline
+\multicolumn{1}{l}{{\bf \shortstack [l] { Programming \\ languages } }}  & 	JAVA	& 	Objective-C,Swift & XAML,C\#	& 	C,C++ \\
+\hline
+\multicolumn{1}{l}{{\bf \shortstack [l] { Integrated\\ Development \\ Environment }  }}	& 	Android Studio	& 	Xcode	& 	Visual Studio & Tizen Studio	\\
+\hline
+\multicolumn{1}{l}{{\bf \shortstack [l]{Software \\  Development Kit }  }} & 	Android SDK	& 	iOS SDK	&  Windows SDK	& Tizen SDK	\\
+\hline
+\multicolumn{1}{l}{{\bf \shortstack [l] {App Distribution} }}	& 	Google play	& 	Appstore	& 	Windows Store & Tizen Store	\\
+\hline
+\multicolumn{1}{l}{{\bf Community }} & 	Very Good 	& 	Very Good	& 	Good  &  Limited \\
+\hline
+
+
+\bottomrule\\
+\end{tabular}
+\end{table}
+
+
+%----------------------------------------------------------------------------------------
 
 
 \subsection{Mobile Web Apps}
@@ -304,7 +338,7 @@ Mobile development is a constantly moving target. Every six months, there’s a 
 \tabhead{} & \tabhead{Native} & \tabhead{HTML5} & \tabhead{Hybrid}\\
 \midrule
 
-\multicolumn{1}{c}{{\bf App Features}} \\
+\multicolumn{1}{l}{{\bf App Features}} \\
 
 \hline
 Graphics	& 	Native APIs	& 	HTML, Canvas, SVG	& 	HTML, Canvas, SVG	\\
@@ -313,7 +347,7 @@ Native look and feel	& 	Native	& 	Emulated	& 	Emulated	\\
 Distribution	& 	Appstore	& 	Web	& 	Appstore	\\
 \hline
 
-\multicolumn{1}{c}{{\bf Device Access}} \\
+\multicolumn{1}{l}{{\bf Device Access}} \\
 
 \hline
 Camera	& 	Yes	& 	No	& 	Yes	\\
@@ -323,18 +357,18 @@ Offline storage	& 	Secure file storage	& Shared SQL	& 	Secure file, shared SQL	\
 Geolocation	& 	Yes	& 	Yes	& 	Yes	\\
 \hline
 
-\multicolumn{1}{c}{{\bf Gestures}} \\
+\multicolumn{1}{l}{{\bf Gestures}} \\
 \hline
 Swipe	& 	Yes	& 	Yes	& 	Yes	\\
 Pinch, spread	& 	Yes	& 	No	& 	Yes	\\
 \hline
 
-\multicolumn{1}{c}{{\bf Connectivity}} \\
+\multicolumn{1}{l}{{\bf Connectivity}} \\
 \hline
 Connectivity	& 	Online and offline	& 	online	& 	Online and offline	\\
 \hline
 
-\multicolumn{1}{c}{{\bf Development skills}} \\
+\multicolumn{1}{l}{{\bf Developer Skills}} \\
 \hline
 language & 	Objective C, Java	& 	HTML5, CSS, Javascript	& 	HTML5, CSS, Javascript\\
 \hline
@@ -350,37 +384,89 @@ language & 	Objective C, Java	& 	HTML5, CSS, Javascript	& 	HTML5, CSS, Javascrip
 
 
 \subsection{PhoneGap}
-Welcome to this \LaTeX{} Thesis Template, a beautiful and easy to use template for writing a thesis using the \LaTeX{} typesetting system.
 
-If you are writing a thesis (or will be in the future) and its subject is technical or mathematical (though it doesn't have to be), then creating it in \LaTeX{} is highly recommended as a way to make sure you can just get down to the essential writing without having to worry over formatting or wasting time arguing with your word processor.
+PhoneGap is the open source framework that gets you building amazing mobile apps using web technology.
 
-\LaTeX{} is easily able to professionally typeset documents that run to hundreds or thousands of pages long. With simple mark-up commands, it automatically sets out the table of contents, margins, page headers and footers and keeps the formatting consistent and beautiful. One of its main strengths is the way it can easily typeset mathematics, even \emph{heavy} mathematics. Even if those equations are the most horribly twisted and most difficult mathematical problems that can only be solved on a super-computer, you can at least count on \LaTeX{} to make them look stunning.
+\paragraph{}
+Developing your mobile app using HTML, CSS and Javascript doesn’t mean that you have to give up on native functionality that makes mobile devices so extraordinary.
+PhoneGap gives you access to all of the native device APIs (like camera, GPS, accelerometer and more),
+so that the app you build with web tech behaves just like a native app. but still have some limitations.
+
+\paragraph{}
+Since the front end of the application is built in JavaScript, it causes a number of limitations.
+
+%referance
+%http://stackoverflow.com/questions/8212547/what-are-the-limitations-and-disadvantages-of-phonegap-or-html5-as-compared-to-t
+\begin{itemize}
+
+
+  \item \textbf{Data processing:}  Native languages are much faster than JavaScript for data processing on the device.
+
+  \item \textbf{Background processing:}  A large number of applications rely on background threads to provide a smooth user experience: calculating the GPS positions in the background, for example. PhoneGap APIs are built using JavaScript which is not multi-threaded and hence do not support background processing.
+
+  \item \textbf{Access advanced native functionality:}   A number of native APIs are not yet supported by PhoneGap’s APIs.
+
+  \item \textbf{Complex Business Logic: }  A number of applications such as enterprise applications are quite complex. In this scenario it is simply better to have a certain amount of native code.
+
+  \item \textbf{Advanced Graphics:}  Advanced Graphics: Apps that use advanced graphics which can only be accessed using third-party libraries are best done natively.
+
+\end{itemize}
+
 
 %----------------------------------------------------------------------------------------
-
+%Referance: https://wiki.appcelerator.org/pages/viewpage.action?pageId=29004882
 \subsection{Titanium}
 
-\LaTeX{} is not a \textsc{wysiwyg} (What You See is What You Get) program, unlike word processors such as Microsoft Word or Apple's Pages. Instead, a document written for \LaTeX{} is actually a simple, plain text file that contains \emph{no formatting}. You tell \LaTeX{} how you want the formatting in the finished document by writing in simple commands amongst the text, for example, if I want to use \emph{italic text for emphasis}, I write the \verb|\emph{text}| command and put the text I want in italics in between the curly braces. This means that \LaTeX{} is a \enquote{mark-up} language, very much like HTML.
-%----------------------------------------------------------------------------------------
-\subsection{Qt}
+The Titanium SDK helps you to build native cross-platform mobile application using JavaScript and the Titanium API,
+which abstracts the native APIs of the mobile platforms.  Titanium empowers you to create immersive, full-featured applications, featuring over 80\% code reuse across mobile apps.
+Appcelerator licenses Titanium under the Apache 2 license and is free for both personal and commercial use.
 
-\LaTeX{} is not a \textsc{wysiwyg} (What You See is What You Get) program, unlike word processors such as Microsoft Word or Apple's Pages. Instead, a document written for \LaTeX{} is actually a simple, plain text file that contains \emph{no formatting}. You tell \LaTeX{} how you want the formatting in the finished document by writing in simple commands amongst the text, for example, if I want to use \emph{italic text for emphasis}, I write the \verb|\emph{text}| command and put the text I want in italics in between the curly braces. This means that \LaTeX{} is a \enquote{mark-up} language, very much like HTML.
-%----------------------------------------------------------------------------------------
+\paragraph{}
+Titanium's unique trait among the various available cross-platform mobile solutions is that it creates truly native apps.
+This is in contrast to web-based solutions that deliver functionality via an enhanced web view.
+Titanium, not wanting to be limited by the native web view, has engaged in a much deeper integration with the underlying platforms.
+This gives Titanium developers the ability to leverage native UI components and  services, as well as near-native performance.
+
+\paragraph{}
+Since the front end of the application is built in JavaScript, it causes a number of limitations.
+
+%referance
+% https://enricoangelini.com/2012/5-pros-and-cons-of-appcelerators-titanium/
+\begin{itemize}
+
+
+ \item \textbf{Increasing complexity:}  The development complexities (and costs) rise more than proportionally to application complexity increases. The more complex your applications become, the more often you’ll have to deal with, on the one hand technical issues (random crashes, weird behaviors, annoying bugs, etc.), on the other hand a greater effort (code organization, MVC separation, multi-device support, multi-platform support, code readability, etc.)
+
+ \item \textbf{No Freemium:}  Appcelerator provides StoreKit, a module to enable In-App Purchase to Apple’s App Store, but it’s a pain.
+ Buggy, poorly documented and it seems to work only partially. Too unstable for production use. Having to renounce the freemium pricing model (apps that are free to download,
+ but require an in-app purchase to be expanded) is not just a minor inconvenience since 72\% of total App Store revenue comes from apps featuring in-app purchases.
+
+ \item \textbf{Toolkit pain:}   At first there was only Titanium Developer but since last June there is Titanium Studio, an Eclipse-based IDE built on a modified version of Aptana that allows you to manage projects, test your mobile apps in the simulator or on device and automate app packaging. First of all,
+ I sincerely hate Eclipse, yeah, Eclipse is free and the best open source IDE there is, but offers a very poor IDE experience.
+ Most importantly Titanium Studio can go “crazy”, encounter weird glitches, stop printing console messages,
+  but the worst thing is when the build process start to ignore changes. You have to continually clean your project every time you make changes or restart with a brand new project. A productivity tool that is uncomfortable and unstable is not a productivity tool and a development tool that is unproductive is not a development tool.
+
+ \item \textbf{Flexibility limitations: }  All that glitters is not gold. At beginning you’ll love the well-defined Titanium API and you will probably love it even more every time you discover a simple property to enable behaviors that would require several lines of code on Xcode. But sooner or later you will face strange bugs and limitations. For example, if you want to apply a cell background gradient to a grouped table (a very common and easy task with Objective-C) you get that the grouped table becomes plain and the gradient color makes the table slow when scrolling, and you will have to use images… So at first you will save a lot of time but as more complex the project grows you’ll lose the saved time in fixing and workarounds.
+
+ \item \textbf{Laggy:}   Obviously you can have the most smooth, fast and comfortable user experience possible only with apps developed with a native development environment. This is an obvious observation, but which cannot be omitted. Keep in mind that a Titanium application is the result of an automatic conversion process from web code to native code. Animations are noticeably laggy and apps are not responsive when return from the background. This is particularly evident with Android devices, less evident with iOS devices (especially those with A5 processor).
+\end{itemize}
+
+
 
 \subsection{Xamarin}
+%changes to be made here soon
+%refer:https://www.quora.com/What-are-the-drawbacks-of-developing-your-mobile-apps-on-Xamarin      https://en.wikipedia.org/wiki/Xamarin
+%http://www.sphinx-solution.com/blog/comparison-of-cross-platform-app-development-frameworks-ionic-vs-phonegap-vs-xamarin-vs-titanium/
+Launched in 2011, Xamarin is a mono framework used for cross-platform app development. Xamarin brings open source .NET to mobile development, enabling every developer to build truly native apps for any device in C\# and F\#.
+We’re excited for your contributions in continuing our mission to make it fast, easy, and fun to build great mobile apps.
 
-If you are familiar with \LaTeX{}, then you should explore the directory structure of the template and then proceed to place your own information into the \emph{THESIS INFORMATION} block of the \file{main.tex} file. You can then modify the rest of this file to your unique specifications based on your degree/university. Section \ref{FillingFile} on page \pageref{FillingFile} will help you do this. Make sure you also read section \ref{ThesisConventions} about thesis conventions to get the most out of this template.
+\paragraph{}
 
-If you are new to \LaTeX{} it is recommended that you carry on reading through the rest of the information in this document.
+Xamarin is best for building applications using C\# programming language running on .NET Common Language Infrastructure (CLI) (often called Microsoft .NET).
+\paragraph{}
+Over 1.5 million developers were using Xamarin's products in more than 120 countries around the world as of May 2015.
+It is widely used for communicating with the Application Program Interface (API) of common mobile device functions like contacts, camera, and geolocation for android, iOS, and Windows operating systems.
+It allows developers to use almost 100 \% native libraries of both Android and iOS, With a C\#-shared codebase, developers can use Xamarin tools to write native Android, iOS, and Windows apps with native user interfaces and share code across multiple platforms, including Windows and macOS.
 
-Before you begin using this template you should ensure that its style complies with the thesis style guidelines imposed by your institution. In most cases this template style and layout will be suitable. If it is not, it may only require a small change to bring the template in line with your institution's recommendations. These modifications will need to be done on the \file{MastersDoctoralThesis.cls} file.
-
-\subsection{About this Template}
-
-This \LaTeX{} Thesis Template is originally based and created around a \LaTeX{} style file created by Steve R.\ Gunn from the University of Southampton (UK), department of Electronics and Computer Science. You can find his original thesis style file at his site, here:
-\url{http://www.ecs.soton.ac.uk/~srg/softwaretools/document/templates/}
-
-Steve's \file{ecsthesis.cls} was then taken by Sunil Patel who modified it by creating a skeleton framework and folder structure to place the thesis files in. The resulting template can be found on Sunil's site here:
-\url{http://www.sunilpatel.co.uk/thesis-template}
-
-Sunil's template was made available through \url{http://www.LaTeXTemplates.com} where it was modified many times based on user requests and questions. Version 2.0 and onwards of this template represents a major modification to Sunil's template and is, in fact, hardly recognisable. The work to make version 2.0 possible was carried out by \href{mailto:vel@latextemplates.com}{Vel} and Johannes Böttcher.
+\paragraph{}
+On February 24, 2016, Microsoft announced it had signed a definitive agreement to acquire Xamarin.

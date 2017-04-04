@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.30)  3 APR 2017 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.30)  5 APR 2017 01:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1714,8 +1714,12 @@ Package csquotes Info: ... found 'babel' package.
 
 (./main.aux (./Chapters/Chapter1-Introduction.aux)
 (./Chapters/Chapter2-Methodology.aux)
-(./Chapters/Chapter3-MobileApplicationDevelopment.aux)
-(./Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.aux)
+(./Chapters/Chapter3-MobileApplicationDevelopment.aux
+
+LaTeX Warning: Label `tab:Features Supported Across Platform' multiply defined.
+
+
+) (./Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.aux)
 (./Chapters/Chapter5-IntroductiontoMicrosoftAzure.aux) (./Chapters/Chapter6.aux
 ) (./Chapters/Chapter7.aux) (./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux)
 (./Chapters/Chapter10-Conclusion.aux) (./Appendices/AppendixA.aux))
@@ -1955,7 +1959,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 108.
-<Figures/logo.jpg, id=415, 203.76125pt x 109.40875pt>
+<Figures/logo.jpg, id=330, 203.76125pt x 109.40875pt>
 File: Figures/logo.jpg Graphic file (type jpg)
  <use Figures/logo.jpg>
 Package pdftex.def Info: Figures/logo.jpg used on input line 131.
@@ -2019,28 +2023,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--224
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 232.
  (./main.toc
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 25.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 25.
-
 1: section
-[11] [12])
+[11])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [13] [14
-
-] (./main.lof)
+ [12] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 1: section
-[15] [16
+[13
+
+] [14
 
 ] (./main.lot
 Overfull \hbox (1.14964pt too wide) in paragraph at lines 9--9
@@ -2054,6 +2050,10 @@ Mo-bile Web vs.Hybrid
 
 
 1: section
+[15] [16
+
+]
+1: section
 [17] [18
 
 ]
@@ -2065,15 +2065,11 @@ Mo-bile Web vs.Hybrid
 [21] [22
 
 ]
-1: section
-[23] [24
-
-]
 --------------------
  Dedicatory
 --------------------
 1: section
-[25] [26
+[23] [24
 
 ]
 1: section
@@ -2085,76 +2081,36 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 29.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 31.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 31.
+
 1: section
 [1
 
 
 ]
-Overfull \hbox (22.73018pt too wide) in paragraph at lines 44--47
-\T1/ppl/m/n/10.95 Guide for L[]T[]X^^Q. It can be found on-line here: [][]$\T1/
-pcr/m/n/10.95 http : / / www . ams . org / tex / amslatex .
- []
-
-[2]
-Overfull \hbox (0.51039pt too wide) in paragraph at lines 78--79
-[]\T1/ppl/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
-m/n/10.95 http : / / www . LaTeXTemplates .
- []
-
-[3]
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 136.
-
-Overfull \hbox (4.4566pt too wide) in paragraph at lines 142--143
-\T1/ppl/m/n/10.95 for this. If you don't want these to be linked, sim-ply re-mo
-ve the []\T1/pcr/m/n/10.95 \href{url}{name}
- []
-
-[4]
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 168.
- [5]
-Overfull \hbox (24.70317pt too wide) in paragraph at lines 180--181
-\T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/pcr/
-m/sl/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/pcr/m/n/10.95 documentc
-lass
- []
-
-[6]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 196.
-
-Overfull \hbox (21.97092pt too wide) in paragraph at lines 225--225
-[]\T1/pcr/m/n/10 \caption{The effects of treatments X and Y on the four groups 
-studied.}[] 
- []
-
-[7] <Figures/Electron.pdf, id=723, 398.3386pt x 284.52756pt>
-File: Figures/Electron.pdf Graphic file (type pdf)
-
-<use Figures/Electron.pdf>
-Package pdftex.def Info: Figures/Electron.pdf used on input line 262.
-(pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
- [8]
-Overfull \hbox (19.1404pt too wide) in paragraph at lines 308--309
-\T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at
- all the []\T1/pcr/m/n/10.95 \chapter{}\T1/ppl/m/n/10.95 , []\T1/pcr/m/n/10.95 
-\section{}
- []
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 47.
 
 
-Overfull \hbox (8.65474pt too wide) in paragraph at lines 310--311
-[]\T1/ppl/m/n/10.95 The Ta-ble of Con-tents should only list the sec-tions to t
-hree (3) lev-els. A []\T1/pcr/m/n/10.95 chapter{}
- []
+LaTeX Warning: Reference `FillingFile' on page 2 undefined on input line 47.
 
-[9 <./Figures/Electron.pdf>]) [10]
+
+LaTeX Warning: Reference `FillingFile' on page 2 undefined on input line 47.
+
+
+LaTeX Warning: Reference `ThesisConventions' on page 2 undefined on input line 
+47.
+
+) [2]
 \openout2 = `Chapters/Chapter2-Methodology.aux'.
 
  (./Chapters/Chapter2-Methodology.tex
@@ -2166,7 +2122,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
 1: section
-[11
+[3
 
 
 
@@ -2176,76 +2132,150 @@ Overfull \hbox (22.73018pt too wide) in paragraph at lines 44--47
 pcr/m/n/10.95 http : / / www . ams . org / tex / amslatex .
  []
 
-) [12]
+
+LaTeX Warning: Reference `FillingFile' on page 4 undefined on input line 64.
+
+
+LaTeX Warning: Reference `FillingFile' on page 4 undefined on input line 64.
+
+
+LaTeX Warning: Reference `ThesisConventions' on page 4 undefined on input line 
+64.
+
+) [4]
 \openout2 = `Chapters/Chapter3-MobileApplicationDevelopment.aux'.
 
  (./Chapters/Chapter3-MobileApplicationDevelopment.tex
 Chapter 3.
 1: section
-[13
+[5
 
 
 
-] [14] [15] [16] [17]
-Overfull \hbox (0.61272pt too wide) in paragraph at lines 269--270
+] [6] [7] [8]
+Overfull \hbox (32.932pt too wide) in paragraph at lines 257--279
+ [][] 
+ []
+
+[9]
+Overfull \hbox (0.61272pt too wide) in paragraph at lines 303--304
 \T1/ppl/m/n/10.95 worlds. We de-fine hy-brid as a web app, pri-mar-ily built us
 -ing HTML5 and JavaScript,
  []
 
-[18]
-Overfull \hbox (63.07822pt too wide) in paragraph at lines 301--344
+[10]
+Overfull \hbox (62.92442pt too wide) in paragraph at lines 335--378
  [][] 
  []
 
-[19] [20])
-Overfull \hbox (0.51039pt too wide) in paragraph at lines 386--297
-[]\T1/ppl/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
-m/n/10.95 http : / / www . LaTeXTemplates .
- []
-
-[21]
+[11] [12] [13]) [14]
 \openout2 = `Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamari
 n.aux'.
 
- (./Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.tex [22
+
+(./Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.tex
+Chapter 4.
+1: section
+[15
 
 
 
 ]
-Chapter 4.
-1: section
-[23] [24] [25])
+
+LaTeX Warning: Reference `FillingFile' on page 16 undefined on input line 56.
+
+
+LaTeX Warning: Reference `FillingFile' on page 16 undefined on input line 56.
+
+
+LaTeX Warning: Reference `ThesisConventions' on page 16 undefined on input line
+ 56.
+
+[16]
+
+LaTeX Warning: Reference `FillingFile' on page 17 undefined on input line 65.
+
+
+LaTeX Warning: Reference `FillingFile' on page 17 undefined on input line 65.
+
+
+LaTeX Warning: Reference `ThesisConventions' on page 17 undefined on input line
+ 65.
+
+
+LaTeX Warning: Reference `FillingFile' on page 17 undefined on input line 74.
+
+
+LaTeX Warning: Reference `FillingFile' on page 17 undefined on input line 74.
+
+
+LaTeX Warning: Reference `ThesisConventions' on page 17 undefined on input line
+ 74.
+
+
+LaTeX Warning: Reference `FillingFile' on page 17 undefined on input line 84.
+
+
+LaTeX Warning: Reference `FillingFile' on page 17 undefined on input line 84.
+
+
+LaTeX Warning: Reference `ThesisConventions' on page 17 undefined on input line
+ 84.
+
+[17]
+
+LaTeX Warning: Reference `FillingFile' on page 18 undefined on input line 97.
+
+
+LaTeX Warning: Reference `FillingFile' on page 18 undefined on input line 97.
+
+
+LaTeX Warning: Reference `ThesisConventions' on page 18 undefined on input line
+ 97.
+
+)
 Overfull \hbox (0.51039pt too wide) in paragraph at lines 113--298
 []\T1/ppl/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
 m/n/10.95 http : / / www . LaTeXTemplates .
  []
 
-[26]
+[18]
 \openout2 = `Chapters/Chapter5-IntroductiontoMicrosoftAzure.aux'.
 
  (./Chapters/Chapter5-IntroductiontoMicrosoftAzure.tex
 Chapter 5.
-1: section
-[27
 
-
-
-]
 Overfull \hbox (22.73018pt too wide) in paragraph at lines 43--46
 \T1/ppl/m/n/10.95 Guide for L[]T[]X^^Q. It can be found on-line here: [][]$\T1/
 pcr/m/n/10.95 http : / / www . ams . org / tex / amslatex .
  []
 
-[28])
+1: section
+[19
+
+
+
+]
+
+LaTeX Warning: Reference `FillingFile' on page 20 undefined on input line 63.
+
+
+LaTeX Warning: Reference `FillingFile' on page 20 undefined on input line 63.
+
+
+LaTeX Warning: Reference `ThesisConventions' on page 20 undefined on input line
+ 63.
+
+[20])
 Overfull \hbox (0.51039pt too wide) in paragraph at lines 77--299
 []\T1/ppl/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
 m/n/10.95 http : / / www . LaTeXTemplates .
  []
 
-[29]
+[21]
 \openout2 = `Chapters/Chapter6.aux'.
 
- (./Chapters/Chapter6.tex [30
+ (./Chapters/Chapter6.tex [22
 
 
 
@@ -2253,24 +2283,24 @@ m/n/10.95 http : / / www . LaTeXTemplates .
 Chapter 6.
 )
 1: section
-[31] [32]
+[23] [24]
 \openout2 = `Chapters/Chapter7.aux'.
 
  (./Chapters/Chapter7.tex
 Chapter 7.
 )
 1: section
-[33
+[25
 
 
 
-] [34]
+] [26]
 \openout2 = `Chapters/Chapter8.aux'.
 
  (./Chapters/Chapter8.tex
 Chapter 8.
 1: section
-[35
+[27
 
 
 
@@ -2280,32 +2310,32 @@ Overfull \hbox (22.73018pt too wide) in paragraph at lines 44--47
 pcr/m/n/10.95 http : / / www . ams . org / tex / amslatex .
  []
 
-) [36]
+) [28]
 \openout2 = `Chapters/Chapter9.aux'.
 
  (./Chapters/Chapter9.tex
 Chapter 9.
 )
 1: section
-[37
+[29
 
 
 
-] [38]
+] [30]
 \openout2 = `Chapters/Chapter10-Conclusion.aux'.
 
  (./Chapters/Chapter10-Conclusion.tex
 Chapter 10.
 )
 1: section
-[39
+[31
 
 
 
 ]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (./Appendices/AppendixA.tex [40
+ (./Appendices/AppendixA.tex [32
 
 
 
@@ -2313,14 +2343,14 @@ Chapter 10.
 Appendix A.
 )
 1: section
-[41] [42
+[33] [34
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 329.
 
 1: section
-[43]
+[35]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
  (./main.aux (./Chapters/Chapter1-Introduction.aux)
 (./Chapters/Chapter2-Methodology.aux)
@@ -2332,19 +2362,26 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 329.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 329.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BAB0D55054E8A66497C563BC38BC3A09;17334.
+(rerunfilecheck)             Checksum: DC671E0861C8A0B3CC293E6110BF1C6A;14036.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32393 strings out of 493014
- 653918 string characters out of 6133351
- 848843 words of memory out of 5000000
- 35289 multiletter control sequences out of 15000+600000
- 62240 words of font info for 114 fonts, out of 8000000 for 9000
+ 32299 strings out of 493014
+ 652631 string characters out of 6133351
+ 847432 words of memory out of 5000000
+ 35238 multiletter control sequences out of 15000+600000
+ 57216 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,20n,82p,10377b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,20n,82p,10377b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -2353,15 +2390,14 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+nts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
 palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatin
-o/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri
-8a.pfb>
-Output written on main.pdf (69 pages, 324474 bytes).
+o/uplri8a.pfb>
+Output written on main.pdf (59 pages, 264042 bytes).
 PDF statistics:
- 1164 PDF objects out of 1200 (max. 8388607)
- 1060 compressed objects within 11 object streams
- 233 named destinations out of 1000 (max. 500000)
- 819 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 883 PDF objects out of 1000 (max. 8388607)
+ 801 compressed objects within 9 object streams
+ 204 named destinations out of 1000 (max. 500000)
+ 646 words of extra memory for PDF output out of 10000 (max. 10000000)
 
