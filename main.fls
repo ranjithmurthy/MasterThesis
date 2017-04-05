@@ -385,6 +385,12 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
 OUTPUT Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.aux
 INPUT Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.tex
 INPUT Chapters/Chapter4-IntroductiontoCrossplatformDevelopmentwithXamarin.tex
+INPUT Figures/SharedProjects.png
+INPUT ./Figures/SharedProjects.png
+INPUT ./Figures/SharedProjects.png
+INPUT Figures/Xamarin_architecture.jpg
+INPUT ./Figures/Xamarin_architecture.jpg
+INPUT ./Figures/Xamarin_architecture.jpg
 OUTPUT Chapters/Chapter5-IntroductiontoMicrosoftAzure.aux
 INPUT Chapters/Chapter5-IntroductiontoMicrosoftAzure.tex
 INPUT Chapters/Chapter5-IntroductiontoMicrosoftAzure.tex

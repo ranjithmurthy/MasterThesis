@@ -82,52 +82,73 @@
 \contentsline {paragraph}{}{14}{section*.92}
 \contentsline {paragraph}{}{14}{section*.93}
 \contentsline {paragraph}{}{14}{section*.94}
-\contentsline {chapter}{\numberline {4}Introduction to Cross-platform Development with Xamarin}{15}{chapter.95}
-\contentsline {section}{\numberline {4.1}Understanding the Xamarin Mobile Platform}{15}{section.96}
-\contentsline {section}{\numberline {4.2}Architecture}{15}{section.97}
-\contentsline {section}{\numberline {4.3}Setting Up A Xamarin Cross Platform Solution}{15}{section.98}
-\contentsline {subsection}{\numberline {4.3.1}Code Sharing Options}{16}{subsection.99}
-\contentsline {subsection}{\numberline {4.3.2}Portable Class Libraries}{16}{subsection.100}
-\contentsline {subsection}{\numberline {4.3.3}Shared Projects}{16}{subsection.101}
-\contentsline {subsection}{\numberline {4.3.4}.NET Standard}{16}{subsection.102}
-\contentsline {section}{\numberline {4.4}Dealing with Multiple Platforms}{16}{section.103}
-\contentsline {section}{\numberline {4.5}Practical Code Sharing Strategies}{17}{section.104}
-\contentsline {section}{\numberline {4.6}Dealing with Multiple Platforms}{17}{section.105}
-\contentsline {section}{\numberline {4.7}Cross-Platform User Interfaces with Xamarin.Forms}{17}{section.106}
-\contentsline {subsection}{\numberline {4.7.1}eXtensible Application Markup Language (XAML)}{18}{subsection.107}
-\contentsline {section}{\numberline {4.8}Testing and App Store Approvals}{18}{section.108}
-\contentsline {subsection}{\numberline {4.8.1}About this Template}{18}{subsection.109}
-\contentsline {chapter}{\numberline {5}Introduction to Microsoft azure }{19}{chapter.110}
-\contentsline {section}{\numberline {5.1}Connected Services in Xamarin Studio}{19}{section.111}
-\contentsline {section}{\numberline {5.2}Azure App Services}{19}{section.112}
-\contentsline {subsection}{\numberline {5.2.1}A (not so short) Introduction to \LaTeX {}}{19}{subsection.113}
-\contentsline {subsection}{\numberline {5.2.2}A Short Math Guide for \LaTeX {}}{20}{subsection.114}
-\contentsline {subsection}{\numberline {5.2.3}Common \LaTeX {} Math Symbols}{20}{subsection.115}
-\contentsline {subsection}{\numberline {5.2.4}\LaTeX {} on a Mac}{20}{subsection.116}
-\contentsline {section}{\numberline {5.3}Active Directory Authentication}{20}{section.117}
-\contentsline {subsection}{\numberline {5.3.1}WebAPI}{20}{subsection.118}
-\contentsline {chapter}{\numberline {6}Chapter Title Here}{23}{chapter.119}
-\contentsline {section}{\numberline {6.1}Welcome and Thank You}{23}{section.120}
-\contentsline {section}{\numberline {6.2}Learning \LaTeX {}}{23}{section.121}
-\contentsline {subsection}{\numberline {6.2.1}A (not so short) Introduction to \LaTeX {}}{23}{subsection.122}
-\contentsline {chapter}{\numberline {7}Chapter Title Here}{25}{chapter.123}
-\contentsline {section}{\numberline {7.1}Welcome and Thank You}{25}{section.124}
-\contentsline {section}{\numberline {7.2}Learning \LaTeX {}}{25}{section.125}
-\contentsline {subsection}{\numberline {7.2.1}A (not so short) Introduction to \LaTeX {}}{25}{subsection.126}
-\contentsline {chapter}{\numberline {8}Chapter Title Here}{27}{chapter.127}
-\contentsline {section}{\numberline {8.1}Welcome and Thank You}{27}{section.128}
-\contentsline {section}{\numberline {8.2}Learning \LaTeX {}}{27}{section.129}
-\contentsline {subsection}{\numberline {8.2.1}A (not so short) Introduction to \LaTeX {}}{27}{subsection.130}
-\contentsline {subsection}{\numberline {8.2.2}A Short Math Guide for \LaTeX {}}{28}{subsection.131}
-\contentsline {subsection}{\numberline {8.2.3}Common \LaTeX {} Math Symbols}{28}{subsection.132}
-\contentsline {subsection}{\numberline {8.2.4}\LaTeX {} on a Mac}{28}{subsection.133}
-\contentsline {chapter}{\numberline {9}Chapter Title Here}{29}{chapter.134}
-\contentsline {section}{\numberline {9.1}Welcome and Thank You}{29}{section.135}
-\contentsline {section}{\numberline {9.2}Learning \LaTeX {}}{29}{section.136}
-\contentsline {subsection}{\numberline {9.2.1}A (not so short) Introduction to \LaTeX {}}{29}{subsection.137}
-\contentsline {chapter}{\numberline {10}Conclusion}{31}{chapter.138}
-\contentsline {section}{\numberline {10.1}Goal Fulfilment}{31}{section.139}
-\contentsline {section}{\numberline {10.2}Future Work}{31}{section.140}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{33}{appendix.141}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{33}{section.142}
-\contentsline {chapter}{Bibliography}{35}{appendix*.143}
+\contentsline {paragraph}{}{14}{section*.95}
+\contentsline {paragraph}{}{15}{section*.96}
+\contentsline {subsection}{\numberline {3.3.4}Conclusion}{16}{subsection.98}
+\contentsline {paragraph}{}{16}{section*.99}
+\contentsline {paragraph}{}{16}{section*.100}
+\contentsline {paragraph}{}{16}{section*.101}
+\contentsline {chapter}{\numberline {4}Introduction to Cross-platform Development with Xamarin}{19}{chapter.102}
+\contentsline {section}{\numberline {4.1}Introduction to Xamarin}{19}{section.103}
+\contentsline {paragraph}{}{19}{section*.104}
+\contentsline {paragraph}{}{19}{section*.105}
+\contentsline {paragraph}{}{19}{section*.106}
+\contentsline {section}{\numberline {4.2}How Does Xamarin Work?}{20}{section.107}
+\contentsline {paragraph}{}{20}{section*.108}
+\contentsline {section}{\numberline {4.3}Understanding the Xamarin Mobile Platform}{21}{section.109}
+\contentsline {section}{\numberline {4.4}Architecture}{21}{section.110}
+\contentsline {paragraph}{}{21}{section*.111}
+\contentsline {subsection}{\numberline {4.4.1}Typical Application Layers}{22}{subsection.112}
+\contentsline {paragraph}{}{22}{section*.113}
+\contentsline {subsection}{\numberline {4.4.2}Common Mobile Software Patterns}{22}{subsection.114}
+\contentsline {section}{\numberline {4.5}Setting Up A Xamarin Cross Platform Solution}{23}{section.115}
+\contentsline {subsection}{\numberline {4.5.1}Code Sharing Options}{23}{subsection.116}
+\contentsline {subsection}{\numberline {4.5.2}Portable Class Libraries}{24}{subsection.117}
+\contentsline {subsection}{\numberline {4.5.3}Shared Projects}{24}{subsection.118}
+\contentsline {subsection}{\numberline {4.5.4}.NET Standard}{24}{subsection.120}
+\contentsline {subsection}{\numberline {4.5.5}Core Project}{25}{subsection.121}
+\contentsline {subsection}{\numberline {4.5.6}Platform-Specific Application Projects}{25}{subsection.122}
+\contentsline {section}{\numberline {4.6}Dealing with Multiple Platforms}{25}{section.124}
+\contentsline {section}{\numberline {4.7}Practical Code Sharing Strategies}{26}{section.125}
+\contentsline {section}{\numberline {4.8}Dealing with Multiple Platforms}{26}{section.126}
+\contentsline {section}{\numberline {4.9}Cross-Platform User Interfaces with Xamarin.Forms}{27}{section.127}
+\contentsline {subsection}{\numberline {4.9.1}eXtensible Application Markup Language (XAML)}{27}{subsection.128}
+\contentsline {section}{\numberline {4.10}Testing and App Store Approvals}{27}{section.129}
+\contentsline {subsection}{\numberline {4.10.1}Test on All Platforms}{27}{subsection.130}
+\contentsline {subsection}{\numberline {4.10.2}Test Management}{28}{subsection.131}
+\contentsline {subsection}{\numberline {4.10.3}Test Automation}{28}{subsection.132}
+\contentsline {subsection}{\numberline {4.10.4}Unit Testing}{28}{subsection.133}
+\contentsline {chapter}{\numberline {5}Introduction to Microsoft azure }{29}{chapter.134}
+\contentsline {section}{\numberline {5.1}Connected Services in Xamarin Studio}{29}{section.135}
+\contentsline {section}{\numberline {5.2}Azure App Services}{29}{section.136}
+\contentsline {subsection}{\numberline {5.2.1}A (not so short) Introduction to \LaTeX {}}{29}{subsection.137}
+\contentsline {subsection}{\numberline {5.2.2}A Short Math Guide for \LaTeX {}}{30}{subsection.138}
+\contentsline {subsection}{\numberline {5.2.3}Common \LaTeX {} Math Symbols}{30}{subsection.139}
+\contentsline {subsection}{\numberline {5.2.4}\LaTeX {} on a Mac}{30}{subsection.140}
+\contentsline {section}{\numberline {5.3}Active Directory Authentication}{30}{section.141}
+\contentsline {subsection}{\numberline {5.3.1}WebAPI}{30}{subsection.142}
+\contentsline {chapter}{\numberline {6}Chapter Title Here}{33}{chapter.143}
+\contentsline {section}{\numberline {6.1}Welcome and Thank You}{33}{section.144}
+\contentsline {section}{\numberline {6.2}Learning \LaTeX {}}{33}{section.145}
+\contentsline {subsection}{\numberline {6.2.1}A (not so short) Introduction to \LaTeX {}}{33}{subsection.146}
+\contentsline {chapter}{\numberline {7}Chapter Title Here}{35}{chapter.147}
+\contentsline {section}{\numberline {7.1}Welcome and Thank You}{35}{section.148}
+\contentsline {section}{\numberline {7.2}Learning \LaTeX {}}{35}{section.149}
+\contentsline {subsection}{\numberline {7.2.1}A (not so short) Introduction to \LaTeX {}}{35}{subsection.150}
+\contentsline {chapter}{\numberline {8}Chapter Title Here}{37}{chapter.151}
+\contentsline {section}{\numberline {8.1}Welcome and Thank You}{37}{section.152}
+\contentsline {section}{\numberline {8.2}Learning \LaTeX {}}{37}{section.153}
+\contentsline {subsection}{\numberline {8.2.1}A (not so short) Introduction to \LaTeX {}}{37}{subsection.154}
+\contentsline {subsection}{\numberline {8.2.2}A Short Math Guide for \LaTeX {}}{38}{subsection.155}
+\contentsline {subsection}{\numberline {8.2.3}Common \LaTeX {} Math Symbols}{38}{subsection.156}
+\contentsline {subsection}{\numberline {8.2.4}\LaTeX {} on a Mac}{38}{subsection.157}
+\contentsline {chapter}{\numberline {9}Chapter Title Here}{39}{chapter.158}
+\contentsline {section}{\numberline {9.1}Welcome and Thank You}{39}{section.159}
+\contentsline {section}{\numberline {9.2}Learning \LaTeX {}}{39}{section.160}
+\contentsline {subsection}{\numberline {9.2.1}A (not so short) Introduction to \LaTeX {}}{39}{subsection.161}
+\contentsline {chapter}{\numberline {10}Conclusion}{41}{chapter.162}
+\contentsline {section}{\numberline {10.1}Goal Fulfilment}{41}{section.163}
+\contentsline {section}{\numberline {10.2}Future Work}{41}{section.164}
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{43}{appendix.165}
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{43}{section.166}
+\contentsline {chapter}{Bibliography}{45}{appendix*.167}
