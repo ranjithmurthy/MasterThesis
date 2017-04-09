@@ -1,6 +1,6 @@
 % Chapter 5
-
-\chapter{Introduction to Microsoft azure } % Main chapter title
+% !TEX root = ../main.tex
+\chapter{Introduction to Microsoft Azure Cloud} % Main chapter title
 
 \label{Chapter5} % For referencing the chapter elsewhere, use \ref{Chapter1}
 
@@ -16,7 +16,7 @@
 
 \section{Connected Services in Xamarin Studio}
 Welcome to this \LaTeX{} Thesis Template, a beautiful and easy to use template for writing a thesis using the \LaTeX{} typesetting system.
-%https://azure.microsoft.com/en-us/features/xamarin/ refer this link its good one 
+%https://azure.microsoft.com/en-us/features/xamarin/ refer this link its good one
 If you are writing a thesis (or will be in the future) and its subject is technical or mathematical (though it doesn't have to be), then creating it in \LaTeX{} is highly recommended as a way to make sure you can just get down to the essential writing without having to worry over formatting or wasting time arguing with your word processor.
 
 \LaTeX{} is easily able to professionally typeset documents that run to hundreds or thousands of pages long. With simple mark-up commands, it automatically sets out the table of contents, margins, page headers and footers and keeps the formatting consistent and beautiful. One of its main strengths is the way it can easily typeset mathematics, even \emph{heavy} mathematics. Even if those equations are the most horribly twisted and most difficult mathematical problems that can only be solved on a super-computer, you can at least count on \LaTeX{} to make them look stunning.
@@ -25,53 +25,55 @@ If you are writing a thesis (or will be in the future) and its subject is techni
 
 \section{Azure App Services}
 
-\LaTeX{} is not a \textsc{wysiwyg} (What You See is What You Get) program, unlike word processors such as Microsoft Word or Apple's Pages. Instead, a document written for \LaTeX{} is actually a simple, plain text file that contains \emph{no formatting}. You tell \LaTeX{} how you want the formatting in the finished document by writing in simple commands amongst the text, for example, if I want to use \emph{italic text for emphasis}, I write the \verb|\emph{text}| command and put the text I want in italics in between the curly braces. This means that \LaTeX{} is a \enquote{mark-up} language, very much like HTML.
+App Service is a platform-as-a-service (PaaS) offering of Microsoft Azure. Create web and mobile apps for any platform or device. Integrate your apps with SaaS solutions, connect with on-premises applications, and automate your business processes. Azure runs your apps on fully managed virtual machines (VMs), with your choice of shared VM resources or dedicated VMs.
 
-\subsection{A (not so short) Introduction to \LaTeX{}}
+App Service includes the web and mobile capabilities that we previously delivered separately as Azure Websites and Azure Mobile Services. It also includes new capabilities for automating business processes and hosting cloud APIs. As a single integrated service, App Service lets you compose various components -- websites, mobile app back ends, RESTful APIs, and business processes -- into a single solution.
 
-If you are new to \LaTeX{}, there is a very good eBook -- freely available online as a PDF file -- called, \enquote{The Not So Short Introduction to \LaTeX{}}. The book's title is typically shortened to just \emph{lshort}. You can download the latest version (as it is occasionally updated) from here:
-\url{http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf}
 
-It is also available in several other languages. Find yours from the list on this page: \url{http://www.ctan.org/tex-archive/info/lshort/}
+App types in App Service
 
-It is recommended to take a little time out to learn how to use \LaTeX{} by creating several, small `test' documents, or having a close look at several templates on:\\
-\url{http://www.LaTeXTemplates.com}\\
-Making the effort now means you're not stuck learning the system when what you \emph{really} need to be doing is writing your thesis.
+App Service offers several app types, each of which is intended to host a specific workload:
+Web Apps - For hosting websites and web applications.
+Mobile Apps For hosting mobile app back ends.
+API Apps - For hosting RESTful APIs.
+Logic Apps - For automating business processes and integrating systems and data across clouds without writing code.
 
-\subsection{A Short Math Guide for \LaTeX{}}
 
-If you are writing a technical or mathematical thesis, then you may want to read the document by the AMS (American Mathematical Society) called, \enquote{A Short Math Guide for \LaTeX{}}. It can be found online here:
-\url{http://www.ams.org/tex/amslatex.html}
-under the \enquote{Additional Documentation} section towards the bottom of the page.
 
-\subsection{Common \LaTeX{} Math Symbols}
+\subsection{Web Apps}
+
+App Service Web Apps is a fully managed compute platform that is optimized for hosting websites and web applications. This platform-as-a-service (PaaS) offering of Microsoft Azure lets you focus on your business logic while Azure takes care of the infrastructure to run and scale your apps.
+
+
+\subsection{Mobile Apps}
+
+Azure App Service is a fully managed Platform as a Service (PaaS) offering for professional developers that brings a rich set of capabilities to web, mobile and integration scenarios. Mobile Apps in Azure App Service offer a highly scalable, globally available mobile application development platform for Enterprise Developers and System Integrators that brings a rich set of capabilities to mobile developers.
+
+
+Mobile App Features
+
+The following features are important to cloud-enabled mobile development:
+
+Authentication and Authorization - Select from an ever-growing list of identity providers, including Azure Active Directory for enterprise authentication, plus social providers like Facebook, Google, Twitter and Microsoft Account. Azure Mobile Apps provides an OAuth 2.0 service for each provider. You can also integrate the SDK for the identity provider for provider specific functionality.
+Discover more about our authentication features.
+Data Access - Azure Mobile Apps provides a mobile-friendly OData v3 data source linked to SQL Azure or an on-premises SQL Server. This service can be based on Entity Framework, allowing you to easily integrate with other NoSQL and SQL data providers, including Azure Table Storage, MongoDB, DocumentDB and SaaS API providers like Office 365 and Salesforce.com.
+Offline Sync - Our Client SDKs make it easy for you to build robust and responsive mobile applications that operate with an offline data set that can be automatically synchronized with the backend data, including conflict resolution support.
+Discover more about our data features.
+Push Notifications - Our Client SDKS seamlessly integrate with the registration capabilities of Azure Notification Hubs, allowing you to send push notifications to millions of users simultaneously.
+Discover more about our push notification features.
+Client SDKs - We provide a complete set of Client SDKs that cover native development (iOS, Android and Windows), cross-platform development (Xamarin for iOS and Android, Xamarin Forms) and hybrid application development (Apache Cordova). Each client SDK is available with an MIT license and is open-source.
+
+
+
+
+\subsection{API Apps }
 There are a multitude of mathematical symbols available for \LaTeX{} and it would take a great effort to learn the commands for them all. The most common ones you are likely to use are shown on this page:
 \url{http://www.sunilpatel.co.uk/latex-type/latex-math-symbols/}
 
 You can use this page as a reference or crib sheet, the symbols are rendered as large, high quality images so you can quickly find the \LaTeX{} command for the symbol you need.
 
-\subsection{\LaTeX{} on a Mac}
+\subsection{Logic Apps  }
 
 The \LaTeX{} distribution is available for many systems including Windows, Linux and Mac OS X. The package for OS X is called MacTeX and it contains all the applications you need -- bundled together and pre-customized -- for a fully working \LaTeX{} environment and work flow.
 
 MacTeX includes a custom dedicated \LaTeX{} editor called TeXShop for writing your `\file{.tex}' files and BibDesk: a program to manage your references and create your bibliography section just as easily as managing songs and creating playlists in iTunes.
-
-%----------------------------------------------------------------------------------------
-
-\section{Active Directory Authentication}
-
-If you are familiar with \LaTeX{}, then you should explore the directory structure of the template and then proceed to place your own information into the \emph{THESIS INFORMATION} block of the \file{main.tex} file. You can then modify the rest of this file to your unique specifications based on your degree/university. Section \ref{FillingFile} on page \pageref{FillingFile} will help you do this. Make sure you also read section \ref{ThesisConventions} about thesis conventions to get the most out of this template.
-
-If you are new to \LaTeX{} it is recommended that you carry on reading through the rest of the information in this document.
-
-Before you begin using this template you should ensure that its style complies with the thesis style guidelines imposed by your institution. In most cases this template style and layout will be suitable. If it is not, it may only require a small change to bring the template in line with your institution's recommendations. These modifications will need to be done on the \file{MastersDoctoralThesis.cls} file.
-
-\subsection{WebAPI}
-
-This \LaTeX{} Thesis Template is originally based and created around a \LaTeX{} style file created by Steve R.\ Gunn from the University of Southampton (UK), department of Electronics and Computer Science. You can find his original thesis style file at his site, here:
-\url{http://www.ecs.soton.ac.uk/~srg/softwaretools/document/templates/}
-
-Steve's \file{ecsthesis.cls} was then taken by Sunil Patel who modified it by creating a skeleton framework and folder structure to place the thesis files in. The resulting template can be found on Sunil's site here:
-\url{http://www.sunilpatel.co.uk/thesis-template}
-
-Sunil's template was made available through \url{http://www.LaTeXTemplates.com} where it was modified many times based on user requests and questions. Version 2.0 and onwards of this template represents a major modification to Sunil's template and is, in fact, hardly recognisable. The work to make version 2.0 possible was carried out by \href{mailto:vel@latextemplates.com}{Vel} and Johannes Böttcher.

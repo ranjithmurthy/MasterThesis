@@ -12,143 +12,153 @@
 \contentsline {paragraph}{}{ix}{section*.9}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.20}
 \contentsline {section}{\numberline {1.1}Background}{1}{section.21}
-\contentsline {section}{\numberline {1.2}Problem Statement and Research Questions}{1}{section.22}
-\contentsline {subsection}{\numberline {1.2.1}A (not so short) Introduction to \LaTeX {}}{1}{subsection.23}
-\contentsline {section}{\numberline {1.3}Structure of the Thesis}{2}{section.24}
-\contentsline {chapter}{\numberline {2}Methodology}{3}{chapter.25}
-\contentsline {section}{\numberline {2.1}Literature Review}{3}{section.26}
-\contentsline {section}{\numberline {2.2}Learning \LaTeX {}}{3}{section.27}
-\contentsline {subsection}{\numberline {2.2.1}A (not so short) Introduction to \LaTeX {}}{3}{subsection.28}
-\contentsline {subsection}{\numberline {2.2.2}A Short Math Guide for \LaTeX {}}{4}{subsection.29}
-\contentsline {subsection}{\numberline {2.2.3}Common \LaTeX {} Math Symbols}{4}{subsection.30}
-\contentsline {subsection}{\numberline {2.2.4}\LaTeX {} on a Mac}{4}{subsection.31}
-\contentsline {section}{\numberline {2.3}Getting Started with this Template}{4}{section.32}
-\contentsline {chapter}{\numberline {3}Mobile Application Development}{5}{chapter.33}
-\contentsline {section}{\numberline {3.1}Mobile Platforms}{5}{section.34}
-\contentsline {subsection}{\numberline {3.1.1}Android}{5}{subsection.36}
-\contentsline {paragraph}{}{5}{section*.37}
-\contentsline {paragraph}{}{6}{section*.38}
-\contentsline {paragraph}{}{6}{section*.39}
-\contentsline {paragraph}{}{6}{section*.40}
-\contentsline {paragraph}{}{6}{section*.41}
-\contentsline {paragraph}{}{6}{section*.42}
-\contentsline {paragraph}{}{6}{section*.43}
-\contentsline {subsection}{\numberline {3.1.2}iOS}{6}{subsection.44}
-\contentsline {paragraph}{}{6}{section*.45}
-\contentsline {paragraph}{}{6}{section*.46}
-\contentsline {paragraph}{}{7}{section*.47}
-\contentsline {paragraph}{}{7}{section*.48}
-\contentsline {paragraph}{}{7}{section*.49}
-\contentsline {paragraph}{}{7}{section*.50}
-\contentsline {paragraph}{}{7}{section*.51}
-\contentsline {paragraph}{}{7}{section*.52}
-\contentsline {subsection}{\numberline {3.1.3}Windows}{7}{subsection.53}
-\contentsline {paragraph}{}{7}{section*.54}
-\contentsline {paragraph}{}{8}{section*.55}
-\contentsline {paragraph}{}{8}{section*.56}
-\contentsline {paragraph}{}{8}{section*.57}
-\contentsline {subsection}{\numberline {3.1.4}Tizen}{8}{subsection.58}
-\contentsline {paragraph}{}{8}{section*.59}
-\contentsline {paragraph}{}{8}{section*.60}
-\contentsline {paragraph}{}{8}{section*.61}
-\contentsline {paragraph}{}{8}{section*.62}
-\contentsline {paragraph}{}{8}{section*.63}
-\contentsline {paragraph}{}{8}{section*.64}
-\contentsline {paragraph}{}{9}{section*.65}
-\contentsline {paragraph}{}{9}{section*.66}
-\contentsline {paragraph}{}{9}{section*.67}
-\contentsline {section}{\numberline {3.2} Mobile Applications}{9}{section.68}
-\contentsline {paragraph}{}{9}{section*.69}
-\contentsline {paragraph}{}{9}{section*.70}
-\contentsline {subsection}{\numberline {3.2.1}Native Applications}{9}{subsection.71}
-\contentsline {paragraph}{}{9}{section*.72}
-\contentsline {subsection}{\numberline {3.2.2}Mobile Web Apps}{10}{subsection.74}
-\contentsline {paragraph}{}{10}{section*.75}
-\contentsline {paragraph}{}{10}{section*.76}
-\contentsline {subsection}{\numberline {3.2.3}Hybrid Mobile Applications}{10}{subsection.77}
-\contentsline {paragraph}{}{10}{section*.78}
-\contentsline {paragraph}{}{11}{section*.79}
-\contentsline {paragraph}{}{11}{section*.80}
-\contentsline {paragraph}{}{11}{section*.81}
-\contentsline {subsection}{\numberline {3.2.4}Conclusion}{11}{subsection.82}
-\contentsline {section}{\numberline {3.3}Cross-Platform Development Tools}{11}{section.84}
-\contentsline {subsection}{\numberline {3.3.1}PhoneGap}{11}{subsection.85}
-\contentsline {paragraph}{}{11}{section*.86}
-\contentsline {paragraph}{}{12}{section*.87}
-\contentsline {subsection}{\numberline {3.3.2}Titanium}{12}{subsection.88}
-\contentsline {paragraph}{}{13}{section*.89}
-\contentsline {paragraph}{}{13}{section*.90}
-\contentsline {subsection}{\numberline {3.3.3}Xamarin}{14}{subsection.91}
-\contentsline {paragraph}{}{14}{section*.92}
-\contentsline {paragraph}{}{14}{section*.93}
-\contentsline {paragraph}{}{14}{section*.94}
-\contentsline {paragraph}{}{14}{section*.95}
-\contentsline {paragraph}{}{15}{section*.96}
-\contentsline {subsection}{\numberline {3.3.4}Conclusion}{16}{subsection.98}
-\contentsline {paragraph}{}{16}{section*.99}
-\contentsline {paragraph}{}{16}{section*.100}
-\contentsline {paragraph}{}{16}{section*.101}
-\contentsline {chapter}{\numberline {4}Introduction to Cross-platform Development with Xamarin}{19}{chapter.102}
-\contentsline {section}{\numberline {4.1}Introduction to Xamarin}{19}{section.103}
-\contentsline {paragraph}{}{19}{section*.104}
-\contentsline {paragraph}{}{19}{section*.105}
-\contentsline {paragraph}{}{19}{section*.106}
-\contentsline {section}{\numberline {4.2}How Does Xamarin Work?}{20}{section.107}
-\contentsline {paragraph}{}{20}{section*.108}
-\contentsline {section}{\numberline {4.3}Understanding the Xamarin Mobile Platform}{21}{section.109}
-\contentsline {section}{\numberline {4.4}Architecture}{21}{section.110}
-\contentsline {paragraph}{}{21}{section*.111}
-\contentsline {subsection}{\numberline {4.4.1}Typical Application Layers}{22}{subsection.112}
-\contentsline {paragraph}{}{22}{section*.113}
-\contentsline {subsection}{\numberline {4.4.2}Common Mobile Software Patterns}{22}{subsection.114}
-\contentsline {section}{\numberline {4.5}Setting Up A Xamarin Cross Platform Solution}{23}{section.115}
-\contentsline {subsection}{\numberline {4.5.1}Code Sharing Options}{23}{subsection.116}
-\contentsline {subsection}{\numberline {4.5.2}Portable Class Libraries}{24}{subsection.117}
-\contentsline {subsection}{\numberline {4.5.3}Shared Projects}{24}{subsection.118}
-\contentsline {subsection}{\numberline {4.5.4}.NET Standard}{24}{subsection.120}
-\contentsline {subsection}{\numberline {4.5.5}Core Project}{25}{subsection.121}
-\contentsline {subsection}{\numberline {4.5.6}Platform-Specific Application Projects}{25}{subsection.122}
-\contentsline {section}{\numberline {4.6}Dealing with Multiple Platforms}{25}{section.124}
-\contentsline {section}{\numberline {4.7}Practical Code Sharing Strategies}{26}{section.125}
-\contentsline {section}{\numberline {4.8}Dealing with Multiple Platforms}{26}{section.126}
-\contentsline {section}{\numberline {4.9}Cross-Platform User Interfaces with Xamarin.Forms}{27}{section.127}
-\contentsline {subsection}{\numberline {4.9.1}eXtensible Application Markup Language (XAML)}{27}{subsection.128}
-\contentsline {section}{\numberline {4.10}Testing and App Store Approvals}{27}{section.129}
-\contentsline {subsection}{\numberline {4.10.1}Test on All Platforms}{27}{subsection.130}
-\contentsline {subsection}{\numberline {4.10.2}Test Management}{28}{subsection.131}
-\contentsline {subsection}{\numberline {4.10.3}Test Automation}{28}{subsection.132}
-\contentsline {subsection}{\numberline {4.10.4}Unit Testing}{28}{subsection.133}
-\contentsline {chapter}{\numberline {5}Introduction to Microsoft azure }{29}{chapter.134}
-\contentsline {section}{\numberline {5.1}Connected Services in Xamarin Studio}{29}{section.135}
-\contentsline {section}{\numberline {5.2}Azure App Services}{29}{section.136}
-\contentsline {subsection}{\numberline {5.2.1}A (not so short) Introduction to \LaTeX {}}{29}{subsection.137}
-\contentsline {subsection}{\numberline {5.2.2}A Short Math Guide for \LaTeX {}}{30}{subsection.138}
-\contentsline {subsection}{\numberline {5.2.3}Common \LaTeX {} Math Symbols}{30}{subsection.139}
-\contentsline {subsection}{\numberline {5.2.4}\LaTeX {} on a Mac}{30}{subsection.140}
-\contentsline {section}{\numberline {5.3}Active Directory Authentication}{30}{section.141}
-\contentsline {subsection}{\numberline {5.3.1}WebAPI}{30}{subsection.142}
-\contentsline {chapter}{\numberline {6}Chapter Title Here}{33}{chapter.143}
-\contentsline {section}{\numberline {6.1}Welcome and Thank You}{33}{section.144}
-\contentsline {section}{\numberline {6.2}Learning \LaTeX {}}{33}{section.145}
-\contentsline {subsection}{\numberline {6.2.1}A (not so short) Introduction to \LaTeX {}}{33}{subsection.146}
-\contentsline {chapter}{\numberline {7}Chapter Title Here}{35}{chapter.147}
-\contentsline {section}{\numberline {7.1}Welcome and Thank You}{35}{section.148}
-\contentsline {section}{\numberline {7.2}Learning \LaTeX {}}{35}{section.149}
-\contentsline {subsection}{\numberline {7.2.1}A (not so short) Introduction to \LaTeX {}}{35}{subsection.150}
-\contentsline {chapter}{\numberline {8}Chapter Title Here}{37}{chapter.151}
-\contentsline {section}{\numberline {8.1}Welcome and Thank You}{37}{section.152}
-\contentsline {section}{\numberline {8.2}Learning \LaTeX {}}{37}{section.153}
-\contentsline {subsection}{\numberline {8.2.1}A (not so short) Introduction to \LaTeX {}}{37}{subsection.154}
-\contentsline {subsection}{\numberline {8.2.2}A Short Math Guide for \LaTeX {}}{38}{subsection.155}
-\contentsline {subsection}{\numberline {8.2.3}Common \LaTeX {} Math Symbols}{38}{subsection.156}
-\contentsline {subsection}{\numberline {8.2.4}\LaTeX {} on a Mac}{38}{subsection.157}
-\contentsline {chapter}{\numberline {9}Chapter Title Here}{39}{chapter.158}
-\contentsline {section}{\numberline {9.1}Welcome and Thank You}{39}{section.159}
-\contentsline {section}{\numberline {9.2}Learning \LaTeX {}}{39}{section.160}
-\contentsline {subsection}{\numberline {9.2.1}A (not so short) Introduction to \LaTeX {}}{39}{subsection.161}
-\contentsline {chapter}{\numberline {10}Conclusion}{41}{chapter.162}
-\contentsline {section}{\numberline {10.1}Goal Fulfilment}{41}{section.163}
-\contentsline {section}{\numberline {10.2}Future Work}{41}{section.164}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{43}{appendix.165}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{43}{section.166}
-\contentsline {chapter}{Bibliography}{45}{appendix*.167}
+\contentsline {subsection}{\numberline {1.1.1}Android}{1}{subsection.23}
+\contentsline {paragraph}{}{1}{section*.24}
+\contentsline {paragraph}{}{1}{section*.25}
+\contentsline {paragraph}{}{2}{section*.26}
+\contentsline {subsection}{\numberline {1.1.2}iOS}{2}{subsection.27}
+\contentsline {paragraph}{}{2}{section*.28}
+\contentsline {paragraph}{}{2}{section*.29}
+\contentsline {paragraph}{}{3}{section*.30}
+\contentsline {paragraph}{}{3}{section*.31}
+\contentsline {subsection}{\numberline {1.1.3}Windows}{3}{subsection.32}
+\contentsline {paragraph}{}{3}{section*.33}
+\contentsline {paragraph}{}{3}{section*.34}
+\contentsline {paragraph}{}{4}{section*.35}
+\contentsline {subsection}{\numberline {1.1.4}Tizen}{4}{subsection.36}
+\contentsline {paragraph}{}{4}{section*.37}
+\contentsline {paragraph}{}{4}{section*.38}
+\contentsline {paragraph}{}{4}{section*.39}
+\contentsline {section}{\numberline {1.2}Problem Statement and Motivation}{4}{section.41}
+\contentsline {paragraph}{}{4}{section*.42}
+\contentsline {section}{\numberline {1.3}Aim of this Thesis}{5}{section.43}
+\contentsline {paragraph}{}{5}{section*.44}
+\contentsline {paragraph}{}{5}{section*.45}
+\contentsline {section}{\numberline {1.4}Research Questions}{5}{section.46}
+\contentsline {paragraph}{}{5}{section*.47}
+\contentsline {paragraph}{}{6}{section*.48}
+\contentsline {section}{\numberline {1.5}Structure of the Thesis}{6}{section.49}
+\contentsline {chapter}{\numberline {2}Methodology}{7}{chapter.50}
+\contentsline {section}{\numberline {2.1}Literature Review}{7}{section.51}
+\contentsline {section}{\numberline {2.2}Searching and Choosing Cross-Platform Tools for Analysis}{7}{section.52}
+\contentsline {subsection}{\numberline {2.2.1}A (not so short) Introduction to \LaTeX {}}{7}{subsection.53}
+\contentsline {subsection}{\numberline {2.2.2}A Short Math Guide for \LaTeX {}}{8}{subsection.54}
+\contentsline {subsection}{\numberline {2.2.3}Common \LaTeX {} Math Symbols}{8}{subsection.55}
+\contentsline {subsection}{\numberline {2.2.4}\LaTeX {} on a Mac}{8}{subsection.56}
+\contentsline {section}{\numberline {2.3}Getting Started with this Template}{8}{section.57}
+\contentsline {chapter}{\numberline {3}Mobile Application Development}{9}{chapter.58}
+\contentsline {section}{\numberline {3.1} Mobile Applications}{9}{section.59}
+\contentsline {paragraph}{}{9}{section*.60}
+\contentsline {paragraph}{}{9}{section*.61}
+\contentsline {subsection}{\numberline {3.1.1}Native Applications}{9}{subsection.62}
+\contentsline {paragraph}{}{9}{section*.63}
+\contentsline {subsection}{\numberline {3.1.2}Mobile Web Apps}{10}{subsection.64}
+\contentsline {paragraph}{}{10}{section*.65}
+\contentsline {paragraph}{}{10}{section*.66}
+\contentsline {subsection}{\numberline {3.1.3}Hybrid Mobile Applications}{10}{subsection.67}
+\contentsline {paragraph}{}{10}{section*.68}
+\contentsline {paragraph}{}{10}{section*.69}
+\contentsline {paragraph}{}{10}{section*.70}
+\contentsline {paragraph}{}{11}{section*.71}
+\contentsline {subsection}{\numberline {3.1.4}Conclusion}{11}{subsection.72}
+\contentsline {section}{\numberline {3.2}Cross-Platform Development Tools}{11}{section.74}
+\contentsline {subsection}{\numberline {3.2.1}PhoneGap}{11}{subsection.75}
+\contentsline {paragraph}{}{12}{section*.76}
+\contentsline {paragraph}{}{12}{section*.77}
+\contentsline {subsection}{\numberline {3.2.2}Titanium}{12}{subsection.78}
+\contentsline {paragraph}{}{12}{section*.79}
+\contentsline {paragraph}{}{12}{section*.80}
+\contentsline {subsection}{\numberline {3.2.3}Xamarin}{13}{subsection.81}
+\contentsline {paragraph}{}{13}{section*.82}
+\contentsline {paragraph}{}{14}{section*.83}
+\contentsline {paragraph}{}{14}{section*.84}
+\contentsline {paragraph}{}{14}{section*.85}
+\contentsline {paragraph}{}{15}{section*.86}
+\contentsline {subsection}{\numberline {3.2.4}Conclusion}{16}{subsection.88}
+\contentsline {paragraph}{}{16}{section*.89}
+\contentsline {paragraph}{}{16}{section*.90}
+\contentsline {paragraph}{}{16}{section*.91}
+\contentsline {section}{\numberline {3.3}Mobile Development SDLC}{17}{section.92}
+\contentsline {section}{\numberline {3.4}Overview}{17}{section.93}
+\contentsline {subsection}{\numberline {3.4.1}Inception}{18}{subsection.94}
+\contentsline {paragraph}{}{18}{section*.95}
+\contentsline {subsection}{\numberline {3.4.2}Designing Mobile Applications}{18}{subsection.96}
+\contentsline {subsection}{\numberline {3.4.3}Development}{19}{subsection.97}
+\contentsline {subsection}{\numberline {3.4.4}Stabilization}{19}{subsection.98}
+\contentsline {subsection}{\numberline {3.4.5}Distribution}{20}{subsection.99}
+\contentsline {section}{\numberline {3.5}Mobile Development Considerations}{21}{section.100}
+\contentsline {subsection}{\numberline {3.5.1}Common Considerations}{21}{subsection.101}
+\contentsline {subsection}{\numberline {3.5.2}iOS Considerations}{22}{subsection.102}
+\contentsline {subsection}{\numberline {3.5.3}Android Considerations}{22}{subsection.103}
+\contentsline {subsection}{\numberline {3.5.4}Windows Phone Considerations}{23}{subsection.104}
+\contentsline {subsection}{\numberline {3.5.5}Summary}{24}{subsection.105}
+\contentsline {chapter}{\numberline {4}Cross Platform Development with Xamarin}{25}{chapter.106}
+\contentsline {section}{\numberline {4.1}Introduction to Xamarin}{25}{section.107}
+\contentsline {paragraph}{}{25}{section*.108}
+\contentsline {paragraph}{}{25}{section*.109}
+\contentsline {paragraph}{}{25}{section*.110}
+\contentsline {section}{\numberline {4.2}How Does Xamarin Work?}{26}{section.111}
+\contentsline {paragraph}{}{26}{section*.112}
+\contentsline {section}{\numberline {4.3}Understanding the Xamarin Mobile Platform}{27}{section.113}
+\contentsline {section}{\numberline {4.4}Architecture}{27}{section.114}
+\contentsline {paragraph}{}{27}{section*.115}
+\contentsline {subsection}{\numberline {4.4.1}Typical Application Layers}{28}{subsection.116}
+\contentsline {paragraph}{}{28}{section*.117}
+\contentsline {subsection}{\numberline {4.4.2}Common Mobile Software Patterns}{28}{subsection.118}
+\contentsline {section}{\numberline {4.5}Setting Up A Xamarin Cross Platform Solution}{29}{section.119}
+\contentsline {subsection}{\numberline {4.5.1}Code Sharing Options}{29}{subsection.120}
+\contentsline {subsection}{\numberline {4.5.2}Portable Class Libraries}{30}{subsection.121}
+\contentsline {subsection}{\numberline {4.5.3}Shared Projects}{30}{subsection.122}
+\contentsline {subsection}{\numberline {4.5.4}.NET Standard}{30}{subsection.124}
+\contentsline {subsection}{\numberline {4.5.5}Core Project}{31}{subsection.125}
+\contentsline {subsection}{\numberline {4.5.6}Platform-Specific Application Projects}{31}{subsection.126}
+\contentsline {section}{\numberline {4.6}Development System Requirements }{31}{section.128}
+\contentsline {subsection}{\numberline {4.6.1}Integrated Development Environment}{31}{subsection.129}
+\contentsline {subsection}{\numberline {4.6.2}Environment Testing and Debugging}{32}{subsection.131}
+\contentsline {section}{\numberline {4.7}Practical Code Sharing Strategies}{32}{section.133}
+\contentsline {section}{\numberline {4.8}Dealing with Multiple Platforms}{33}{section.135}
+\contentsline {section}{\numberline {4.9}Cross-Platform User Interfaces with Xamarin.Forms}{34}{section.136}
+\contentsline {subsection}{\numberline {4.9.1}eXtensible Application Markup Language (XAML)}{34}{subsection.138}
+\contentsline {section}{\numberline {4.10}Testing and App Store Approvals}{35}{section.160}
+\contentsline {subsection}{\numberline {4.10.1}Test on All Platforms}{36}{subsection.161}
+\contentsline {subsection}{\numberline {4.10.2}Test Management}{36}{subsection.162}
+\contentsline {subsection}{\numberline {4.10.3}Test Automation}{36}{subsection.163}
+\contentsline {subsection}{\numberline {4.10.4}Unit Testing}{36}{subsection.164}
+\contentsline {chapter}{\numberline {5}Introduction to Microsoft Azure Cloud}{37}{chapter.165}
+\contentsline {section}{\numberline {5.1}Connected Services in Xamarin Studio}{37}{section.166}
+\contentsline {section}{\numberline {5.2}Azure App Services}{37}{section.167}
+\contentsline {subsection}{\numberline {5.2.1}Web Apps}{38}{subsection.168}
+\contentsline {subsection}{\numberline {5.2.2}Mobile Apps}{38}{subsection.169}
+\contentsline {subsection}{\numberline {5.2.3}API Apps }{38}{subsection.170}
+\contentsline {subsection}{\numberline {5.2.4}Logic Apps }{39}{subsection.171}
+\contentsline {chapter}{\numberline {6} The Canteen Feedback system}{41}{chapter.172}
+\contentsline {section}{\numberline {6.1}Hypothetical Scenarios}{41}{section.173}
+\contentsline {section}{\numberline {6.2} The Feedback system}{41}{section.174}
+\contentsline {section}{\numberline {6.3} General requirements}{41}{section.175}
+\contentsline {section}{\numberline {6.4}Functional requirements}{41}{section.176}
+\contentsline {subsection}{\numberline {6.4.1}Administrator requirements}{41}{subsection.177}
+\contentsline {subsection}{\numberline {6.4.2}Client requirements}{42}{subsection.178}
+\contentsline {section}{\numberline {6.5}Non-Functional Requirements}{42}{section.179}
+\contentsline {subsection}{\numberline {6.5.1}Administrator requirements}{42}{subsection.180}
+\contentsline {subsection}{\numberline {6.5.2}Client requirements}{42}{subsection.181}
+\contentsline {chapter}{\numberline {7}Chapter Title Here}{43}{chapter.182}
+\contentsline {section}{\numberline {7.1}Welcome and Thank You}{43}{section.183}
+\contentsline {section}{\numberline {7.2}Learning \LaTeX {}}{43}{section.184}
+\contentsline {subsection}{\numberline {7.2.1}A (not so short) Introduction to \LaTeX {}}{43}{subsection.185}
+\contentsline {chapter}{\numberline {8}Chapter Title Here}{45}{chapter.186}
+\contentsline {section}{\numberline {8.1}Welcome and Thank You}{45}{section.187}
+\contentsline {section}{\numberline {8.2}Learning \LaTeX {}}{45}{section.188}
+\contentsline {subsection}{\numberline {8.2.1}A (not so short) Introduction to \LaTeX {}}{45}{subsection.189}
+\contentsline {subsection}{\numberline {8.2.2}A Short Math Guide for \LaTeX {}}{46}{subsection.190}
+\contentsline {subsection}{\numberline {8.2.3}Common \LaTeX {} Math Symbols}{46}{subsection.191}
+\contentsline {subsection}{\numberline {8.2.4}\LaTeX {} on a Mac}{46}{subsection.192}
+\contentsline {chapter}{\numberline {9}Chapter Title Here}{47}{chapter.193}
+\contentsline {section}{\numberline {9.1}Welcome and Thank You}{47}{section.194}
+\contentsline {section}{\numberline {9.2}Learning \LaTeX {}}{47}{section.195}
+\contentsline {subsection}{\numberline {9.2.1}A (not so short) Introduction to \LaTeX {}}{47}{subsection.196}
+\contentsline {chapter}{\numberline {10}Conclusion}{49}{chapter.197}
+\contentsline {section}{\numberline {10.1}Goal Fulfilment}{49}{section.198}
+\contentsline {section}{\numberline {10.2}Future Work}{49}{section.199}
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{51}{appendix.200}
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{51}{section.201}
+\contentsline {chapter}{Bibliography}{53}{appendix*.202}

@@ -1,6 +1,7 @@
+% !TEX root = ../main.tex
 % Chapter 6
 
-\chapter{Chapter Title Here} % Main chapter title
+\chapter{ The Canteen Feedback system} % Main chapter title
 
 \label{Chapter6} % For referencing the chapter elsewhere, use \ref{Chapter1}
 
@@ -14,27 +15,56 @@
 % \newcommand{\option}[1]{\texttt{\itshape#1}}
 
 %----------------------------------------------------------------------------------------
-
-\section{Welcome and Thank You}
-Welcome to this \LaTeX{} Thesis Template, a beautiful and easy to use template for writing a thesis using the \LaTeX{} typesetting system.
-
-If you are writing a thesis (or will be in the future) and its subject is technical or mathematical (though it doesn't have to be), then creating it in \LaTeX{} is highly recommended as a way to make sure you can just get down to the essential writing without having to worry over formatting or wasting time arguing with your word processor.
-
-\LaTeX{} is easily able to professionally typeset documents that run to hundreds or thousands of pages long. With simple mark-up commands, it automatically sets out the table of contents, margins, page headers and footers and keeps the formatting consistent and beautiful. One of its main strengths is the way it can easily typeset mathematics, even \emph{heavy} mathematics. Even if those equations are the most horribly twisted and most difficult mathematical problems that can only be solved on a super-computer, you can at least count on \LaTeX{} to make them look stunning.
-
+%----------------------------------------------------------------------------------------
+%	Overview
 %----------------------------------------------------------------------------------------
 
-\section{Learning \LaTeX{}}
+\section{Hypothetical Scenarios}
 
-\LaTeX{} is not a \textsc{wysiwyg} (What You See is What You Get) program, unlike word processors such as Microsoft Word or Apple's Pages. Instead, a document written for \LaTeX{} is actually a simple, plain text file that contains \emph{no formatting}. You tell \LaTeX{} how you want the formatting in the finished document by writing in simple commands amongst the text, for example, if I want to use \emph{italic text for emphasis}, I write the \verb|\emph{text}| command and put the text I want in italics in between the curly braces. This means that \LaTeX{} is a \enquote{mark-up} language, very much like HTML.
 
-\subsection{A (not so short) Introduction to \LaTeX{}}
+Building mobile applications can be as easy as opening up the IDE, throwing something together, doing a quick bit of testing, and submitting to an App Store – all done in an afternoon. Or it can be an extremely involved process that involves rigorous up-front design, usability testing, QA testing on thousands of devices, a full beta lifecycle, and then deployment a number of different ways.
 
-If you are new to \LaTeX{}, there is a very good eBook -- freely available online as a PDF file -- called, \enquote{The Not So Short Introduction to \LaTeX{}}. The book's title is typically shortened to just \emph{lshort}. You can download the latest version (as it is occasionally updated) from here:
-\url{http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf}
+In this document, we’re going to take a thorough introductory examination of building mobile applications, including:
 
-It is also available in several other languages. Find yours from the list on this page: \url{http://www.ctan.org/tex-archive/info/lshort/}
+Process – The process of software development is called the Software Development Lifecycle (SDLC). We’ll examine all phases of the SDLC with respect to mobile application development, including: Inspiration, Design, Development, Stabilization, Deployment, and Maintenance.
+Considerations – There are a number of considerations when building mobile applications, especially in contrast to traditional web or desktop applications. We’ll examine these considerations and how they affect mobile development.
+This document is intended to answer fundamental questions about mobile app development, for new and experienced application developers alike. It takes a fairly comprehensive approach to introducing most of the concepts you’ll run into during the entire Software Development Lifecycle (SDLC).
 
-It is recommended to take a little time out to learn how to use \LaTeX{} by creating several, small `test' documents, or having a close look at several templates on:\\
-\url{http://www.LaTeXTemplates.com}\\
-Making the effort now means you're not stuck learning the system when what you \emph{really} need to be doing is writing your thesis.
+
+
+\section{ The Feedback system}
+
+This section describes the actors in the betting system (see Figure 2-1), which has three groups of actors. The administrators, or bookmakers, administrates the system and create new bets. The football matches are users that simulate a football match. These users can start new bets and generate goals. The clients are user that places bets during a football match.
+
+
+\section{ General requirements}
+
+\section{Functional requirements}
+
+\subsection{Administrator requirements}
+
+The administrator shall be able to:
+
+\begin{itemize}
+
+\item \textbf{} log on to the system (3).
+
+\item \textbf{}  add new users and administrate existing users (3).
+
+\end{itemize}
+
+\subsection{Client requirements}
+
+The clients shall be able to:
+\begin{itemize}
+\item \textbf{} log on to the system (3).
+\item \textbf{} be notified of new bets, place a bet and get feedback about the outcome of the bet (3).
+\item \textbf{}  get the balance for his account (2
+
+\end{itemize}
+
+\section{Non-Functional Requirements}
+
+\subsection{Administrator requirements}
+
+\subsection{Client requirements}

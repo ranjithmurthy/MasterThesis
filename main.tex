@@ -11,7 +11,7 @@
 %
 % This template is based on a template by:
 % Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
-% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
+% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)----
 %
 % Template license:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
@@ -47,7 +47,40 @@ headsepline, % Uncomment to get a line under the header
 
 \addbibresource{example.bib} % The filename of the bibliography
 
-\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+%----------------------------------------------------------------------------------------
+%	CODE Snippets Formating PAGE
+%----------------------------------------------------------------------------------------
+% code
+%\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{inconsolata}
+
+\usepackage{xcolor}
+\definecolor{bluekeywords}{rgb}{0.0,0.0,0.9}
+\definecolor{greencomments}{rgb}{0,0.6,0}
+\definecolor{redidentifiers}{rgb}{0.9,0,0}
+\definecolor{orangestrings}{rgb}{0.6,0.3,0}
+
+% Formatting for any language
+\lstset{columns=flexible,
+basicstyle=\ttfamily,
+commentstyle=\color{greencomments},
+keywordstyle=\color{bluekeywords},
+stringstyle=\color{orangestrings},
+identifierstyle=\color{redidentifiers},
+showstringspaces=false
+}
+
+\lstdefinestyle{CSstyle} {
+  language=[Sharp]C
+}
+
+
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
@@ -183,18 +216,21 @@ headsepline, % Uncomment to get a line under the header
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
 
-The global mobile market has experienced a tremendous increase in the number of smart computing device users per household. The mobile device base is strongly divided between different mobile platforms, most importantly Android, iOS and Windows Phone. Applications developed for one platform with traditional development methods only work on that platform, and supporting multiple platforms requires developing the application separately for each of the platforms.
+The global mobile market has experienced a tremendous increase in the number of smart computing device users per household. The mobile device base is strongly divided between different mobile platforms, like Android, iOS and Windows Phone.
+Applications developed for one platform with traditional development methods only work on that platform, and supporting multiple platforms requires developing the application separately for each of the platforms.
 
 \paragraph{}
-This trend affects small business industry whose user spread across different mobile operating systems. Such companies strive to decrease the development time and with a satisfying solution that is delivered on time. To decrease the time-to-market and thus the cost of the final product, companies seek to develop applications independent of the target mobile operating system by using a cross-platform approach. This approach can eliminate the increased effort that normally comes with developing a separate application for each mobile operating system, providing a more efficient solution.
+This trend affects small enterprise whose user spread across different mobile operating systems.
+Such companies strive to decrease the development time and with a satisfying solution that is delivered on time.
+To decrease the time-to-market and thus the cost of the final product, companies seek to develop applications independent of the target mobile operating system by using a cross-platform approach.
 
 \paragraph{}
-The aim of this thesis describes How to develop a cost effective multi-target mobile solution strategy for “Customer Feedback Management System for Restaurants”.
-The application targets the leading mobile operating systems iOS Android and Windows. While sharing the business logic through a portable class library.
-The Xamarin and Microsoft Azure toolchain provides the mechanics for compiling the C\#  codebase to run on across different Operating platform.
-\paragraph{}
-During the research phase focus on finding the suitable data analysis method to analyses the user feedback data. In addition, finding suitable visualization techniques to visualize analyzed feedback data.
+This thesis presents a research and comparison of options for cross platform mobile development. How to develop a cost effective multi-target mobile solution strategy without compromise quality of Mobile application.
 
+\paragraph{}
+The high level goal is to develop a prototype application for “Customer Feedback Management System for Restaurants”.
+
+In addition we examine the suitable data analysis and visualisation techniques to analyses the Customer feedback data.
 
 
 \end{abstract}
@@ -207,16 +243,19 @@ During the research phase focus on finding the suitable data analysis method to 
 \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
 
 \paragraph{}
-I would first like to thank my thesis supervisor {\supname} of the Department of Computer Science and Electrical Engineeringat Kiel University of Applied Sciences.
-The door to Prof.LUSSEM office was always open whenever I ran into a trouble spot or had a question about my research or writing.
-He consistently allowed this paper to be my own work, but steered me in the right the direction whenever he thought I needed it.
+I would like to take this opportunity to heartily thank my supervisor Prof. Dr. Jens.Lussem of the Department of Computer Science and Electrical Engineering at Kiel University of Applied Sciences.  For his continuous help, encouragement, support and guidance during the course of this project. His constant monitoring, flexibility and freedom,
+which he gave, helped me to complete this project successfully. I wish to reach greater heights in my career by seeking continuous guidance and valuable suggestions from Prof. Dr. Jens.Lussem.
+
+
 
 \paragraph{}
-I would also like to acknowledge Dr. Stephan Schneider  of the Department of Computer Science and Electrical Engineeringat Kiel University of Applied Sciences
+I would also like to acknowledge Prof. Dr. Stephan Schneider  of the Department of Economics and Business Informatics at Kiel University of Applied Sciences
 as the second supervisor of this thesis, and I am gratefully indebted to his for his very valuable comments on this thesis.
 
+
 \paragraph{}
-Finally, I must express my very profound gratitude to my parents and to my brother for providing me with unfailing support and continuous encouragement throughout my years of study and through the process of researching and writing this thesis. This accomplishment would not have been possible without them.\\
+Finally, I must express my very profound gratitude to my parents and to my brother for providing me with unfailing support and continuous encouragement throughout my years of study and through the process of researching and writing this thesis.
+This accomplishment would not have been possible without them.\\
 
 \noindent Thank you.\\
 \noindent Author\\

@@ -1,6 +1,6 @@
 % Chapter 4
-
-\chapter{Introduction to Cross-platform Development with Xamarin} % Main chapter title
+% !TEX root = ../main.tex
+\chapter{Cross Platform Development with Xamarin} % Main chapter title
 
 \label{Chapter4} % For referencing the chapter elsewhere, use \ref{Chapter1}
 
@@ -224,23 +224,103 @@ The platform-specific projects should implement:
 
 
 %----------------------------------------------------------------------------------------
+%	Development System Requirements
+%----------------------------------------------------------------------------------------
 
-\section{Dealing with Multiple Platforms}
+\section{Development System Requirements }
 
-If you are familiar with \LaTeX{}, then you should explore the directory structure of the template and then proceed to place your own information into the \emph{THESIS INFORMATION} block of the \file{main.tex} file. You can then modify the rest of this file to your unique specifications based on your degree/university. Section \ref{FillingFile} on page \pageref{FillingFile} will help you do this. Make sure you also read section \ref{ThesisConventions} about thesis conventions to get the most out of this template.
+Xamarin products rely upon the platform SDKs from Apple and Google to target iOS or Android, so our system requirements match theirs.
+This page outlines system compatibility for the Xamarin platform and recommended development environment and SDK versions.
 
-If you are new to \LaTeX{} it is recommended that you carry on reading through the rest of the information in this document.
 
-Before you begin using this template you should ensure that its style complies with the thesis style guidelines imposed by your institution. In most cases this template style and layout will be suitable. If it is not, it may only require a small change to bring the template in line with your institution's recommendations. These modifications will need to be done on the \file{MastersDoctoralThesis.cls} file.
+\subsection{Integrated Development Environment}
+
+This table shows which platforms can be built with different development tool \& operating system combinations:
+
+%--------------------TABLE--------------------------------------------------------------------
+\begin{table}
+\caption{Xamarin Integrated development environment.}
+\label{tab:IDE}
+\centering
+\begin{tabular}{l l l l}
+\toprule
+\tabhead{Groups} & \tabhead{MAC OS} & \tabhead{WINDOWS} \\
+\midrule
+Development Environment  &	XAMARIN STUDIO	 &VISUAL STUDIO\\
+\hline
+Xamarin.iOS	 &Yes	 &Yes (with Mac computer)	  \\
+\hline
+Xamarin.Android	 & Yes	 & Yes	  \\
+\hline
+Xamarin.Forms	 & \shortstack [l] {Android,\\iOS,\\Tizen} 	 & \shortstack [l] { Android,\\ Windows 10,\\\\ iOS with Mac computer \\Tizen	 }  \\
+\hline
+Xamarin.Mac	 &Yes	 &Open project compile only  \\
+\hline
+Xamarin.UWP	 &No	 &Yes  \\
+\hline
+Xamarin.TizenTV	 &Yes	 &Yes  \\
+
+\hline
+Xamarin.TizenMobile	 &Yes	 &Yes  \\
+
+\bottomrule\\
+\end{tabular}
+\end{table}
+
+%----------------------------------------------------------------------------------------
+
+\subsection{Environment Testing and Debugging}
+
+TBD done how  to set up recommended and setup
+Using a Windows computer for Xamarin development requires the following software/SDK versions.
+Check your operating system version (and confirm that you are not using an Express version of Visual Studio - if so, consider updating to a Community edition). Visual Studio 2015 and 2017 installers include an option to install Xamarin automatically; for Visual Studio 2013 follow the Xamarin installer instructions.
+\begin{table}
+\caption{Environment Testing and Debugging}
+\label{tab:IDE}
+\centering
+\begin{tabular}{l l l l}
+\toprule
+\tabhead {System} & \tabhead {RECOMMENDED} & \tabhead {NOTES} \\
+\midrule
+
+    \textbf{Operating System} & Windows 10 & \multicolumn{1}[l] {p{65.085em}}{The minimum operating system version is Windows 7. Xamarin.Forms Windows support requires Windows 8.1, and Xamarin.Forms UWP support requires Windows 10.} \\
+    \textbf{Xamarin.iOS} & iOS 10 SDK & To build iOS projects on Windows requires: \\
+          & installed on a Mac & \multicolumn{1}[l] {p{65.085em}}{Visual Studio 2013 or newer, and a Mac computer, network-accessible from the Windows computer, that conforms to the minimum requirements for running Xamarin on macOS (above).} \\
+    \textbf{Xamarin.Android} & Android 6.0 / API level 23 & \multicolumn{1} [l]  {p{65.085em}}{You can still target older Android versions while using the latest SDK, or you can build against older versions of the SDK if required.} \\
+    \textbf{Xamarin.Forms} & \multicolumn{1}[l] {p{47em}}{Xamarin.Forms apps for iOS and Android
+can be deployed to the relevant platforms as described above. } & NA \\
+    \textbf{Xamarin.Mac} & Using Visual Studio also means you can test apps for Windows Phone and the Universal Windows Platform (on Windows 10) using Microsoft's emulators. Windows apps can be tested directly on the development computer. & NA \\
+
+
+
+  \bottomrule\\
+  \end{tabular}
+  \end{table}
+%https://dzone.com/articles/xamarin-the-good-the-bad-and-the-ugly-1
+
 
 %----------------------------------------------------------------------------------------
 \section{Practical Code Sharing Strategies}
 
-If you are familiar with \LaTeX{}, then you should explore the directory structure of the template and then proceed to place your own information into the \emph{THESIS INFORMATION} block of the \file{main.tex} file. You can then modify the rest of this file to your unique specifications based on your degree/university. Section \ref{FillingFile} on page \pageref{FillingFile} will help you do this. Make sure you also read section \ref{ThesisConventions} about thesis conventions to get the most out of this template.
+Xamarin aims to be the framework that can cover all major mobile platforms- iOS, Android, and Windows- without compromising on quality and performance, as expected from native apps development.
+Well-known mature .NET framework libraries are available on Android and iOS platforms as well. The rich features of these libraries give an added advantage to Xamarin considering the developer viewpoint.
 
-If you are new to \LaTeX{} it is recommended that you carry on reading through the rest of the information in this document.
+\begin{figure}[th]
+\centering
+\includegraphics[width=\textwidth] {Figures/xamarin-supported-frameworks}
 
-Before you begin using this template you should ensure that its style complies with the thesis style guidelines imposed by your institution. In most cases this template style and layout will be suitable. If it is not, it may only require a small change to bring the template in line with your institution's recommendations. These modifications will need to be done on the \file{MastersDoctoralThesis.cls} file.
+\caption[xamarinsupportedframeworks]{xamarin supported frameworks}
+\label{fig:xamarin supported frameworks}
+\end{figure}
+
+
+Xamarin simplifies code sharing across platforms. It provides the benefits of native UI to help retain the features of native application development. Having C\# as the development language enables the developer to use the rich features.
+
+
+One of the greatest benefits of using Xamarin is that it allows the creation of Android, iOS, and Windows phone applications sharing the same C\# code base.
+Code reusability can be improved to about 80\%. Now with Xamarin Forms, we can achieve 96\% reusability on a project.
+
+
 
 %----------------------------------------------------------------------------------------
 \section{Dealing with Multiple Platforms}
@@ -255,13 +335,61 @@ Before you begin using this template you should ensure that its style complies w
 %----------------------------------------------------------------------------------------
 \section{Cross-Platform User Interfaces with Xamarin.Forms}
 
-If you are familiar with \LaTeX{}, then you should explore the directory structure of the template and then proceed to place your own information into the \emph{THESIS INFORMATION} block of the \file{main.tex} file. You can then modify the rest of this file to your unique specifications based on your degree/university. Section \ref{FillingFile} on page \pageref{FillingFile} will help you do this. Make sure you also read section \ref{ThesisConventions} about thesis conventions to get the most out of this template.
+With Xamarin Forms, interface design for all three platforms can be accomplished within a XAML-based framework. Xamarin Forms includes more than forty controls and layouts, which are mapped to native controls on runtime.
+
+
+\begin{figure}[th]
+\centering
+\includegraphics[width=\textwidth] {Figures/xamarins-forms}
+
+\caption[xamarinsforms]{Xamarins.Forms}
+\label{fig:architecture}
+\end{figure}
+
+
 
 \subsection{eXtensible Application Markup Language (XAML)}
-If you are new to \LaTeX{} it is recommended that you carry on reading through the rest of the information in this document.
 
-Before you begin using this template you should ensure that its style complies with the thesis style guidelines imposed by your institution. In most cases this template style and layout will be suitable. If it is not, it may only require a small change to bring the template in line with your institution's recommendations. These modifications will need to be done on the \file{MastersDoctoralThesis.cls} file.
+XAML is a declarative markup language that can be used to define user interfaces. The user interface is defined in an XML file using the XAML syntax, while runtime behavior is defined in a separate code-behind file.
 
+XAML allows developers to define user interfaces in Xamarin.Forms applications using markup rather than code. XAML is never required in a Xamarin.Forms program but it is toolable, and is often more visually coherent and more succinct than equivalent code. XAML is particularly well suited for use with the popular Model-View-ViewModel (MVVM) application architecture: XAML defines the View that is linked to ViewModel code through XAML-based data bindings.
+
+
+%----------------------------------------------------------------------------------------
+% eXtensible Application Markup Language (XAML) Code
+%----------------------------------------------------------------------------------------
+%\begin{lstlisting}[language=[Sharp]C]
+\begin{lstlisting}[language=xml]
+// Sample.XAML
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamlSamples.HelloXamlPage"
+             Title="Hello XAML Page"
+             Padding="10, 40, 10, 10">
+
+  <Label Text="Hello, XAML!"
+         VerticalOptions="Start"
+         HorizontalTextAlignment="Center"
+         Rotation="-15"
+         IsVisible="true"
+         FontSize="Large"
+         FontAttributes="Bold"
+         TextColor="Aqua" />
+
+</ContentPage>
+\end{lstlisting}
+
+
+
+\begin{figure}[th]
+\centering
+\includegraphics[width=\textwidth] {Figures/HelloXaml}
+
+\caption[xamarinsformsSample]{Xamarins.Forms Sample}
+\label{fig:Xamarins.Forms Sample}
+\end{figure}
 
 
 
@@ -269,6 +397,8 @@ Before you begin using this template you should ensure that its style complies w
 \section{Testing and App Store Approvals}
 
 Many apps (even Android apps, on some stores) will have to pass an approval process before they are published; so testing is critical to ensure your app reaches the market (let alone succeeds with your customers). Testing can take many forms, from developer-level unit testing to managing beta testing across a wide variety of hardware.
+
+
 
 
 
@@ -305,15 +435,14 @@ Xamarin UITest can be used to create automated user interface test scripts that 
 
 \subsection{Unit Testing}
 
-Touch.Unit
-Xamarin.iOS includes a unit-testing framework called Touch.Unit which follows the JUnit/NUnit style writing tests.
 
-Refer to our Unit Testing with Xamarin.iOS documentation for details on writing tests and running Touch.Unit.
+\begin{itemize}
+
+\item \textbf{ Touch.Unit:} Xamarin.iOS includes a unit-testing framework called Touch.Unit which follows the JUnit/NUnit style writing tests.
+
+\item \textbf{ Andr.Unit:} There is an open-source equivalent of Touch.Unit for Android called Andr.Unit.
+
+\item \textbf{Windows Phone:}
 
 
-Andr.Unit
-There is an open-source equivalent of Touch.Unit for Android called Andr.Unit. You can download it from github and read about the tool on @spouliot's blog.
-
-
-Windows Phone
-Here are some links to help setup unit testing for Windows Phone:
+\end{itemize}

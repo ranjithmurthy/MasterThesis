@@ -1,5 +1,5 @@
 % Chapter 3 % Not completed on going still
-
+% !TEX root = ../main.tex
 \chapter{Mobile Application Development} % Main chapter title
 
 \label{Chapter3} % For referencing the chapter elsewhere, use \ref{Chapter1}
@@ -16,211 +16,6 @@
 
 %----------------------------------------------------------------------------------------
 
-\section{Mobile Platforms}
-
-According to a market share study by IDC \parencite{Reference1}, the smartphone market is
-currently clearly dominated by Android, which held over 86.8 percent of the
-market during the second quarter of 2016. Meanwhile, iOS saw its market share for 2016Q3 grow by 12.7 percent QoQ with 45.5 million shipments.
-The iPhone 6S followed by its newest model, the iPhone 7 were the best-selling models this quarter.
-Windows Phone experienced a QoQ decline of 35.2 percent  with a total of 974.4 thousand units shipped this quarter.
-With Microsoft’s focus on business users, the decline in the consumer market is expected to continue.
-
-The market shares of the top three mobile platforms and the remaining market during the second
-quarter of each year between 2015 and 2016 are shown in (e.g. Table~\ref{tab:SmartphoneOSMarketShares}).
-
-%--------------------TABLE--------------------------------------------------------------------
-\begin{table}
-\caption{Smartphone Operating System market shares from years 2015 to 2016.}
-\label{tab:SmartphoneOSMarketShares}
-\centering
-\begin{tabular}{l l l l l}
-\toprule
-%\tabhead{Groups} & \tabhead{Treatment X} & \tabhead{Treatment Y} \\
-\tabhead{Period} & \tabhead{Android} & \tabhead{iOS} & \tabhead{Windows Phone} & \tabhead{Others}\\
-\midrule
-2015Q4 & 79.6\% &18.7\% & 1.2\% &0.5\%\\
-2016Q1 &83.5\%&15.4\%&0.8\%&0.4\% \\
-2016Q2 &87.6\%&11.7\%&0.4\%&0.3\% \\
-2016Q3 &86.8\%&12.5\%&0.3\%&0.4\%  \\
-\bottomrule\\
-\end{tabular}
-\end{table}
-
-%-----------------------------Android-----------------------------------------------------------
-\subsection{Android}
-
-%----- https://en.wikipedia.org/wiki/Android_(operating_system)
-
-\paragraph{}
-Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, along with the founding of the Open Handset Alliance – a consortium of hardware, software, and telecommunication companies devoted to advancing open standards for mobile devices.
-Beginning with the first commercial Android device in September 2008, the operating system has gone through multiple major releases, with the current version being 7.0 "Nougat", released in August 2016.
-Android applications ("apps") can be downloaded from the Google Play store, which features over 2.7 million apps as of February 2017.
-Android's source code is released by Google under an open source license, although most Android devices ultimately ship with a combination of free and open source and proprietary software, including proprietary software required for accessing Google services.
-Android is popular with technology companies that require a ready-made, low-cost and customizable operating system for high-tech devices.
-
-\paragraph{}
-%Android is designed as a stack of various components, which  is divided into five layers. Figure 31 illustrates the different layers of the system.
-Android is built on a modied Linux 2.6 series kernel that provides core system services such as security, memory management, process management, network stack and driver model. The kernel and low level tools are contained in the
-bottom layer, colored red in the illustration. The basic libraries included in Android are programmed in C and C++, and are accessed through the
-Android application framework.
-
-
-
-%amit Kumar Saha. What is Android. Linux for you, (January):48{50,
-
-\paragraph{}
-
-The Android runtime contains a set of Java core libraries and the Dalvik
-virtual machine (VM). The Dalvik VM executes les in Dalvik Executable
-(.dex) format, usually transformed from Java byte code to Dalvik byte code.[16 TBD] %16 Brahler. Analysis of the android architecture. PhD thesis, Karlsruher Institut fur Technologie, 2010. URL http://www.it.iitb.ac.in/frg/wiki/images/2/20/2010_braehler-stefan_android_architecture.pdf.
-
-\paragraph{}
-Every Android application runs in its own process with its own sandboxed instance of Dalvik VM.
-%Dalvik has been optimized so that a device can run multiple VMs at the same time eciently.[43] The kernel also provides an
-abstraction of the underlying hardware for the rest of the software stack.[23 TBD]
-%Nisarg Gandhewar and Rahila Sheikh. Google Android: An emerging software platform for mobile devices. International Journal on Computer Science and Engineering (IJCSE), (12):12{17, 2010. ISSN 0975-2297. URL http://www.enggjournals.com/ijcse/doc/003-IJCSESP24.pdf.
-
-\paragraph{}
-The application framework layer gives the developers access to the same framework Application Programming Interfaces (API) used by the core applications.
-[43] The frameworks are written in Java and provide abstractions the Android libraries and the features of the Dalvik VM.[16]
-
-
-\paragraph{}
-Applications for Android are developed through the Android Software
-Development Kit (SDK), usually with the Java programming language. The
-SDK provides the API libraries and developer tools for building, testing and
-debugging for Android. Development can be done in any of the current major
-operating systems and an integrated development environment (IDE) of
-choice, although Google recommends using Android Studio. Another common
-option is to use Eclipse IDE with Android Developer Tools (ADT) plugin,
-provided by Google, which integrates the Android SDK into Eclipse. The
-ADT allows the developer to test the application with an Android emulator
-or a connected device, and provides a graphical editor for building the user
-interface (UI) of the application.[5]
-
-\paragraph{}
-The main distribution channel for Android applications is the Google Play
-Store, formerly known as Android Market, where developers can publish their
-applications after registration.
-
-% image of android achiecture
-
-%-----------------------------iOS-----------------------------------------------------------
-\subsection{iOS}
-
-% image of ios achiecture
-\paragraph{}
-iOSis a mobile operating system created and developed by Apple Inc. exclusively for its hardware.
-It is the operating system that presently powers many of the company's mobile devices, including the iPhone, iPad, and iPod Touch. It is the second most popular mobile operating system globally after Android. iPad tablets are also the second most popular, by sales, against Android since 2013.[9]
-
-\paragraph{}
-Originally unveiled in 2007 for the iPhone, iOS has been extended to support other Apple devices such as the iPod Touch (September 2007) and the iPad (January 2010).
-As of January 2017, Apple's App Store contains more than 2.2 million iOS applications, 1 million of which are native for iPads.
-These mobile apps have collectively been downloaded more than 130 billion times.
-
-%That master thesis pdf
-\paragraph{}
-The iOS, there are four abstraction layers: the Core OS, Core Services, Media, and Cocoa Touch layers.
-
-
-\paragraph{}
-%The layers provide different levels of abstraction between the applications and the underlying hardware.
-The various core frameworks are written in the Objective-C programming language.
-The Core OS layer contains the low-level features most of the other technologies are built upon.
-Applications rarely use these technologies directly, but rather use them through the other frameworks.
-However, the layer contains frameworks for features such as security, Bluetooth support and communicating with external hardware, that can be used by applications if needed.
-The layer also contains the kernel environment, drivers and low-level UNIX interfaces of the operating system.
-Access to the kernel and drivers is restricted to a limited set of system frameworks
-and applications.[9]
-
-\paragraph{}
-The various system services used by applications are contained in the
-Core Services layer. This includes technologies to support features like location,
-iCloud storage, peer-to-peer services and networking. The Media layer
-above it contains the graphics, audio and video technologies needed to implement
-multimedia features in applications. Finally in the top layer resides
-the Cocoa Touch framework, providing the key frameworks for building iOS
-applications. This includes high-level programming interfaces for making
-animations, networking and modifying the appearance of the application.
-Cocoa Touch also handles touch-based inputs and multitasking.[8]
-
-
-
-\paragraph{}
-Building iOS applications requires using Apple's Xcode IDE on a Mac
-computer running OS X 10.8 or later and iOS SDK. Xcode provides the
-standard tools to code, debug and design the interface for the applications.
-Generally iOS applications are written in Objective-C language.[8]
-
-\paragraph{}
-Applications for iOS are distributed to consumers exclusively through
-Apple's App Store. Developers enroll in Apple Developer Program and pay
-yearly fee to be able to publish applications in the App Store, and applications
-go through an approval process by Apple before appearing in the
-store.[8] The approval process causes longer development times, but lowers
-
-\paragraph{}
-the number of low-quality applications in the store.[17] The approval process
-can pose a challenge for applications developed with various cross-platform
-methods. For example, in 2010 Apple maintained that apps must be "originally
-written in Objective-C, C, C++ or JavaScript" to be accepted into
-the store. The restrictions have been eased since then, but applications still
-sometimes get rejected for being too slow or not feeling native enough. Apple
-App Store can also reject apps that download executable code or interpret
-code not contained within the application archive.[32]
-
-
-%-----------------------------Windows-----------------------------------------------------------
-\subsection{Windows}
-%Wiki windows
-
-\paragraph{}
-Windows 10 is a personal computer operating system developed and released by Microsoft as part of the Windows NT family of operating systems. It was officially unveiled in September 2014 following a brief demo at Build 2014. The first version of the operating system entered a public beta testing process in October, leading up to its consumer release on July 29, 2015.[9]
-
-\paragraph{}
-Windows 10 introduces what Microsoft described as "universal apps" expanding on Metro-style apps,
-%these apps can be designed to run across multiple Microsoft product families with nearly identical code‍—‌including PCs, tablets, smartphones, embedded systems, Xbox One, Surface Hub and Mixed Reality.
-%The Windows user interface was revised to handle transitions between a mouse-oriented interface and a touchscreen-optimized interface based on available input devices‍—‌particularly on 2-in-1 PCs  both interfaces include an updated Start menu which incorporates elements of Windows 7's traditional Start menu with the tiles of Windows 8.
-The first release of Windows 10 also introduces a virtual desktop system, a window and desktop management feature called Task View, the Microsoft Edge web browser, support for fingerprint and face recognition login, new security features for enterprise environments, and DirectX 12 and WDDM 2.0 to improve the operating system's graphics capabilities for games.
-
-\paragraph{}
-Universal Windows Platform (UWP) apps[1] (formerly Windows Store apps and Metro-style apps)[2] are apps that can be used across all compatible Microsoft Windows devices, including personal computers (PCs), tablets, smartphones, Xbox One, Microsoft HoloLens, and Internet of Things. UWP apps are primarily purchased and downloaded via the Windows Store.[3]
-
-\paragraph{}
-
-
-%-----------------------------Tizen-----------------------------------------------------------
-\subsection{Tizen}
-
-%https://www.tizen.org/about
-\paragraph{}
-Tizen is an open and flexible operating system built from the ground up to address the needs of all stakeholders of the mobile and connected device ecosystem, including device manufacturers, mobile operators, application developers and independent software vendors (ISVs). Tizen is developed by a community of developers, under open source governance, and is open to all members who wish to participate.
-
-\paragraph{}
-The Tizen operating system comes in multiple profiles to serve different industry requirements. The current Tizen profiles are Tizen IVI (in-vehicle infotainment), Tizen Mobile, Tizen TV, and Tizen Wearable. In addition to that, as of Tizen 3.0, all profiles are built on top of a common, shared infrastructure called Tizen Common.
-
-\paragraph{}
-With Tizen, a device manufacturer can begin with one of these profiles and modify it to serve their own needs, or use the Tizen Common base to develop a new profile to meet the memory, processing and power requirements of any device and quickly bring it to market.
-
-\paragraph{}
-Mobile operators can work with device partners to customize the operating system and user experience to meet the needs of specific customer segments or demographics.
-
-\paragraph{}
-For application developers and ISVs, Tizen offers the power of native application development with the flexibility of unparalleled HTML5 support. Tizen also offers the potential for application developers to extend their reach to new “smart devices” running Tizen, including wearables, consumer electronics (TVs, gaming consoles, DVRs, etc.), cars and appliances.
-
-\paragraph{}
-The Tizen project resides within the Linux Foundation and is governed by a Technical Steering Group. The Technical Steering Group is the primary decision-making body for the open source project, with a focus on platform development and delivery, along with the formation of working groups to support device verticals.
-
-\paragraph{}
-The Tizen Association has been formed to guide the industry role of Tizen, including gathering of requirements, identification and facilitation of service models, and overall industry marketing and education.
-
-
-\paragraph{}
-Tizen provides application development tools based on the JavaScript libraries jQuery and jQuery Mobile.
-Since version 2.0, a C++ native application framework is also available, based on an Open Services Platform from the Bada platform.
-
-\paragraph{}
-Samsung Releases New Preview of Visual Studio Tools for Tizen
 
 %-----------------------------------------Mobile Applications-----------------------------------------------
 
@@ -249,34 +44,7 @@ Native apps have a major advantage over web applications the ability to leverage
 
 
 
-%--------------------TABLE--------------------------------------------------------------------
-\begin{table}
-\caption{Native App Development across different platform  }
-\label{tab:Features Supported Across Platform}
-\centering
-\begin{tabular}{@{}lllll@{}}
-\toprule
 
-\tabhead{} & \tabhead{Android} & \tabhead{iOS} & \tabhead{Windows 10} & \tabhead{Tizen}\\
-\midrule
-
-
-\hline
-\multicolumn{1}{l}{{\bf \shortstack [l] { Programming \\ languages } }}  & 	JAVA	& 	Objective-C,Swift & XAML,C\#	& 	C,C++ \\
-\hline
-\multicolumn{1}{l}{{\bf \shortstack [l] { Integrated\\ Development \\ Environment }  }}	& 	Android Studio	& 	Xcode	& 	Visual Studio & Tizen Studio	\\
-\hline
-\multicolumn{1}{l}{{\bf \shortstack [l]{Software \\  Development Kit }  }} & 	Android SDK	& 	iOS SDK	&  Windows SDK	& Tizen SDK	\\
-\hline
-\multicolumn{1}{l}{{\bf \shortstack [l] {App Distribution} }}	& 	Google play	& 	Appstore	& 	Windows Store & Tizen Store	\\
-\hline
-\multicolumn{1}{l}{{\bf Community }} & 	Very Good 	& 	Very Good	& 	Good  &  Limited \\
-\hline
-
-
-\bottomrule\\
-\end{tabular}
-\end{table}
 
 
 %----------------------------------------------------------------------------------------
@@ -559,6 +327,17 @@ Cons of Using Xamarin for Development
 & \shortstack [l] { JavaScript, \\ Html5, \\CSS }\\
 
 
+
+\hline
+\bf \shortstack [l] { Development\\ Cost }
+& \shortstack [l] { Low to reasonable }
+& \shortstack [l] {Expensive}
+&  \shortstack [l] {reasonable} \\
+\hline
+
+
+
+
 \hline
 
 \bf \shortstack [l] { Code  \\ Sharing }
@@ -622,3 +401,294 @@ However, if you are looking for a Xamarin alternative to build a cross-platform 
 While the most widely used cross-platform mobile development tools are PhoneGap/Apache Cordova, Ionic Framework, Appcelerator/Titanium,
 they rely primarily on web technologies, such as HTM5 or JavaScript.
 That is why none of these tools can have the same level of performance and native functionality that Xamarin offers
+
+
+%----------------------------------------------------------------------------------------
+%	Mobile Development SDLC
+%----------------------------------------------------------------------------------------
+\section{Mobile Development SDLC}
+
+\section{Overview}
+
+
+Building mobile applications can be as easy as opening up the IDE, throwing something together, doing a quick bit of testing, and submitting to an App Store – all done in an afternoon. Or it can be an extremely involved process that involves rigorous up-front design, usability testing, QA testing on thousands of devices, a full beta lifecycle, and then deployment a number of different ways.
+
+In this document, we’re going to take a thorough introductory examination of building mobile applications, including:
+
+Process – The process of software development is called the Software Development Lifecycle (SDLC). We’ll examine all phases of the SDLC with respect to mobile application development, including: Inspiration, Design, Development, Stabilization, Deployment, and Maintenance.
+Considerations – There are a number of considerations when building mobile applications, especially in contrast to traditional web or desktop applications. We’ll examine these considerations and how they affect mobile development.
+This document is intended to answer fundamental questions about mobile app development, for new and experienced application developers alike. It takes a fairly comprehensive approach to introducing most of the concepts you’ll run into during the entire Software Development Lifecycle (SDLC).
+
+
+The lifecycle of mobile development is largely no different than the SDLC for web or desktop applications. As with those, there are usually 5 major portions of the process:
+
+\begin{itemize}
+
+
+ \item \textbf{Inception :}  All apps start with an idea. That idea is usually refined into a solid basis for an application.
+ \item \textbf{Design :} Design  The design phase consists of defining the app’s User Experience (UX) such as what the general layout is, how it works, etc., as well as turning that UX into a proper User Interface (UI) design, usually with the help of a graphic designer.
+ \item \textbf{Development:} Usually the most resource intensive phase, this is the actual building of the application.
+ \item \textbf{Stabilization :} When development is far enough along, QA usually begins to test the application and bugs are fixed. Often times an application will go into a limited beta phase in which a wider user audience is given a chance to use it and provide feedback and inform changes.
+ \item \textbf{Deployment :}  Often many of these pieces are overlapped, for example, it’s common for development to be going on while the UI is being finalized, and it may even inform the UI design. Additionally, an application may be going into a stabilization phase at the same that new features are being added to a new version.
+
+\end{itemize}
+
+Furthermore, these phases can be used in any number of SDLC methodologies such as Agile, Spiral, Waterfall, etc.
+
+Each of the these phases will be explained in more detail by the following sections.
+
+
+
+\subsection{Inception}
+
+The ubiquity and level of interaction people have with mobile devices means that nearly everyone has an idea for a mobile app. Mobile devices open up a whole new way to interact with computing, the web, and even corporate infrastructure.
+
+\paragraph{}
+The inception stage is all about defining and refining the idea for an app. In order to create a successful app, it’s important to ask some fundamental questions. Here are some things to consider before publishing an app in one of the public App Stores:
+
+\begin{itemize}
+
+
+ \item \textbf{Competitive Advantage:}Are there similar apps out there already? If so, how does this application differentiate from others?
+For apps that will be distributed in an Enterprise:
+
+\item \textbf{Infrastructure Integration:}What existing infrastructure will it integrate with or extend?
+
+
+ Additionally, apps should be evaluated in the context of the mobile form factor:
+
+ \item \textbf{Value:}  What value does this app bring users? How will they use it?
+ \item \textbf{Form/Mobility:} How will this app work in a mobile form factor? How can I add value using mobile technologies such as location awareness, the camera, etc.?
+
+
+\end{itemize}
+
+To help with designing the functionality of an app, it can be useful to define Actors and Use Cases. Actors are roles within an application and are often users. Use cases are typically actions or intents.
+
+For instance, a task tracking application might have two Actors: User and Friend. A User might Create a Task, and Share a Task with a Friend. In this case, creating a task and sharing a task are two distinct use cases that, in tandem with the Actors, will inform what screens you’ll need to build, as well as what business entities and logic will need to be developed.
+
+Once an appropriate number of use cases and actors has been captured, it’s much easier to begin designing an application. Development can then focus on how to create the app, rather than what the app is or should do.
+
+\subsection{Designing Mobile Applications}
+
+Once the features and functionality of the app have been determined, the next step is start trying to solve the User Experience or UX.
+
+
+UX Design
+
+UX is usually done via wireframes or mockups using tools such as Balsamiq, Mockingbird, Visio, or just plain ol’ pen and paper. UX Mockups allow the UX to be designed without having to worry about the actual UI design:
+
+When creating UX Mockups, it’s important to consider the Interface Guidelines for the various platforms that the app will target. The app should "feel at home" on each platform. The offical design guidelines for each platform are:
+
+\begin{itemize}
+
+
+ \item \textbf{Apple:} Human Interface Guidelines
+ %https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/
+
+ \item \textbf{Android:}  Design Guidelines
+%https://developer.android.com/design/index.html
+
+ \item \textbf{Windows Phone:}  Design library for Windows Phone
+
+%https://msdn.microsoft.com/library/windows/apps/fa00461b-abe1-41d1-be87-0b0fe3d3389d(v=vs.105).aspx
+
+\end{itemize}
+For example, each app has a metaphor for switching between sections in an application. iOS uses a tabbar at the bottom of the screen, Android uses a tabbar at the top of the screen, and Windows Phone uses the Panorama view:
+
+Additionally, the hardware itself also dictates UX decisions. For example, iOS devices have no physical back button, and therefore introduce the Navigation Controller metaphor:
+
+%ref: https://developer.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_sdlc/
+
+\subsection{Development}
+The development phase usually starts very early. In fact, once an idea has some maturation in the conceptual/inspiration phase, often a working prototype is developed that validates functionality, assumptions, and helps to give an understanding of the scope of the work.
+
+In the rest of the tutorials, we’ll focus largely on the development phase.
+
+% quick start
+
+%----------------------------------------------------------------------------------------
+%	Stabilization
+%----------------------------------------------------------------------------------------
+\subsection{Stabilization}
+
+Stabilization is the process of working out the bugs in your app. Not just from a functional standpoint, e.g.: “It crashes when I click this button,” but also Usability and Performance. It’s best to start stabilization very early within the development process so that course corrections can occur before they become costly. Typically, applications go into Prototype, Alpha, Beta, and Release Candidate stages. Different people define these differently, but they generally follow the following pattern:
+
+\begin{itemize}
+
+
+ \item \textbf{Prototype:}   The app is still in proof-of-concept phase and only core functionality, or specific parts of the application are working. Major bugs are present.
+\item \textbf{Alpha :} Core functionality is generally code-complete (built, but not fully tested). Major bugs are still present, outlying functionality may still not be present.
+\item \textbf{Beta:}  Most functionality is now complete and has had at least light testing and bug fixing. Major known issues may still be present.
+\item \textbf{Release Candidate :}All functionality is complete and tested. Barring new bugs, the app is a candidate for release to the wild.
+\end{itemize}
+
+It’s never too early to begin testing an application. For example, if a major issue is found in the prototype stage, the UX of the app can still be modified to accommodate it. If a performance issue is found in the alpha stage, it’s early enough to modify the architecture before a lot of code has been built on top of false assumptions.
+Typically, as an application moves further along in the lifecycle, it’s opened to more people to try it out, test it, provide feedback, etc. For instance, prototype applications may only be shown or made available to key stakeholders, whereas release candidate applications may be distributed to customers that sign up for early access.
+For early testing and deployment to relatively few devices, usually deploying straight from a development machine is sufficient. However, as the audience widens, this can quickly become cumbersome. As such, there are a number of test deployment options out there that make this process much easier by allowing you to invite people to a testing pool, release builds over the web, and provide tools that allow for user feedback.
+
+Some of the most popular ones are:
+\begin{itemize}
+
+ \item \textbf{Testflight}  – This is an iOS product that allows you to distribute apps for testing as well as receive crash reports and usage information from your customers. This is included as part of iTunes connect, and is not available if you are part of an Apple Developer Enterprise membership.
+ \item \textbf{LaunchPad (launchpadapp.com)}  – Designed for Android, this service is very similar to TestFlight.
+ \item \textbf{Vessel (vessel.io)}  – A service for iOS and Android that lets you monitor usage, track customers and even do A/B testing from inside your app.
+ \item \textbf{hockeyapp.com } - Provides a testing service for iOS, Android and Windows Phone.
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	Distribution
+%----------------------------------------------------------------------------------------
+\subsection{Distribution}
+
+\begin{itemize}
+\item \textbf{Apple App Store}
+Once the application has been stabilized, it’s time to get it out into the wild. There are a number of different distribution options, depending on the platform.
+
+Xamarin.iOS and Objective-C apps are distributed in exactly the same way:
+
+\begin{itemize}
+
+\item \textbf{Apple App Store: } Apple’s App Store is a globally available online application repository that is built into Mac OS X via iTunes. It’s by far the most popular distribution method for applications and it allows developers to market and distribute their apps online with very little effort.
+\item \textbf{In-House Deployment : } In-House deployment is meant for internal distribution of corporate applications that aren’t available publicly via the App Store.
+\item \textbf{Ad-Hoc Deployment: }  Ad-hoc deployment is intended primarily for development and testing and allows you to deploy to a limited number of properly provisioned devices. When you deploy to a device via Xcode or Xamarin Studio, it is known as ad-hoc deployment.
+
+\end{itemize}
+
+\item \textbf{Android Google Play}
+
+All Android applications must be signed before being distributed. Developers sign their applications by using their own certificate protected by a private key. This certificate can provide a chain of authenticity that ties an application developer to the applications that developer has built and released. It must be noted that while a development certificate for Android can be signed by a recognized certificate authority, most developers do not opt to utilize these services, and self-sign their certificates. The main purpose for certificates is to differentiate between different developers and applications. Android uses this information to assist with enforcement of delegation of permissions between applications and components running within the Android OS.
+
+Unlike other popular mobile platforms, Android takes a very open approach to app distribution. Devices are not locked to a single, approved app store. Instead, anyone is free to create an app store, and most Android phones allow apps to be installed from these third party stores.
+
+This allows developers a potentially larger yet more complex distribution channel for their applications. Google Play is Google’s official app store, but there are many others.
+
+A few popular ones are: AppBrain , Amazon App Store for Android , Handango, jetJar
+
+\item \textbf{Windows Store}
+
+Windows Phone applications are distributed to users via the Windows Store. Developers submit their apps to the Windows Phone Dev Center for approval, after which they appear in the Store.
+
+Microsoft provides detailed instructinos for deploying Windows Phone apps during development.
+
+Follow these steps to publish apps for beta testing and release to the store. Developers can submit their apps and then provide an install link to testers, before the app is reviewed and published.
+
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%	Stabilization
+%----------------------------------------------------------------------------------------
+
+\section{Mobile Development Considerations}
+
+While developing mobile applications isn’t fundamentally different that traditional web/desktop development in terms of process or architecture, there are some considerations to be aware of.
+
+\subsection{Common Considerations}
+
+\begin{itemize}
+
+\item \textbf{Multitasking: }
+There are two significant challenges to multitasking (having multiple applications running at once) on a mobile device. First, given the limited screen real estate, it is difficult to display multiple applications simultaneously. Therefore, on mobile devices only one app can be in the foreground at one time. Second, having multiple applications open and performing tasks can quickly use up battery power.
+
+Each platform handles multitasking differently, which we’ll explore in a bit.
+
+
+\item \textbf{Form Factor: }
+Mobile devices generally fall into two categories, phones and tablets, with a few crossover devices in between. Developing for these form factors is generally very similar, however, designing applications for them can be very different. Phones have very limited screen space, and tablets, while bigger, are still mobile devices with less screen space than even most laptops. Because of this, mobile platform UI controls have been designed specifically to be effective on smaller form factors.
+
+
+\item \textbf{ Device and OS Fragmentation: }
+It’s important to take into account different devices throughout the entire software development lifecycle:
+
+\begin{itemize}
+
+\item \textbf{Conceptualization and Planning : } Keep in mind that hardware and features will vary from device to device, an application that relies on certain features may not work properly on certain devices. For example, not all devices have cameras, so if you’re building a video messaging application, some devices may be able to play videos, but not take them.
+\item \textbf{Design: }  When designing an application’s User Experience (UX), pay attention to the different screen ratios and sizes across devices. Additionally, when designing an application’s User Interface (UI), different screen resolutions should be considered.
+\item \textbf{Development : }When using a feature from code, the presence of that feature should always be tested first. For example, before using a device feature, such as a camera, always query the OS for the presence of that feature first. Then, when initializing the feature/device, make sure to request currently supported from the OS about that device and then use those configuration settings.
+\item \textbf{Testing : } It’s incredibly important to test the application early and often on actual devices. Even devices with the same hardware specs can vary widely in their behavior.
+\end{itemize}
+
+
+
+\item \textbf{Limited Resources: }
+Mobile devices get more and more powerful all the time, but they are still mobile devices that have limited capabilities in comparison to desktop or notebook computers. For instance, desktop developers generally don’t worry about memory capacities; they’re used to having both physical and virtual memory in copious quantities, whereas on mobile devices you can quickly consume all available memory just by loading a handful of high-quality pictures.
+
+Additionally, processor-intensive applications such as games or text recognition can really tax the mobile CPU and adversely affect device performance.
+
+Because of considerations like these, it’s important to code smartly and to deploy early and often to actual devices in order to validate responsiveness.
+\end{itemize}
+
+\subsection{iOS Considerations}
+
+\begin{itemize}
+\item \textbf{Multitasking: }
+Multitasking is very tightly controlled in iOS, and there are a number of rules and behaviors that your application must conform to when another application comes to the foreground, otherwise your application will be terminated by iOS.
+
+
+\item \textbf{Device-Specific Resources:}
+Within a particular form factor, hardware can vary greatly between different models. For instance, some devices have a rear-facing camera, some also have a front-facing camera, and some have none.
+
+Some older devices (iPhone 3G and older) don’t even allow multitasking.
+
+Because of these differences between device models, it’s important to check for the presence of a feature before attempting to use it.
+
+
+\item \textbf{OS Specific Constraints:}
+In order to make sure that applications are responsive and secure, iOS enforces a number of rules that applications must abide by. In addition to the rules regarding multitasking, there are a number of event methods out of which your app must return in a certain amount of time, otherwise it will get terminated by iOS.
+
+Also worth noting, apps run in what’s known as a Sandbox, an environment that enforces security constraints that restrict what your app can access. For instance, an app can read from and write to its own directory, but if it attempts to write to another app directory, it will be terminated.
+
+\end{itemize}
+
+\subsection{Android Considerations}
+
+\begin{itemize}
+\item \textbf{Multitasking: }
+Multitasking in Android has two components; the first is the activity lifecycle. Each screen in an Android application is represented by an Activity, and there is a specific set of events that occur when an application is placed in the background or comes to the foreground. Applications must adhere to this lifecycle in order to create responsive, well-behaved applications. For more information, see the Activity Lifecycle guide.
+
+The second component to multitasking in Android is the use of Services. Services are long-running processes that exist independent of an application and are used to execute processes while the application is in the background. For more information see the Creating Services guide.
+
+
+\item \textbf{Many Devices \& Many Form Factors: }
+
+Unlike iOS, which has a small set of devices, or even Windows Phone, which only runs on approved devices that meet a minimum set of platform requirements, Google doesn’t impose any limits on which devices can run the Android OS. This open paradigm results in a product environment populated by a myriad of different devices with very different hardware, screen resolutions and ratios, device features, and capabilities.
+
+Because of the extreme fragmentation of Android devices, most people choose the most popular 5 or 6 devices to design and test for, and prioritize those.
+
+
+\item \textbf{ Security Considerations:}
+Applications in the Android OS all run under a distinct, isolated identity with limited permissions. By default, applications can do very little. For example, without special permissions, an application cannot send a text message, determine the phone state, or even access the Internet! In order to access these features, applications must specify in their application manifest file which permissions they would like, and when they’re being installed; the OS reads those permissions, notifies the user that the application is requesting those permissions, and then allows the user to continue or cancel the installation. This is an essential step in the Android distribution model, because of the open application store model, since applications are not curated the way they are for iOS, for instance. For a list of application permissions, see the Manifest Permissions reference article in the Android Documentation.
+
+\end{itemize}
+
+
+\subsection{Windows Phone Considerations}
+
+\begin{itemize}
+\item \textbf{Multitasking: }
+Multitasking in Windows Phone also has two parts: the lifecycle for pages and applications, and background processes. Each screen in an application is an instance of a Page class, which has events associated with being made active or inactive (with special rules for handling the inactive state, or being “tombstoned”). For more information see the Execution Model Overview for Windows Phone documentation.
+
+The second part is providing background agents for processing tasks even when the application is not running in the foreground. More information on scheduling periodic tasks or creating resource intensive background tasks can be found in the Background Agents Overview.
+
+
+\item \textbf{DEVICE Capabilities: }
+
+Although Windows Phone hardware is fairly homogeneous due to the strict guidelines provided by Microsoft, there are still components that are optional and therefore require special considering while coding. Optional hardware capabilities include the camera, compass and gyroscope. There is also a special class of low-memory (256MB) that requires special consideration, or developers can opt-out of low-memory support.
+
+
+\item \textbf{Database: }
+
+Both iOS and Android include the SQLite database engine that allows for sophisticated data storage that also works cross-platform. Windows Phone 7 did not include a database, while Windows Phone 7.1 and 8 include a local database engine that can only be queried with LINQ to SQL and does not support Transact-SQL queries. There is an open-source port of SQLite available that can be added to Windows Phone applications to provide familiar Transact-SQL support and cross-platform compatibility.
+
+
+\item \textbf{Security Considerations: }
+
+Windows Phone applications are run with a restricted set of permissions that isolates them from one another and limits the operations they can perform. Network access must be performed via specific APIs and inter-application communication can only be done via controlled mechanisms. Access to the file-system is also restricted; the Isolated Storage API provides key-value pair storage and the ability to create files and folders in a controlled fashion (refer to the Isolated Storage Overview for more information).
+
+An application’s access to hardware and operating system features is controlled by the capabilities listed in its manifest file (similar to Android). The manifest must declare the features required by the application, so that users can see and agree to those permissions and also so that the operating system allows access to the APIs. Applications must request access to features like the contacts or appointments data, camera, location, media library and more. See Microsoft’s Application Manifest File documentation for additional information.
+
+\end{itemize}
+
+\subsection{Summary}
+
+This guide gave an introduction to the SDLC as it relates to mobile development. It introduced general considerations for building mobile applications and examined a number of platform-specific considerations including design, testing, and deployment.

@@ -1,5 +1,5 @@
 % Chapter 1
-
+% !TEX root = ../main.tex
 \chapter{Introduction} % Main chapter title
 
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1}
@@ -16,36 +16,302 @@
 %----------------------------------------------------------------------------------------
 
 \section{Background}
-Welcome to this \LaTeX{} Thesis Template, a beautiful and easy to use template for writing a thesis using the \LaTeX{} typesetting system.
 
-If you are writing a thesis (or will be in the future) and its subject is technical or mathematical (though it doesn't have to be), then creating it in \LaTeX{} is highly recommended as a way to make sure you can just get down to the essential writing without having to worry over formatting or wasting time arguing with your word processor.
+According to a market share study by IDC \parencite{Reference1}, the smartphone market is
+currently clearly dominated by Android, which held over 86.8 percent of the
+market during the second quarter of 2016. Meanwhile, iOS saw its market share for 2016Q3 grow by 12.7 percent QoQ with 45.5 million shipments.
+The iPhone 6S followed by its newest model, the iPhone 7 were the best-selling models this quarter.
+Windows Phone experienced a QoQ decline of 35.2 percent  with a total of 974.4 thousand units shipped this quarter.
+With Microsoft’s focus on business users, the decline in the consumer market is expected to continue.
 
-\LaTeX{} is easily able to professionally typeset documents that run to hundreds or thousands of pages long. With simple mark-up commands, it automatically sets out the table of contents, margins, page headers and footers and keeps the formatting consistent and beautiful. One of its main strengths is the way it can easily typeset mathematics, even \emph{heavy} mathematics. Even if those equations are the most horribly twisted and most difficult mathematical problems that can only be solved on a super-computer, you can at least count on \LaTeX{} to make them look stunning.
+The market shares of the top three mobile platforms and the remaining market during the second
+quarter of each year between 2015 and 2016 are shown in (e.g. Table~\ref{tab:SmartphoneOSMarketShares}).
+
+%--------------------TABLE--------------------------------------------------------------------
+\begin{table}
+\caption{Smartphone Operating System market shares from years 2015 to 2016.}
+\label{tab:SmartphoneOSMarketShares}
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+%\tabhead{Groups} & \tabhead{Treatment X} & \tabhead{Treatment Y} \\
+\tabhead{Period} & \tabhead{Android} & \tabhead{iOS} & \tabhead{Windows Phone} & \tabhead{Others}\\
+\midrule
+2015Q4 & 79.6\% &18.7\% & 1.2\% &0.5\%\\
+2016Q1 &83.5\%&15.4\%&0.8\%&0.4\% \\
+2016Q2 &87.6\%&11.7\%&0.4\%&0.3\% \\
+2016Q3 &86.8\%&12.5\%&0.3\%&0.4\%  \\
+\bottomrule\\
+\end{tabular}
+\end{table}
+
+%-----------------------------Android-----------------------------------------------------------
+\subsection{Android}
+
+%----- https://en.wikipedia.org/wiki/Android_(operating_system)
+
+\paragraph{}
+Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007,
+along with the founding of the Open Handset Alliance
+a consortium of hardware, software, and telecommunication companies devoted to advancing open standards for mobile devices.
+
+\paragraph{}
+Android's source code is released by Google under an open source license,
+although most Android devices ultimately ship with a combination of free and open source and proprietary software.
+
+Android is popular with technology companies that require a ready-made, low-cost and customizable operating system for high-tech devices.
+
+Android is built on a modied Linux 2.6 series kernel that provides core system services such as security, memory management, process management, network stack and driver model.
+The basic libraries included in Android are programmed in C and C++, and are accessed through the Android application framework.
+
+The Android runtime contains a set of Java core libraries and the Dalvik virtual machine (VM).
+The Dalvik VM executes les in Dalvik Executable (.dex) format, usually transformed from Java byte code to Dalvik byte code.
+%16 Brahler. Analysis of the android architecture. PhD thesis, Karlsruher Institut fur Technologie, 2010. URL http://www.it.iitb.ac.in/frg/wiki/images/2/20/2010_braehler-stefan_android_architecture.pdf.
+Every Android application runs in its own process with its own sandboxed instance of Dalvik VM.
+Dalvik has been optimized so that a device can run multiple VMs at the same time efficiently.
+The kernel also provides an abstraction of the underlying hardware for the rest of the software stack.[23 TBD]
+%Nisarg Gandhewar and Rahila Sheikh. Google Android: An emerging software platform for mobile devices. International Journal on Computer Science and Engineering (IJCSE), (12):12{17, 2010. ISSN 0975-2297. URL http://www.enggjournals.com/ijcse/doc/003-IJCSESP24.pdf.
+The application framework layer gives the developers access to the same framework Application Programming Interfaces (API) used by the core applications.
+[43] The frameworks are written in Java and provide abstractions the Android libraries and the features of the Dalvik VM.
+
+Applications for Android are developed through the Android Software
+Development Kit (SDK), usually with the Java programming language. The
+SDK provides the API libraries and developer tools for building, testing and
+debugging for Android. Development can be done in any of the current major
+operating systems and an integrated development environment (IDE) of
+choice, although Google recommends using Android Studio.
+Which  allows the developer to test the application with an Android emulator or a connected device,
+and provides a graphical editor for building the user interface (UI) of the application.[5]
+
+\paragraph{}
+The main distribution channel for Android applications is the Google Play Store, where developers can publish their applications after registration
+Currently Google Play Store which features over 2.7 million apps as of February 2017.
+
+% image of android achiecture
+
+%-----------------------------iOS-----------------------------------------------------------
+\subsection{iOS}
+
+% image of ios achiecture
+\paragraph{}
+iOSis a mobile operating system created and developed by Apple Inc. exclusively for its hardware.
+It is the operating system that presently powers many of the company's mobile devices, including the iPhone, iPad, and iPod Touch.
+It is the second most popular mobile operating system globally after Android. Apple's App Store contains more than 2.2 million iOS applications, 1 million of which are native for iPads.
+These mobile apps have collectively been downloaded more than 130 billion times.
+
+%That master thesis pdf
+\paragraph{}
+The iOS, is designed as a four abstraction layers,  The layers provide different  levels of abstraction between the applications and the underlying hardware.
+The various core frameworks are written in the Objective-C programming language.
+
+\begin{itemize}
+
+
+ \item \textbf{Core OS:} The Core OS layer contains the low-level features most of the other technologies are built upon.
+ Applications rarely use these technologies directly, but rather use them through the other frameworks.
+ However, the layer contains frameworks for features such as security, the layer also contains the kernel environment, drivers and low-level UNIX interfaces of the operating system.
+ Access to the kernel and drivers is restricted to a limited set of system frameworks and applications.[9]
+
+ \item \textbf{Core Services:} The various system services used by applications like location,
+ iCloud storage, peer-to-peer services and networking.
+\item \textbf{Media:} The Media layer above it contains the graphics, audio and video technologies needed to implement
+  multimedia features in applications.
+\item \textbf{Cocoa Touch layers:} The Cocoa Touch framework, providing the key frameworks for building iOS
+  applications. This includes high-level programming interfaces for making
+  animations, networking and modifying the appearance of the application.
+  Cocoa Touch also handles touch-based inputs and multitasking.
+
+\end{itemize}
+
+
+\paragraph{}
+Building iOS applications requires using Apple's Xcode IDE on a Mac computer running OS X 10.8 or later and iOS SDK.
+ Xcode provides the standard tools to code, debug and design the interface for the applications. Generally iOS applications are written in Objective-C language or Swift programming.[8]
+
+\paragraph{}
+Applications for iOS are distributed to consumers exclusively through Apple's App Store.
+Developers enroll in Apple Developer Program and pay yearly fee to be able to publish applications in the App Store, and applications
+go through an approval process by Apple before appearing in the store. The approval process can pose a challenge for applications developed with various cross-platform
+methods. For example, Apple maintained that apps must be "originally written in Objective-C, C, C++ or JavaScript" to be accepted into the store.
+The restrictions have been eased since then, but applications still sometimes get rejected for being too slow or not feeling native enough.
+The approval process causes longer development times, but lowers the number of low-quality applications in the store.
+
+%-----------------------------Windows-----------------------------------------------------------
+\subsection{Windows}
+%Wiki windows
+
+\paragraph{}
+Windows 10 is a personal computer operating system developed and released by Microsoft as part of the Windows NT family of operating systems.
+
+The Windows user interface was revised to handle transitions between a mouse oriented interface and a touchscreen optimized interface based on available input devices particularly on 2-in-1 PCs
+both interfaces include an updated Start menu which incorporates elements of Windows 7's traditional Start menu with the tiles of Windows 8.
+
+The Windows 10 which includes new security features for enterprise environments like fingerprint and face recognition login , and DirectX 12 and WDDM 2.0 to improve the operating system's graphics capabilities for games.
+
+
+\paragraph{}
+Windows 10 introduces what Microsoft described as "universal apps" expanding on Metro style apps, Universal Windows Platform (UWP) applications  are apps that can be used across all compatible Microsoft Windows devices identical code including PCs, tablets, smartphones, embedded systems, Xbox One, Surface Hub ,Mixed Reality, Microsoft HoloLens, and Internet of Things.
+This means you can create a single app package that can be installed onto a wide range of devices. And, with that single app package,
+the Windows Store provides a unified distribution channel to reach all the device types your app can run on. Apps that target the UWP can call not only the WinRT APIs that are common to all devices, but also APIs (including Win32 and .NET APIs) that are specific to the class of device that the app is running on.
+
+Building Windows 10 applications requires using Visual studio IDE on a Windows 10 computer and Windows 10 SDK. \# is used has mainstream languague by most of windows developers.
+\paragraph{}
+
+
+%-----------------------------Tizen-----------------------------------------------------------
+\subsection{Tizen}
+
+%https://www.tizen.org/about
+\paragraph{}
+Tizen is an open and flexible operating system built from the ground up to address the needs of all stakeholders of the mobile and connected device ecosystem,
+including device manufacturers, mobile operators, application developers and independent software vendors (ISVs).
+
+Tizen is developed by a community of developers, under open source governance, and is open to all members who wish to participate.
+The Tizen operating system comes in multiple Targeted to serve different industry requirements. The current Tizen profiles are Tizen IVI (in-vehicle infotainment), Tizen Mobile, Tizen TV, and Tizen Wearable.
+In addition to that, as of Tizen 3.0, all profiles are built on top of a common, shared infrastructure called Tizen Common.
+With Tizen, a device manufacturer can begin with one of these profiles and modify it to serve their own needs, or use the Tizen Common base to develop a new profile to meet the memory, processing and power requirements of any device and quickly bring it to market.
+
+\paragraph{}
+The Tizen project resides within the Linux Foundation and is governed by a Technical Steering Group.
+The Technical Steering Group is the primary decision-making body for the open source project, with a focus on platform development and delivery, along with the formation of working groups to support device verticals.
+
+\paragraph{}
+
+Tizen core OS implemented using the C and C++ programming language. Building iOS applications requires  Tizen Studio IDE and using  C programming language has main language for creating apps.
+Tizen also provides application development tools based on the JavaScript libraries jQuery and jQuery Mobile.
+
+Recently Samsung Releases New Preview of Visual Studio Tools for Tizen. Tizen .NET is an exciting new way to develop applications for the Tizen operating system, running on 50 million Samsung devices, including TVs, wearables, mobile, and many other IoT devices around the world.
+The existing Tizen frameworks are either C-based with no advantages of a managed runtime, or HTML5-based with fewer features and lower performance than the C-based solution. With Tizen .NET,  you can use the C\# programming language and the Common Language Infrastructure standards and benefit from a managed runtime for faster application development, and efficient, secure code execution.
+
+%--------------------TABLE--------------------------------------------------------------------
+\begin{table}
+\caption{Native App Development across different platform  }
+\label{tab:Features Supported Across Platform}
+\centering
+\begin{tabular}{@{}lllll@{}}
+\toprule
+
+\tabhead{} & \tabhead{Android} & \tabhead{iOS} & \tabhead{Windows 10} & \tabhead{Tizen}\\
+\midrule
+
+
+\hline
+\multicolumn{1}{l}{{\bf \shortstack [l] { Programming \\ languages } }}  & 	JAVA	& 	Objective-C,Swift & XAML,C\#	& 	C,C++ \\
+\hline
+\multicolumn{1}{l}{{\bf \shortstack [l] { Integrated\\ Development \\ Environment }  }}	& 	Android Studio	& 	Xcode	& 	Visual Studio & Tizen Studio	\\
+\hline
+\multicolumn{1}{l}{{\bf \shortstack [l]{Software \\  Development Kit }  }} & 	Android SDK	& 	iOS SDK	&  Windows SDK	& Tizen SDK	\\
+\hline
+\multicolumn{1}{l}{{\bf \shortstack [l] {App Distribution} }}	& 	Google play	& 	Appstore	& 	Windows Store & Tizen Store	\\
+\hline
+\multicolumn{1}{l}{{\bf Community }} & 	Very Good 	& 	Very Good	& 	Good  &  Limited \\
+\hline
+
+
+\bottomrule\\
+\end{tabular}
+\end{table}
 
 %----------------------------------------------------------------------------------------
 
-\section{Problem Statement and Research Questions}
+\section{Problem Statement and Motivation}
 
-\LaTeX{} is not a \textsc{wysiwyg} (What You See is What You Get) program, unlike word processors such as Microsoft Word or Apple's Pages. Instead, a document written for \LaTeX{} is actually a simple, plain text file that contains \emph{no formatting}. You tell \LaTeX{} how you want the formatting in the finished document by writing in simple commands amongst the text, for example, if I want to use \emph{italic text for emphasis}, I write the \verb|\emph{text}| command and put the text I want in italics in between the curly braces. This means that \LaTeX{} is a \enquote{mark-up} language, very much like HTML.
+%http://blog.clientheartbeat.com/customer-feedback-software/
 
-\subsection{A (not so short) Introduction to \LaTeX{}}
 
-If you are new to \LaTeX{}, there is a very good eBook -- freely available online as a PDF file -- called, \enquote{The Not So Short Introduction to \LaTeX{}}. The book's title is typically shortened to just \emph{lshort}. You can download the latest version (as it is occasionally updated) from here:
-\url{http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf}
+%In today’s world customer feedback is an essential component in every modern business, we run our businesses in very competitive environments.
+%Your customers have plenty of options and your competitors are always ready to swoop in to steal them away from you.
 
-It is also available in several other languages. Find yours from the list on this page: \url{http://www.ctan.org/tex-archive/info/lshort/}
+ %We need an effective system which enables get honest customer feedbacks, interpreting and analyzing the feedback.
 
-It is recommended to take a little time out to learn how to use \LaTeX{} by creating several, small `test' documents, or having a close look at several templates on:\\
-\url{http://www.LaTeXTemplates.com}\\
-Making the effort now means you're not stuck learning the system when what you \emph{really} need to be doing is writing your thesis.
+%The customer feedback management system for the catering industry, which should target customer across all major platform( Android, iOS, Windows 10).
+%So that we can collect feedback from  customers device who visit our restaurant or who interact with our  restaurant service.
+%so that enables get customer feedbacks integration into our CRM database.
+
+%Finally, we can perform data analysis on Customer feedback to detect certain trends among consumers for enabling successful business.
+
+\paragraph{}
+In today’s world customer feedback is an essential component of every modern business, we run our businesses in very competitive environments.
+Your customers have plenty of options and your competitors are always ready to swoop in to steal them away from you.
+
+ We need an effective system which enables get honest customer feedbacks, effectively analyze and visualize the customer feedback data.
+
+So that we can collect feedback/ review from our customers who visit our restaurant or who interact with our restaurant service business directly. Using Smartphones/tablets technology as a communication channel that compiles feedback data integration into our CRM database.Finally, we can perform data analysis on Customer feedback to detect certain trends among consumers for enabling successful business.
+
+Generally customers for restaurant/ catering industry users spread across all major platform( Android, iOS, Windows 10). how to target all major customers devices. we need a Multi platform targeted Mobile application solution.
+
+
+%http://blog.clientheartbeat.com/customer-feedback-software/
+%https://blog.kissmetrics.com/best-ways-to-get-feedback/
+%https://www.asknicely.com/?pi_campaign_id=3850&utm_term=customer%20feedback%20tool&GA_network=g&GA_device=c&GA_campaign=337120281&GA_adgroup=27834023481&GA_target=&GA_placement=&GA_creative=189953891684&GA_extension=&GA_keyword=customer%20feedback%20tool&GA_loc_physical_ms=9061168&GA_landingpage=http://asknicely.com/&gclid=CjwKEAjw8ZzHBRCUwrrV59XinXUSJADSTE5ksMbZg5OELGDRNcjgZzJCcRr4Jzltd1TsD2g40WNNDxoCFIfw_wcB
+%https://www.helpscout.net/blog/customer-feedback/
+%http://www.optimonk.com/blog/15-ways-e-commerce-websites-get-customer-feedback/
+%http://blog.clientheartbeat.com/customer-feedback/
+%https://www.helpscout.net/blog/customer-feedback/
+%----------------------------------------------------------------------------------------
+\section{Aim of this Thesis}
+
+This thesis has two main purposes.
+The first purpose is to provide an overview of the cross platform mobile application solution to support business services using mobile devices.
+\paragraph{}
+This overview contains the current major mobile platforms, types of mobile applications and mobile application development methods and tools for developing mobile applications targeting multiple platforms.
+
+\paragraph{}
+The second purpose is to providing guidelines for building a feedback system using xamarin and microsoft azure.
+
+%----------------------------------------------------------------------------------------
+
+
+\section{Research Questions}
+
+\paragraph{}
+The following research questions will aid on chosing Mobile application development:
+\begin{itemize}
+\item \textbf{}  What are the key differences between the various mobile application development methods?
+\item \textbf{}  How to build quality cross platform mobile applications equal to native mobile applications?
+\item \textbf{}  How to build a cross platform mobile applications has a single codebase in one language for several mobile platform ?
+\item \textbf{}  What are the factors need to Consider while building Cross Platform Mobile Development?
+\end{itemize}
+
+\paragraph{}
+The following research questions will aid on the building feedback system:
+
+\begin{itemize}
+\item \textbf{}  What are the  effective methods  to get quality customer feedback ?
+\item \textbf{}  How to analysis  customer feedback data ?
+\item \textbf{}  What are the  effective methods  to get quality customer feedback?
+\item \textbf{}  How to design customer friendly feedback forms?
+\item \textbf{}  What are the key principles for successful customer feedback systems?
+\item \textbf{}  Why customer feedback is important to your business?
+\item \textbf{}  How can customer feedback help your business?
+
+\end{itemize}
+
+% https://www.customersure.com/blog/customer-feedback-systems-guarantee-success/
+% https://www.customersure.com/blog/how-to-respond-to-a-negative-review/
+%https://www.customersure.com/blog/make-most-customer-feedback/
+%https://www.customersure.com/blog/customer-feedback-forms/
+% http://www.feedbackferret.com/us/news/can-customer-feedback-help-business/
+%Why Customer Feedback Is Important To Your Business
+
+
+
+
+
+
 
 
 %----------------------------------------------------------------------------------------
 
 \section{Structure of the Thesis}
 
-If you are familiar with \LaTeX{}, then you should explore the directory structure of the template and then proceed to place your own information into the \emph{THESIS INFORMATION} block of the \file{main.tex} file. You can then modify the rest of this file to your unique specifications based on your degree/university. Section \ref{FillingFile} on page \pageref{FillingFile} will help you do this. Make sure you also read section \ref{ThesisConventions} about thesis conventions to get the most out of this template.
+The second chapter gives a brief overview of the methodology used in this thesis.
+The third chapter analyzes the different mobile platforms and mobile applications also their app development methods.
+The fourth chapter explains how to construct a cross platform mobile applications with single codebase and how to setup Xamarin toolkit.
+The fifth chapter a brief overview of the Microsoft Azure cloud services together with Xamarin application framework.
 
-If you are new to \LaTeX{} it is recommended that you carry on reading through the rest of the information in this document.
-
-Before you begin using this template you should ensure that its style complies with the thesis style guidelines imposed by your institution. In most cases this template style and layout will be suitable. If it is not, it may only require a small change to bring the template in line with your institution's recommendations. These modifications will need to be done on the \file{MastersDoctoralThesis.cls} file.
+The sixth chapter contains the evaluations for each of the different methods for creating mobile applications based on the criteria presented in fifth chapter.
+The sixth chapter contains
+The sixth chapter contains
+The sixth chapter contains
+The summary of the evaluations is collected in a results matrix for later use. The seventh chapter expands the results matrix into a tool selection matrix and uses it to select the best tool for three example applications. The findings and the future are discussed in the eighth chapter, and finally the ninth chapter draws the conclusions of the thesis.
